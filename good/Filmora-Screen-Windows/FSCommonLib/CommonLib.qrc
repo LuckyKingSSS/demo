@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/FSCommonLib">
+        <file>Resources/light/logo.png</file>
+        <file>Resources/commonLibStyle.qss</file>
+        <file>Resources/light/btnClose_d.png</file>
+        <file>Resources/light/btnClose_h.png</file>
+        <file>Resources/light/btnClose_n.png</file>
+        <file>Resources/light/btnClose_p.png</file>
+        <file>Resources/light/CheckBox_h.png</file>
+        <file>Resources/light/CheckBox_n.png</file>
+        <file>Resources/light/unCheckBox_d.png</file>
+        <file>Resources/light/unCheckBox_n.png</file>
+        <file>Resources/light/RadioChecked_h.png</file>
+        <file>Resources/light/RadioChecked_n.png</file>
+        <file>Resources/light/RadioUnChecked_n.png</file>
+        <file>Resources/light/RadioUnChecked_d.png</file>
+        <file>Resources/light/CheckBox_d.png</file>
+        <file>Resources/light/RadioChecked_d.png</file>
+        <file>Resources/light/RadioUnChecked_h.png</file>
+        <file>Resources/light/unCheckBox_h.png</file>
+        <file>Resources/light/filmorascrn_logo.png</file>
+        <file>Resources/light/UnWaterMask.jpg</file>
+        <file>Resources/light/WaterMask.jpg</file>
+        <file>Resources/light/Cursor.png</file>
+        <file>Resources/Lato-Regular.ttf</file>
+      <file>Resources/light/TipText.png</file>
+      <file>Resources/light/parmaDrag_n.png</file>
+    </qresource>
+</RCC>

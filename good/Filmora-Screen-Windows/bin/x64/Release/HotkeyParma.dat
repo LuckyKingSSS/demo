@@ -1,0 +1,16 @@
+ <HotkeyParma >
+    <Size>
+		<S>0.2</S>
+		<M>0.4</M>
+		<L>0.6</L>
+	</Size>
+	<Position>
+		<Top>0.5,0.1</Top>
+		<Bottom>0.5,0.90</Bottom>
+	</Position>
+	<Style>
+		<Default>HotKeys_01</Default>
+		<Hollow-Out>HotKeys_02</Hollow-Out>
+		<Draft>HotKeys_03</Draft>
+	</Style>
+</HotkeyParma>

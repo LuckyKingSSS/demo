@@ -1,0 +1,58 @@
+/*FMatterListView*/
+BaseButton#FStateButton_LeftArrow{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/LeftArrow.png);
+}
+BaseButton#FStateButton_RightArrow{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/RightArrow.png);
+}
+
+FLabel#FMatterBottomBarItem_MEDIA{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/Media.png);
+}
+
+FImageButton#FImageButton_AddFolder{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/AddFolder.png);
+}
+FImageButton#FImageButton_DeleteFolder{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/DeleteFolder.png);
+}
+
+FImageButton#FImageButton_Sort{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/Sort.png);
+}
+FImageButton#FImageButton_Thumbnail{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/ThumbnailSize.png);
+}
+
+/*FMediaThumbnail*/
+FLabel#FMediaThumbnail_ActionCam{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/ActionCamThumbnail.png);
+}
+FLabel#FMediaThumbnail_Video{
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-image: url(:/FMatterView/Resources/VideoThumbnail.png);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NLECaption>
+  <CaptionArray>
+  	<CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274947}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Text</Alias>
+      <BackImage>Thumbnail/Tip Text7.png</BackImage>
+      <ResFile>ResFiles/Tip Text7.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274946}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Square</Alias>
+      <BackImage>Thumbnail/Tip Text6.png</BackImage>
+      <ResFile>ResFiles/Tip Text6.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+    <CaptionResource> 
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274941}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+			<Alias>Speech Bubble</Alias>
+      <BackImage>Thumbnail/Tip Text1.png</BackImage>
+      <ResFile>ResFiles/Tip Text1.xml</ResFile>
+			<CanEditText>1</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274942}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Text Arrow</Alias>
+      <BackImage>Thumbnail/Tip Text2.png</BackImage>
+      <ResFile>ResFiles/Tip Text2.xml</ResFile>
+			<CanEditText>1</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274943}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Arrow1</Alias>
+      <BackImage>Thumbnail/Tip Text3.png</BackImage>
+      <ResFile>ResFiles/Tip Text3.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274944}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Line</Alias>
+      <BackImage>Thumbnail/Tip Text4.png</BackImage>
+      <ResFile>ResFiles/Tip Text4.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274945}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Ellipse</Alias>
+      <BackImage>Thumbnail/Tip Text5.png</BackImage>
+      <ResFile>ResFiles/Tip Text5.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		 <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274948}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Round</Alias>
+      <BackImage>Thumbnail/Tip Text8.png</BackImage>
+      <ResFile>ResFiles/Tip Text8.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		 <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274949}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Triangle</Alias>
+      <BackImage>Thumbnail/Tip Text10.png</BackImage>
+      <ResFile>ResFiles/Tip Text10.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		
+		 <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274950}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Pentagon</Alias>
+      <BackImage>Thumbnail/Tip Text12.png</BackImage>
+      <ResFile>ResFiles/Tip Text12.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		 <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274951}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Hexagon</Alias>
+      <BackImage>Thumbnail/Tip Text13.png</BackImage>
+      <ResFile>ResFiles/Tip Text13.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		 <CaptionResource>
+			<GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274952}</GUID>
+			<type>0</type>
+			<Category>0</Category>
+      <Alias>Arrow</Alias>
+      <BackImage>Thumbnail/Tip Text14.png</BackImage>
+      <ResFile>ResFiles/Tip Text14.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+  </CaptionArray>
+</NLECaption>

@@ -1,0 +1,1185 @@
+
+QWidget#FSTitleBar_MinButton{
+	background-image:url(:/FSRecorder/Resources/light/title_minimized.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QWidget#FSTitleBar_ExitButton{
+	background-image:url(:/FSRecorder/Resources/light/title_close.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+
+/* 新的styleshe            */
+/* 新的styleshe            */
+/* 新的styleshe            */
+
+FSButton#FSSettingsWidget_Screen
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_screen_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+	border:0px;
+}
+FSButton#FSSettingsWidget_Screen:checked
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_screen_c.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSButton#FSSettingsWidget_Screen:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_screen_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+FSButton#FSSettingsWidget_Screen_title
+{
+	background-color:transparent;
+	text-align:left;
+	font:18px "Lato";
+	color:#7F9CAF;
+	border:0px;
+}
+FSButton#FSSettingsWidget_Screen_title:checked
+{
+	color:#FFFFFF;
+}
+FSButton#FSSettingsWidget_Screen_title:disabled
+{
+	color:#313E4C;
+}
+
+
+FSButton#FSSettingsWidget_Camera
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_camera_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+	border:0px;
+}
+FSButton#FSSettingsWidget_Camera:checked
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_camera_c.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSButton#FSSettingsWidget_Camera:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_camera_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+FSButton#FSSettingsWidget_Camera_title
+{
+	background-color:transparent;
+	text-align:left;
+	font:18px "Lato";
+	color:#7F9CAF;
+	border:0px;
+}
+FSButton#FSSettingsWidget_Camera_title:checked
+{
+	color:#FFFFFF;
+}
+FSButton#FSSettingsWidget_Camera_title:disabled
+{
+	color:#313E4C;
+}
+
+
+
+FSButton#FSSettingsWidget_Audio
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_audio_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+    border:0px;
+}
+FSButton#FSSettingsWidget_Audio:checked
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_audio_c.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSButton#FSSettingsWidget_Audio:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_audio_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+FSButton#FSSettingsWidget_Audio_title
+{
+	background-color:transparent;
+	text-align:left;
+	font:18px "Lato";
+	color:#7F9CAF;
+	border:0px;
+}
+FSButton#FSSettingsWidget_Audio_title:checked
+{
+	color:#FFFFFF;
+}
+FSButton#FSSettingsWidget_Audio_title:disabled
+{
+	color:#313E4C;
+}
+
+
+FSButton#FSSettingsWidget_Advanced
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_advanced_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+	border:0px;
+}
+FSButton#FSSettingsWidget_Advanced:checked
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_advanced_c.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSButton#FSSettingsWidget_Advanced:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_advanced_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+FSButton#FSSettingsWidget_Advanced_title
+{
+	background-color:transparent;
+	text-align:left;
+	font:18px "Lato";
+	color:#7F9CAF;
+	border:0px;
+}
+FSButton#FSSettingsWidget_Advanced_title:checked
+{
+	color:#FFFFFF;
+}
+FSButton#FSSettingsWidget_Advanced_title:disabled
+{
+	color:#313E4C;
+}
+FSButton#SettingsScreenPanel_Screen
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_screencapture_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+FSButton#SettingsScreenPanel_Screen:checked
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_screencapture_c.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+FSButton#SettingsScreenPanel_Screen:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_screencapture_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+FSButton#SettingsScreenPanel_Screen_title, FSButton#SettingsAdvancedPanel_mlb_hotkeys, FSButton#SettingsAdvancedPanel_mlb_general
+{
+	background-color:transparent;
+	text-align:left;
+	font:16px "Lato";
+	color:#7F9CAF;
+	border:0px;
+}
+
+FSButton#SettingsScreenPanel_Screen_title:checked, FSButton#SettingsAdvancedPanel_mlb_hotkeys:checked, FSButton#SettingsAdvancedPanel_mlb_general:checked
+{
+	color:#FFFFFF;
+}
+
+FSButton#SettingsScreenPanel_Screen_title:disabled, FSButton#SettingsAdvancedPanel_mlb_hotkeys:disabled, FSButton#SettingsAdvancedPanel_mlb_general:disabled
+{
+	color:#313E4C;
+}
+
+FSButton#SettingsScreenPanel_Game
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_game_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSButton#SettingsScreenPanel_Game:checked
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_game_c.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSButton#SettingsScreenPanel_Game:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_game_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSButton#SettingsScreenPanel_Game_title
+{
+	background-color:transparent;
+	text-align:left;
+	font:16px "Lato";
+	color:#7F9CAF;
+	border:0px;
+}
+FSButton#SettingsScreenPanel_Game_title:checked
+{
+	color:#FFFFFF;
+}
+FSButton#SettingsScreenPanel_Game_title:disabled
+{
+	color:#313E4C;
+}
+
+FSButton#SettingsScreenBasePanel_m_lbFrameRate{
+	background-color:transparent;
+	text-align:left;
+	font:16px "Lato";
+	color:#7F9CAF;
+	border:0px;	
+}
+
+FSButton#SettingsScreenBasePanel_m_lbFrameRate:checked{
+	color:#FFFFFF;
+}
+FSButton#SettingsScreenBasePanel_m_lbFrameRate:disabled{
+	color:#313E4C;
+}
+
+
+QListView#SettingsScreenBasePanel_ComboboxView{
+font:14px "Lato";
+	background-color: #1E252B;
+    border:1px solid #4C6671;
+}
+
+QListView#SettingsScreenBasePanel_ComboboxView::item{
+	font:14px "Lato";
+	height:26px;
+	border:0px;
+}
+
+QListView#SettingsScreenBasePanel_ComboboxView::item:hover {
+	background: #27313B;
+	color:#FFFFFF;
+}
+
+QListView#SettingsScreenBasePanel_ComboboxView::item:selected {
+	background: #27313B;
+	color:#FFFFFF;
+}
+
+
+FSLabel#SettingsAudioPanel_m_lb{
+	text-align:left;
+	font:16px "Lato";
+	color:#FFFFFF;
+}
+
+FSLabel#SettingsAudioPanel_m_lb:disabled{
+	color:#313E4C;	
+}
+
+FSLabel#SettingsCameraPanel_mlb{
+	text-align:left;
+	font:16px "Lato";
+	color:#FFFFFF;	
+}
+
+FSLabel#SettingsCameraPanel_mlb:disabled{
+	color:#313E4C;	
+}
+
+
+FSButton#FSRecorderMainView_SetttingPage_CaptureButton
+{
+	font: 18px "Lato";
+	color: #313C48;
+	font-weight:bold;
+	background-color: #61DED0;
+	border:0px;
+}
+
+FSButton#FSRecorderMainView_SetttingPage_CaptureButton:disabled
+{
+	color: #313E4C;
+	background-color: #93A2AC;
+	border:0px;
+}
+
+QWidget#SettingsWidgetBarItem_SelectedItem
+{
+	qproperty-selectedItemColor: #1E252B;
+}
+QWidget#SettingsBasePanel
+{
+	background-color: #1E252B;	
+}
+QWidget#SettingsAdvancedPanel_line
+{
+	background-color: #333F4B;
+}
+
+FSLabel#SettingsAdvancedPanel_mlb
+{
+	font: 16px "Lato";
+	color: #FFFFFF;
+}
+
+FSLabel#SettingsAdvancedPanel_mlb:disabled
+{
+	color: #7F9CAF;
+}
+QLineEdit#SettingsAdvancedPanel_mle,QLineEdit#SettingsAdvancedPanel_mle_startstop
+{
+	font: 16px "Lato";
+	color: #FFFFFF;
+	background-color: #313C48;
+	padding-left:12px;
+	border:0px;
+}
+QLineEdit#SettingsAdvancedPanel_mle:disabled,QLineEdit#SettingsAdvancedPanel_mle_startstop:disabled
+{
+	color: #eeeeee;
+}
+
+QCheckBox#SettingsAdvancedPanel_m_ckbGPU{
+	font: 16px "Lato";
+	color: #FFFFFF;
+}
+QCheckBox#SettingsAdvancedPanel_m_ckbGPU:checked{
+	font: 16px "Lato";
+	color: #FFFFFF;
+}
+
+QWidget#SettingsAdvancedGeneralPanel_GPU1
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_advanced_gpu1.png); border: 0; background-position: bottom center; background-repeat:no-repeat;
+}
+QWidget#SettingsAdvancedGeneralPanel_GPU2
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_advanced_gpu2.png); border: 0; background-position: bottom center; background-repeat:no-repeat;
+}
+QWidget#SettingsAdvancedGeneralPanel_GPU3
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_advanced_gpu3.png); border: 0; background-position: bottom center; background-repeat:no-repeat;
+}
+QWidget#SettingsAdvancedGeneralPanel_GPU4
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_advanced_gpu4.png); border: 0; background-position: bottom center; background-repeat:no-repeat;
+}
+
+
+ /* 拉杆 */
+MidSlider QWidget#ActionCam_MidSlider_bg
+{
+	background-color:#888888;
+}
+MidSlider QWidget#ActionCam_MidSlider_bg:disabled
+{
+	background-color:#888888;
+}
+
+MidSlider QWidget#ActionCam_MidSlider_groove
+{
+	 background-color:#54B1B8;
+}
+MidSlider QWidget#ActionCam_MidSlider_groove:disabled
+{
+	background-color:#888888;
+}
+
+MidSlider QWidget#ActionCam_MidSlider_chunk
+{
+	background-image: url(:/FSRecorder/Resources/light/sliderChunk_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+MidSlider QWidget#ActionCam_MidSlider_chunk:disabled
+{
+	background-image: url(:/FSRecorder/Resources/light/sliderChunk_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+/*PreviewWidget*/
+QWidget#RecorderPreview_CaptureMoreItem
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_previewwidget_capturemore.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+FSLabel#CaptureMoreItem_m_lbMoreText{
+	font:14px "Lato";
+	color:#61DED0;
+}
+FSButton#PreviewItem_m_title{
+	font:14px "Lato";
+	color:#7F9CAF;
+	text-align:left;
+	background-color:transparent;
+}
+
+FSButton#PreviewItem_m_title:checked{
+	color:#61DED0;
+}
+
+FSButton#PreviewItem_m_title:disabled{
+	color:#61DED0;
+}
+
+RecorderPreview#RecorderPreview
+{
+	background-color: #1A1F23;
+}
+
+FSButton#RecorderPreview_m_btn
+{
+	font:18px "Lato";
+	color:#313C48;
+	font-weight:bold;
+	background-color: #61DED0;
+	border:0px;
+}
+
+FSButton#RecorderPreview_m_btn:disabled
+{
+	color: #313E4C;
+	background-color: #93A2AC;
+	border:0px;
+}
+
+
+QWidget#RecorderPreview_PreivewListWidget
+{
+	background-color:transparent;
+}
+
+
+/* RecorderMainView */
+
+QPushButton#FSRecorderMainView_GettingStartPage_CaptureButton{
+	border: 1px solid #ACB1B7;
+	font:22px "Lato";
+	color:#FFFFFF;
+	background-color:transparent;
+}
+QPushButton#FSRecorderMainView_GettingStartPage_CaptureButton:hover{
+	border: 1px solid #FFFFFF;
+}
+
+QPushButton#FSRecorderMainView_GettingStartPage_EditorButton{
+	border: 1px solid #ACB1B7;	
+	font:22px "Lato";
+	color:#FFFFFF;
+	background-color:transparent;
+}
+QPushButton#FSRecorderMainView_GettingStartPage_EditorButton:hover{
+	border: 1px solid #FFFFFF;	
+}
+
+FSNormalButton#FSRecorderMainView_GettingStartPage_GetStartButton{	
+	font: 24px "Lato Black";
+	color: #313C48;
+	background-image:url(:/FSRecorder/Resources/light/Startbuton_n.png);border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSNormalButton#FSRecorderMainView_GettingStartPage_GetStartButton:hover{	
+	background-image:url(:/FSRecorder/Resources/light/Startbuton_h.png);border: 0; background-position: center; background-repeat:no-repeat;
+}
+FSNormalButton#FSRecorderMainView_GettingStartPage_GetStartButton:pressed{	
+	background-image:url(:/FSRecorder/Resources/light/Startbuton_p.png);border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+QLabel#FSNormalButtonText{
+    font:24px "Lato Black";
+	color: #313C48;
+}
+
+QLabel#FSRecorderMainView_PageHeader_TitleLabel{
+	font:30px "Lato Black";
+	color:#FFFFFF;
+}
+
+ProjectListWidget#FSRecorderMainView_GettingStartPage_ProjectListCtrl{
+	background-color:transparent;
+	background-attachment:scroll;
+	border:0px;
+}
+
+ProjectListWidget#FSRecorderMainView_GettingStartPage_ProjectListCtrl::item:hover {
+	background: transparent;
+}
+
+ProjectListWidget#FSRecorderMainView_GettingStartPage_ProjectListCtrl::item:selected {
+	background: transparent;
+}
+
+ProjectListWidget#FSRecorderMainView_GettingStartPage_ProjectListCtrl  QScrollBar:vertical
+{
+    width:6px;
+    background:#1A1F23;
+    margin:50px,0px,0px,0px;
+	border-radius:3px;
+}
+
+/*滚动条中滑块的样式*/
+ ProjectListWidget#FSRecorderMainView_GettingStartPage_ProjectListCtrl QScrollBar::handle:vertical
+{
+    width:4px;
+    background:#4E6873;
+    border-radius:3px;
+    min-height:20px;
+	border: 1px solid #4E6873;
+}
+
+/*鼠标触及滑块样式*/
+ ProjectListWidget#FSRecorderMainView_GettingStartPage_ProjectListCtrl QScrollBar::handle:vertical:hover
+{
+    width:4px;
+    background:#4E6873;
+    border-radius:3px;
+    min-height:20;
+}
+
+/*当滚动条滚动的时候，上面的部分和下面的部分*/
+  ProjectListWidget#FSRecorderMainView_GettingStartPage_ProjectListCtrl QScrollBar::add-page:vertical
+{
+    background:rgb(0,0,0,10%);
+    border-radius:3px;
+} 
+
+ ProjectListWidget#FSRecorderMainView_GettingStartPage_ProjectListCtrl QScrollBar::sub-page:vertical
+{
+    background:rgb(0,0,0,10%);
+    border-radius:3px;
+}
+ 
+FSRecorder#FSRecorder{
+	background-image:url(:/FSRecorder/Resources/light/Image_back.png);border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_MinimizeButton
+{
+	background-color:transparent;
+	border:0px;
+	background-image:url(:/FSRecorder/Resources/light/title_minimized_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_MinimizeButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/title_minimized_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_MinimizeButton:pressed
+{
+	background-image:url(:/FSRecorder/Resources/light/title_minimized_p.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_MinimizeButton:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/title_minimized_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_CloseButton
+{
+	background-color:transparent;
+	border:0px;
+	background-image:url(:/FSRecorder/Resources/light/title_close_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_CloseButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/title_close_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_CloseButton:pressed
+{
+	background-image:url(:/FSRecorder/Resources/light/title_close_p.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_CloseButton:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/title_close_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QPushButton#FSRecorder_TitleBar_MinimizeButton
+{
+	background-color:transparent;
+	border:0px;
+	background-image:url(:/FSRecorder/Resources/light/title_minimized_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QPushButton#FSRecorder_TitleBar_MinimizeButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/title_minimized_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QPushButton#FSRecorder_TitleBar_MinimizeButton:pressed
+{
+	background-image:url(:/FSRecorder/Resources/light/title_minimized_p.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QPushButton#FSRecorder_TitleBar_MinimizeButton:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/title_minimized_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QPushButton#FSRecorder_TitleBar_CloseButton
+{
+	background-color:transparent;
+	border:0px;
+	background-image:url(:/FSRecorder/Resources/light/title_close_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QPushButton#FSRecorder_TitleBar_CloseButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/title_close_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QPushButton#FSRecorder_TitleBar_CloseButton:pressed
+{
+	background-image:url(:/FSRecorder/Resources/light/title_close_p.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QPushButton#FSRecorder_TitleBar_CloseButton:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/title_close_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+QLabel#FSRecorder_TitleBar_m_pLabelIcon{
+	background-image:url(:/FSRecorder/Resources/light/filmorascrn_logo_black.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#FSRecorderMainView_SetttingPage_ReturnButton
+{
+	background-image:url(:/FSRecorder/Resources/light/setting_return.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+QLabel#RecordPanel_TitleBar_m_pLabelIcon{
+	background-image:url(:/FSRecorder/Resources/light/filmorascrn_logo_black.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+
+
+AddNewItemWidget#ProjectListWidget_AddNewItemWidget  QLabel#MatterView_MediaPage_ItemWidget_TitleWidget_Label
+{
+	font:14px "Lato";
+	color:#61DED0;
+}
+
+OpenProjItemWidget#ProjectListWidget_itemWidget  QLabel#MatterView_MediaPage_ItemWidget_TitleWidget_Label
+{
+	font:14px "Lato";
+	color:#61DED0;
+}
+
+FSIconButton#PageHeader_m_pBtnRegistration
+{
+	font:14px "Lato";
+	color: #7F9CAF;
+	background-color:transparent;
+	border:0px;
+	text-align:left;
+	padding-left: 30px;
+	qproperty-normalImagePath: url(:/FSRecorder/Resources/light/key_n.png);   
+	qproperty-hoverImagePath: url(:/FSRecorder/Resources/light/key_h.png);  
+	qproperty-disabledImagePath: url(:/FSRecorder/Resources/light/key_d.png);  
+}
+
+FSIconButton#PageHeader_m_pBtnRegistration:hover
+{
+	color: #FFFFFF;
+}
+
+FSIconButton#PageHeader_m_pBtnRegistration:pressed
+{
+	color: #FFFFFF;
+}
+
+FSIconButton#PageHeader_m_pBtnRegistration:disabled
+{
+	color:#323E4C;
+}
+
+FSIconButton#PageHeader_m_pBtnPurchase
+{
+	font:14px "Lato";
+	color: #7F9CAF;
+	background-color:transparent;
+	border:0px;
+	padding-left: 30px;
+	text-align:left;
+	qproperty-normalImagePath: url(:/FSRecorder/Resources/light/buy_n.png);   
+	qproperty-hoverImagePath: url(:/FSRecorder/Resources/light/buy_h.png);  
+	qproperty-disabledImagePath: url(:/FSRecorder/Resources/light/buy_d.png);  
+}
+
+FSIconButton#PageHeader_m_pBtnPurchase:hover
+{
+	color: #FFFFFF;
+}
+
+FSIconButton#PageHeader_m_pBtnPurchase:pressed
+{
+	color: #FFFFFF;
+}
+
+FSIconButton#PageHeader_m_pBtnPurchase:disabled
+{
+	color:#323E4C;
+}
+
+FSIconButton#PageHeader_m_pBtnMenu
+{
+	font:14px "Lato";
+	color: #7F9CAF;
+	background-color:transparent;
+	border:0px;
+	padding-left: 30px;
+	text-align:left;
+	qproperty-normalImagePath: url(:/FSRecorder/Resources/light/menun3_n.png);
+	qproperty-hoverImagePath: url(:/FSRecorder/Resources/light/menun3_h.png);  
+	qproperty-disabledImagePath: url(:/FSRecorder/Resources/light/menun3_d.png);  
+}
+
+FSIconButton#PageHeader_m_pBtnMenu:hover
+{
+	color: #FFFFFF;
+}
+
+FSIconButton#PageHeader_m_pBtnMenu:pressed
+{
+	color: #FFFFFF;
+}
+
+FSIconButton#PageHeader_m_pBtnMenu:disabled
+{
+	color:#323E4C;
+}
+
+SettingsWidgetBar#SettingsWidgetBar{
+	background-color:#1A1F23;
+}
+
+/* RecordPanel */
+RecordPanel#RecordPanel
+{
+	background-color:#1A1F23;
+}
+
+QWidget#RecordPanel_SeperaterLine
+{
+	background-color:#313C48;
+}
+
+
+QPushButton#RecordPanel_MenuButton{
+	background-color:transparent;
+	font:14px "Lato";
+	color: #7F9CAF;
+}
+
+QPushButton#RecordPanel_MenuButton:hover{
+	color: #FFFFFF;
+}
+
+QPushButton#RecordPanel_MenuButton:disabled{
+	color: #313E4C;
+}
+
+PreviewItemWidgetBase{
+	border-top:1px solid #313C48;
+}
+
+BaseButton#RecordPanel_RecordButton_Start
+{
+	background-image:url(:/FSRecorder/Resources/light/recordbutton_start_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_RecordButton_Start:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/recordbutton_stop_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_RecordButton_Start:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/recordbutton_start_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_RecordButton_Stop
+{
+	background-image:url(:/FSRecorder/Resources/light/recordbutton_stop_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_RecordButton_Stop:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/recordbutton_start_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_RecordButton_Stop:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/recordbutton_stop_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_PauseButton
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_pause_button_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_PauseButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_pause_button_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_PauseButton:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_pause_button_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_ResumeButton
+{
+	background-image:url(:/FSRecorder/Resources/light/resume_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_ResumeButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/resume_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_ResumeButton:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/resume_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+
+BaseButton#RecordPanel_DeleteButton
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_delete_button_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_DeleteButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_delete_button_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_DeleteButton:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_delete_button_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+MiniRecordPanel
+{
+	background-color:#1A1F23;
+}
+
+BaseButton#MiniRecordPanel_RecordButton_Start
+{
+	border-image:url(:/FSRecorder/Resources/light/title_minipanel_start_n.png);
+}
+
+BaseButton#MiniRecordPanel_RecordButton_Start:hover
+{
+	border-image:url(:/FSRecorder/Resources/light/title_minipanel_stop_n.png); 
+}
+
+BaseButton#MiniRecordPanel_RecordButton_Start:disabled
+{
+	border-image:url(:/FSRecorder/Resources/light/title_minipanel_start_d.png); 
+}
+BaseButton#MiniRecordPanel_RecordButton_Stop
+{
+	border-image:url(:/FSRecorder/Resources/light/title_minipanel_stop_n.png);
+}
+BaseButton#MiniRecordPanel_RecordButton_Stop:hover
+{
+	border-image:url(:/FSRecorder/Resources/light/title_minipanel_start_n.png);
+}
+BaseButton#MiniRecordPanel_RecordButton_Stop:disabled
+{
+	border-image:url(:/FSRecorder/Resources/light/title_minipanel_stop_d.png);
+}
+
+BaseButton#MiniRecordPanel_PauseButton
+{
+	border-image:url(:/FSRecorder/Resources/light/recordpanel_pause_button_n.png);
+}
+
+BaseButton#MiniRecordPanel_PauseButton:hover
+{
+	border-image:url(:/FSRecorder/Resources/light/recordpanel_pause_button_h.png);
+}
+
+BaseButton#MiniRecordPanel_PauseButton:disabled
+{
+	border-image:url(:/FSRecorder/Resources/light/recordpanel_pause_button_d.png); 
+}
+
+BaseButton#MiniRecordPanel_ResumeButton
+{
+	border-image:url(:/FSRecorder/Resources/light/resume_n.png); 
+}
+
+BaseButton#MiniRecordPanel_ResumeButton:hover
+{
+	border-image:url(:/FSRecorder/Resources/light/resume_h.png); 
+}
+
+BaseButton#MiniRecordPanel_ResumeButton:disabled
+{
+	border-image:url(:/FSRecorder/Resources/light/resume_d.png); 
+}
+
+BaseButton#MiniRecordPanel_DeleteButton
+{
+	border-image:url(:/FSRecorder/Resources/light/recordpanel_delete_button_n.png);
+}
+BaseButton#MiniRecordPanel_DeleteButton:hover
+{
+	border-image:url(:/FSRecorder/Resources/light/recordpanel_delete_button_h.png); 
+}
+BaseButton#MiniRecordPanel_DeleteButton:disabled
+{
+	border-image:url(:/FSRecorder/Resources/light/recordpanel_delete_button_d.png);
+}
+
+BaseButton#FSRecorder_TitleBar_MiniPanelButton
+{
+	background-image:url(:/FSRecorder/Resources/light/title_minipanel_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_MiniPanelButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/title_minipanel_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#FSRecorder_TitleBar_MaxipanelButton
+{
+	background-image:url(:/FSRecorder/Resources/light/title_maxipanel_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#FSRecorder_TitleBar_MaxipanelButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/title_maxipanel_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_Title_PinUnlock
+{
+	background-image:url(:/FSRecorder/Resources/light/pin_unlock_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_Title_PinUnlock:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/pin_unlock_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_Title_Pinlock
+{
+	background-image:url(:/FSRecorder/Resources/light/pin_lock_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_Title_Pinlock:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/pin_lock_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_SwitchScreen_Primary
+{
+	background-image:url(:/FSRecorder/Resources/light/primary_screen_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_SwitchScreen_Primary:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/primary_screen_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_SwitchScreen_SecondScreen
+{
+	background-image:url(:/FSRecorder/Resources/light/second_screen_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_SwitchScreen_SecondScreen:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/second_screen_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+QLabel#RecordPanel_PreviewItemWidget_Flicker_OnLabel
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_redpoint.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QLabel#RecordPanel_PreviewItemWidget_Flicker_OffLabel
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_graypoint.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+QLabel#RecordPanel_PreviewItemWidget_DesktopIcon
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_screen_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+QLabel#RecordPanel_PreviewItemWidget_SystemAudioIcon
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_sysaudio_icon.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QLabel#RecordPanel_PreviewItemWidget_MicrophoneIcon
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_audio_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QLabel#RecordPanel_PreviewItemWidget_CameraIcon
+{
+	background-image:url(:/FSRecorder/Resources/light/recordpanel_camera_icon.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+QLabel#RecordPanel_PreviewItemWidget_GameIcon
+{
+	background-image:url(:/FSRecorder/Resources/light/settings_game_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_PreviewItemWidget_PreviewButton_Enable
+{
+	background-image:url(:/FSRecorder/Resources/light/Unpreviewbutton_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_PreviewButton_Enable:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/Unpreviewbutton_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_PreviewButton_Enable:pressed
+{
+	background-image:url(:/FSRecorder/Resources/light/Unpreviewbutton_p.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_PreviewButton_Enable:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/Unpreviewbutton_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_PreviewItemWidget_PreviewButton_Disenable
+{
+	background-image:url(:/FSRecorder/Resources/light/previewbutton_n.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_PreviewButton_Disenable:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/previewbutton_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_PreviewButton_Disenable:disabled
+{
+	background-image:url(:/FSRecorder/Resources/light/previewbutton_d.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_LockEnableButton
+{
+	background-image:url(:/FSRecorder/Resources/light/unlock.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_LockEnableButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/unlock_h.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_LockEnableButton:pressed
+{
+	background-image:url(:/FSRecorder/Resources/light/unlock.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_LockDisnableButton
+{
+	background-image:url(:/FSRecorder/Resources/light/lock.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_LockDisnableButton:hover
+{
+	background-image:url(:/FSRecorder/Resources/light/lock.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+BaseButton#RecordPanel_PreviewItemWidget_DesktopItem_LockDisnableButton:pressed
+{
+	background-image:url(:/FSRecorder/Resources/light/lock.png); border: 0; background-position: center; background-repeat:no-repeat;
+}
+
+QLabel#RecordPanel_PreviewItemWidget_DesktopItem_XLabel{
+	font:14px "Lato";
+	color: #FFFFFF;
+}
+
+QLabel#RecordPanel_RecordButton_StateTextlabel
+{
+	font:18px "Lato";
+	color: #FFFFFF;
+}
+
+QLabel#RecordPanel_RecordButton_Shortcutlabel
+{
+	font:18px "Lato";
+	color: #7F9CAF;
+}
+
+QLineEdit#RecordPanel_PreviewItemWidget_DesktopItem_HeightEdit
+{
+	font:16px "Lato";
+	color:#ffffff;
+	background-color:#1A1F23;
+	border: 1px solid #4C6671;
+	padding-left:8px;
+}
+QLineEdit#RecordPanel_PreviewItemWidget_DesktopItem_WidthEdit
+{
+	font:16px "Lato";
+	color:#ffffff;
+	background-color:#1A1F23;
+	border: 1px solid #4C6671;
+	padding-left:8px;
+}
+
+QLabel#RecordPanel_PreviewItemWidget_m_pTitle
+{
+	font:16px "Lato";
+	color:#ffffff;
+}
+
+QLabel#RecordPanel_CommentLabel
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+QLabel#RecordPanel_CountBackwardCtrl_TimeLabel
+{
+	font:32px "Lato";
+	color: #7F9CAF;
+}
+MiniRecordPanel QLabel#RecordPanel_CountBackwardCtrl_TimeLabel
+{
+	font:20px "Lato";
+	color: #7F9CAF;
+}
+
+QLabel#RecordLoadingCtrl_ContainerLabel
+{
+	background-color: #1A1F23;
+}
+
+QLabel#RecordLoadingCtrl_TitleLabel
+{
+	font:18px "Lato";
+	color: #FFFFFF;
+}
+
+QLabel#RecordLoadingCtrl_StopTipLabel
+{
+	font:16px "Lato";
+	color: #7F9CAF;
+}
+
+QLabel#RecordLoadingCtrl_PauseTipLabel
+{
+	font:16px "Lato";
+	color: #7F9CAF;
+}
+
+QLabel#RecordLoadingCtrl_StopHotkeyLabel
+{
+	border-width:5px;
+	font:16px "Lato";
+	color: #7F9CAF;
+	border-image:url(:/FSRecorder/Resources/light/RecorderCtlbuton.png)5 5 5 5;
+}
+
+QLabel#RecordLoadingCtrl_PauseHotkeyLabel
+{
+	border-width:5px;
+	font:16px "Lato";
+	color: #7F9CAF;
+	border-image:url(:/FSRecorder/Resources/light/RecorderCtlbuton.png)5 5 5 5;
+}
+
+QPushButton#RecordLoadingCtrl_CancelButton{
+	background-color:#61DED0;
+	font:18px "Lato";
+	font-weight:bold;
+	color: #313C48;
+	border:0px;
+}
+
+ MicrophonePreview#MicrophonePreview{
+	background-color:#1A1F23;
+} 
+PreviewBase#PreviewBase{
+	background-color:#1A1F23;
+}
+
+FSBaseButton#OptionGeneralPanel_BtnRecordFile{
+	border-image: url(:/FSRecorder/Resources/light/parmaDrag_n.png); 
+}
+
+QWidget#VoluemBar{
+	background-color:transparent;
+	border-image:url(:/FSRecorder/Resources/light/VoluemBar_back.png)0 5 0 5;
+	border-radius:3px;
+}
+
+QWidget#m_pValueWidget{
+	background-color:transparent;
+	border-image:url(:/FSRecorder/Resources/light/VoluemBar_value.png)0 5 0 5;
+	border-radius:3px;
+}
+
+QWidget#MiniRecordPanel_MiniVolumeBar{
+	background-color:#00CC0E;
+}
+
+
+/* 录制面板弹出菜单 */
+
+RecordPanel QMenu:hover{
+    color:#ffffff;
+}
+
+TopLevelWindowTitleBar#MicrophonePreview_m_titlebar QLabel#TopLevelWindowTitleBar_TitleName
+{
+	color:#7F9CAF;
+	font:18px "Lato";
+}
+
+/* 录制麦克风音量预览窗口 */
+TopLevelWindowTitleBar#MicrophonePreview_m_titlebar  TopLevelWindowTitleBar_p
+{
+    background-color: #313C48;
+}
+
+/* 摄像头预览窗口 */
+TopLevelWindowTitleBar#camera_Preview    TopLevelWindowTitleBar_p
+{
+    background-color: #313C48;
+}
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<NLECaption>
+	<Motions>
+		<item name="Move to top" guid="{01C50F0F-C4BE-4D61-B694-3678060301DB}" thumbnail="/Captions/Thumbnail/Up Insert_An.bmp">
+		</item>
+
+		<item name="Move to bottom" guid="{31790DF0-38FA-43FC-AC12-3CE77CF4627A}" thumbnail="/Captions/Thumbnail/Down Insert_An.bmp">
+		</item>
+
+		<item name="Move to left" guid="{DBECC0A8-45E0-4a8f-AC90-EBC08C07BFD5}" thumbnail="/Captions/Thumbnail/Left Roll_An.bmp">
+		</item>
+
+		<item name="Move to right" guid="{399112EF-565B-455C-865E-2342BDD38819}" thumbnail="/Captions/Thumbnail/Right Roll_An.bmp">
+		</item>
+
+	</Motions>
+	<Transition>
+		<item name="Push" guid="925C36FB-9EE1-4fca-899F-549D8328F2DC" thumbnail="/Captions/Thumbnail/Push.png">
+		</item>
+		<item name="Fade" guid="0CAA397E-6EB2-4e51-9DF7-B7DDB338EB22" thumbnail="/Captions/Thumbnail/Fade.png">
+		</item>
+		<item name="Drop" guid="136D4AD9-F8E6-44ef-8485-730F0F269FFD" thumbnail="/Captions/Thumbnail/Drop.png">
+		</item>
+		<item name="Erase" guid="667A322D-7351-44fd-AACC-17B0F766DA5F" thumbnail="/Captions/Thumbnail/Erase.png">
+		</item>
+	</Transition>
+	<Animation>
+		<item name="Type Writer" guid="/Captions/AnimationFiles/Type Writer.xml" thumbnail="/Captions/Thumbnail/Type Writer.png">
+		</item>
+	</Animation>
+</NLECaption>
+

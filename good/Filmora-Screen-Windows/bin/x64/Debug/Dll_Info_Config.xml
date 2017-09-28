@@ -1,0 +1,3304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wondershare_XML>
+  <FILEDEMUXDLL>
+    <AVDEC>
+      <FDPAAC>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.aac</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpAAC.dll</DLLNAME>
+          <FOURCC DWORD="">' CAA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AAC File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPAAC>
+      <FDPAC3>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.ac3;</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpAC3.dll</DLLNAME>
+          <FOURCC DWORD="">' 3CA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AC3 File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPAC3>
+      <FDPAPE>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.ape</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpAPE.dll</DLLNAME>
+          <FOURCC DWORD="">' EPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">APE File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPAPE>
+      <FDPAVI>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.avi</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpAVI.dll</DLLNAME>
+          <FOURCC DWORD="">' IVA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AVI File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPAVI>
+      <FDPCODEC>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.gif</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' FIG'</FOURCC>
+          <DLLDESCRIBE CHAR="">GIF File</DLLDESCRIBE>
+        </FORMATE_1>
+        <FORMATE_2>
+          <EXTNAME CHAR="">.aif</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' FIA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AIF File</DLLDESCRIBE>
+        </FORMATE_2>
+        <FORMATE_3>
+          <EXTNAME CHAR="">.aiff</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'FFIA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AIFF File</DLLDESCRIBE>
+        </FORMATE_3>
+        <FORMATE_4>
+          <EXTNAME CHAR="">.dv</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'  VD'</FOURCC>
+          <DLLDESCRIBE CHAR="">DV File</DLLDESCRIBE>
+        </FORMATE_4>
+        <FORMATE_5>
+          <EXTNAME CHAR="">.dif</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' FID'</FOURCC>
+          <DLLDESCRIBE CHAR="">DIF File</DLLDESCRIBE>
+        </FORMATE_5>
+        <FORMATE_6>
+          <EXTNAME CHAR="">.flac</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'CALF'</FOURCC>
+          <DLLDESCRIBE CHAR="">FLAC File</DLLDESCRIBE>
+        </FORMATE_6>
+        <FORMATE_7>
+          <EXTNAME CHAR="">.ape</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' EPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">APE File</DLLDESCRIBE>
+        </FORMATE_7>
+        <FORMATE_8>
+          <EXTNAME CHAR="">.cue</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' EUC'</FOURCC>
+          <DLLDESCRIBE CHAR="">CUE File</DLLDESCRIBE>
+        </FORMATE_8>
+        <FORMATE_9>
+          <EXTNAME CHAR="">.nut</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' NUT'</FOURCC>
+          <DLLDESCRIBE CHAR="">NUT File</DLLDESCRIBE>
+        </FORMATE_9>
+        <FORMATE_10>
+          <EXTNAME CHAR="">.h261</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'162H'</FOURCC>
+          <DLLDESCRIBE CHAR="">H261 File</DLLDESCRIBE>
+        </FORMATE_10>
+        <FORMATE_11>
+          <EXTNAME CHAR="">.h264</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'462H'</FOURCC>
+          <DLLDESCRIBE CHAR="">H264 File</DLLDESCRIBE>
+        </FORMATE_11>
+        <FORMATE_12>
+          <EXTNAME CHAR="">.au</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'  UA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AU File</DLLDESCRIBE>
+        </FORMATE_12>
+        <FORMATE_13>
+          <EXTNAME CHAR="">.amr</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' RMA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AMR File</DLLDESCRIBE>
+        </FORMATE_13>
+        <FORMATE_14>
+          <EXTNAME CHAR="">.nsv</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' VSN'</FOURCC>
+          <DLLDESCRIBE CHAR="">NSV File</DLLDESCRIBE>
+        </FORMATE_14>
+        <FORMATE_15>
+          <EXTNAME CHAR="">.ogg</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' GGO'</FOURCC>
+          <DLLDESCRIBE CHAR="">OGG File</DLLDESCRIBE>
+        </FORMATE_15>
+        <FORMATE_16>
+          <EXTNAME CHAR="">.wav</EXTNAME>
+          <PRIORITY INT="">5</PRIORITY>
+          <DLLNAME CHAR="">fdpCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' VAW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WAV File</DLLDESCRIBE>
+        </FORMATE_16>
+      </FDPCODEC>
+      <FDPDPG>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.dpg</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpDPG.dll</DLLNAME>
+          <FOURCC DWORD="">' GPD'</FOURCC>
+          <DLLDESCRIBE CHAR="">DPG File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPDPG>
+      <FDPFLV>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.flv</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpFLV.dll</DLLNAME>
+          <FOURCC DWORD="">' VLF'</FOURCC>
+          <DLLDESCRIBE CHAR="">FLV File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPFLV>
+      <FDPMKV>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.mkv;.mka</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpMKV.dll</DLLNAME>
+          <FOURCC DWORD="">' VKM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MKV File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPMKV>
+      <FDPMP4>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.mp4;.m4a;.m4v</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpMp4.dll</DLLNAME>
+          <FOURCC DWORD="">'14pm'</FOURCC>
+          <DLLDESCRIBE CHAR="">QuickTime mp4 forma</DLLDESCRIBE>
+        </FORMATE_1>
+        <FORMATE_2>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpMp4.dll</DLLNAME>
+          <FOURCC DWORD="">' psp'</FOURCC>
+          <DLLDESCRIBE CHAR="">PSP mp4 format</DLLDESCRIBE>
+        </FORMATE_2>
+        <FORMATE_3>
+          <EXTNAME CHAR="">.3gp;.3g2</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpMp4.dll</DLLNAME>
+          <FOURCC DWORD="">' pg3'</FOURCC>
+          <DLLDESCRIBE CHAR="">3GPP File</DLLDESCRIBE>
+        </FORMATE_3>
+        <FORMATE_4>
+          <EXTNAME CHAR="">.3g2</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpMp4.dll</DLLNAME>
+          <FOURCC DWORD="">'2pg3'</FOURCC>
+          <DLLDESCRIBE CHAR="">3GPP2 File</DLLDESCRIBE>
+        </FORMATE_4>
+        <FORMATE_4>
+          <EXTNAME CHAR="">.mov</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpMp4.dll</DLLNAME>
+          <FOURCC DWORD="">' vom'</FOURCC>
+          <DLLDESCRIBE CHAR="">"QuicTime movie format</DLLDESCRIBE>
+        </FORMATE_4>
+      </FDPMP4>
+      <FDPMPEG>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.mpg;.mpeg;.vob;.dat;.mpv;.m2v;.evo</EXTNAME>
+          <PRIORITY INT="">13</PRIORITY>
+          <DLLNAME CHAR="">fdpMpeg.dll</DLLNAME>
+          <FOURCC DWORD="">' GPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">Mpeg system</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPMPEG>
+      <FDPMPGAUDIO>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.mpa;.mp2</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpMPGAudio.dll</DLLNAME>
+          <FOURCC DWORD="">'A2PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPG Lay-2 Audio File</DLLDESCRIBE>
+        </FORMATE_1>
+        <FORMATE_2>
+          <EXTNAME CHAR="">.mp3</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpMPGAudio.dll</DLLNAME>
+          <FOURCC DWORD="">' 3PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPG Lay-3 Audio Fil</DLLDESCRIBE>
+        </FORMATE_2>
+      </FDPMPGAUDIO>
+      <FDPOGG>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.ogg</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpOGG.dll</DLLNAME>
+          <FOURCC DWORD="">' GGO'</FOURCC>
+          <DLLDESCRIBE CHAR="">OGG File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPOGG>
+      <FDPRMVB>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.rm;.rmvb;.ra</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpRMVB.dll</DLLNAME>
+          <FOURCC DWORD="">'BVMR'</FOURCC>
+          <DLLDESCRIBE CHAR="">RMVB File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPRMVB>
+      <FDPTS>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.ts;.tp;.trp;.m2ts</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpTS.dll</DLLNAME>
+          <FOURCC DWORD="">'  ST'</FOURCC>
+          <DLLDESCRIBE CHAR="">Transport Stream</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPTS>
+      <FDPWMV>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.wmv;.wma;.asf;.dvr-ms</EXTNAME>
+          <PRIORITY INT="">15</PRIORITY>
+          <DLLNAME CHAR="">fdpWMV.dll</DLLNAME>
+          <FOURCC DWORD="">' VMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WMV File</DLLDESCRIBE>
+        </FORMATE_1>
+      </FDPWMV>
+    </AVDEC>
+    <MPSRC>
+      <MPDECSRC>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.*</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">MPDecSrc.dll</DLLNAME>
+          <FOURCC DWORD="">'CEDM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPDEC ALL Files</DLLDESCRIBE>
+        </FORMATE_1>
+      </MPDECSRC>
+    </MPSRC>
+    <DSHOW>
+      <VIDEOSRC>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.*</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">WS_VideoSrc.dll</DLLNAME>
+          <FOURCC DWORD="">'WOSD'</FOURCC>
+          <DLLDESCRIBE CHAR="">DHOW ALL Files</DLLDESCRIBE>
+        </FORMATE_1>
+      </VIDEOSRC>
+    </DSHOW>
+    <QUICKTIME>
+      <QTMLDEC>
+        <FORMATE_1>
+          <EXTNAME CHAR="">.*</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">QtmlDec.dylib</DLLNAME>
+          <FOURCC DWORD="">'MITQ'</FOURCC>
+          <DLLDESCRIBE CHAR="">QUICKTIME ALL Files</DLLDESCRIBE>
+        </FORMATE_1>
+      </QTMLDEC>
+    </QUICKTIME>
+  </FILEDEMUXDLL>
+  <FILEDECODEDLL>
+    <AVDEC>
+      <VDPAAC>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpAAC.dll</DLLNAME>
+          <FOURCC DWORD="">' CAA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AAC  Decoder</DLLDESCRIBE>
+        </DECODE_1>
+        <DECODE_2>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpAAC.dll</DLLNAME>
+          <FOURCC DWORD="">'a4pm'</FOURCC>
+          <DLLDESCRIBE CHAR="">AAC  Decoder</DLLDESCRIBE>
+        </DECODE_2>
+      </VDPAAC>
+      <VDPAC3>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpAC3.dll</DLLNAME>
+          <FOURCC DWORD="">' 3CA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AC3 Audio Decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPAC3>
+      <VDPAMR>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpAMR.dll</DLLNAME>
+          <FOURCC DWORD="">'rmas'</FOURCC>
+          <DLLDESCRIBE CHAR="">AMR narrowband decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPAMR>
+      <VDPAPE>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpAPE.dll</DLLNAME>
+          <FOURCC DWORD="">' EPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">APE Audio Decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPAPE>
+      <VDPCODECEX>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'462T'</FOURCC>
+          <DLLDESCRIBE CHAR="">H264 Video Decoder</DLLDESCRIBE>
+        </DECODE_1>
+        <DECODE_2>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'462X'</FOURCC>
+          <DLLDESCRIBE CHAR="">H264 Video Decoder</DLLDESCRIBE>
+        </DECODE_2>
+        <DECODE_3>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'462H'</FOURCC>
+          <DLLDESCRIBE CHAR="">H264 Video Decoder</DLLDESCRIBE>
+        </DECODE_3>
+        <DECODE_4>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">' CVA'</FOURCC>
+          <DLLDESCRIBE CHAR="">H264 Video Decoder</DLLDESCRIBE>
+        </DECODE_4>
+        <DECODE_5>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'1CVT'</FOURCC>
+          <DLLDESCRIBE CHAR="">VC1 Video Decoder</DLLDESCRIBE>
+        </DECODE_5>
+        <DECODE_6>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'1CVW'</FOURCC>
+          <DLLDESCRIBE CHAR="">VC1 Video Decoder</DLLDESCRIBE>
+        </DECODE_6>
+        <DECODE_7>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">' 1CV'</FOURCC>
+          <DLLDESCRIBE CHAR="">VC1 Video Decoder</DLLDESCRIBE>
+        </DECODE_7>
+        <DECODE_8>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'1cva'</FOURCC>
+          <DLLDESCRIBE CHAR="">AVC Video Decoder</DLLDESCRIBE>
+        </DECODE_8>
+        <DECODE_9>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'CVAM'</FOURCC>
+          <DLLDESCRIBE CHAR="">AVC Video Decoder</DLLDESCRIBE>
+        </DECODE_9>
+        <DECODE_10>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'CAAT'</FOURCC>
+          <DLLDESCRIBE CHAR="">AAC Audio Decoder</DLLDESCRIBE>
+        </DECODE_10>
+        <DECODE_11>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'3CAT'</FOURCC>
+          <DLLDESCRIBE CHAR="">AC3 Audio Decoder</DLLDESCRIBE>
+        </DECODE_11>
+        <DECODE_12>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'XVID'</FOURCC>
+          <DLLDESCRIBE CHAR="">Divx Video Decoder</DLLDESCRIBE>
+        </DECODE_12>
+        <DECODE_13>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'FVID'</FOURCC>
+          <DLLDESCRIBE CHAR="">DivX? 6.5.1 Codec</DLLDESCRIBE>
+        </DECODE_13>
+        <DECODE_14>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'05XD'</FOURCC>
+          <DLLDESCRIBE CHAR="">DivX? 6.5.1 Codec</DLLDESCRIBE>
+        </DECODE_14>
+        <DECODE_15>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'3VID'</FOURCC>
+          <DLLDESCRIBE CHAR="">DivX 3 Video Decoder</DLLDESCRIBE>
+        </DECODE_15>
+        <DECODE_16>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'4VID'</FOURCC>
+          <DLLDESCRIBE CHAR="">DivX 4 Video Decode</DLLDESCRIBE>
+        </DECODE_16>
+        <DECODE_17>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'V4PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Decoder</DLLDESCRIBE>
+        </DECODE_17>
+        <DECODE_18>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'v4pm'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Decoder</DLLDESCRIBE>
+        </DECODE_18>
+        <DECODE_18>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'XOEG'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Decoder</DLLDESCRIBE>
+        </DECODE_18>
+        <DECODE_19>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'S4PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Decoder</DLLDESCRIBE>
+        </DECODE_19>
+        <DECODE_20>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'DIVX'</FOURCC>
+          <DLLDESCRIBE CHAR="">xVid Video Decoder</DLLDESCRIBE>
+        </DECODE_20>
+        <DECODE_21>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'2VI3'</FOURCC>
+          <DLLDESCRIBE CHAR="">3IVX Video Decoder</DLLDESCRIBE>
+        </DECODE_21>
+        <DECODE_22>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'4GPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MS MPEG4-1 Video Decoder</DLLDESCRIBE>
+        </DECODE_22>
+        <DECODE_23>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'24PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MS MPEG4-2 Video Decoder</DLLDESCRIBE>
+        </DECODE_23>
+        <DECODE_24>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'34PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MS MPEG4-3 Video Decoder</DLLDESCRIBE>
+        </DECODE_24>
+        <DECODE_25>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'DIVC'</FOURCC>
+          <DLLDESCRIBE CHAR="">Apple Cinepak</DLLDESCRIBE>
+        </DECODE_25>
+        <DECODE_26>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'4PMF'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Visual</DLLDESCRIBE>
+        </DECODE_26>
+        <DECODE_27>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'2S4M'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Visual</DLLDESCRIBE>
+        </DECODE_27>
+        <DECODE_28>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'GDES'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Visual</DLLDESCRIBE>
+        </DECODE_28>
+        <DECODE_29>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'3VMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WMV3 Video Decoder</DLLDESCRIBE>
+        </DECODE_29>
+        <DECODE_30>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'2VMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WMV2 Video Decoder</DLLDESCRIBE>
+        </DECODE_30>
+        <DECODE_31>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'1VMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WMV1 Video Decoder</DLLDESCRIBE>
+        </DECODE_31>
+        <DECODE_32>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'2AMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WMA2 Audio Decoder</DLLDESCRIBE>
+        </DECODE_32>
+        <DECODE_33>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'1AMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WMA1 Audio Decoder</DLLDESCRIBE>
+        </DECODE_33>
+        <DECODE_34>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">' agt'</FOURCC>
+          <DLLDESCRIBE CHAR="">Truevision Targa image</DLLDESCRIBE>
+        </DECODE_34>
+        <DECODE_35>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'CPST'</FOURCC>
+          <DLLDESCRIBE CHAR="">DSP Group TrueSpeech</DLLDESCRIBE>
+        </DECODE_35>
+        <DECODE_36>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'cala'</FOURCC>
+          <DLLDESCRIBE CHAR="">DSP Group TrueSpeech</DLLDESCRIBE>
+        </DECODE_36>
+        <DECODE_37>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">20</PRIORITY>
+          <DLLNAME CHAR="">vdpCodecEx.dll</DLLNAME>
+          <FOURCC DWORD="">'CALF'</FOURCC>
+          <DLLDESCRIBE CHAR="">Free Lossless Audio Codec</DLLDESCRIBE>
+        </DECODE_37>
+      </VDPCODECEX>
+      <VDPDTS>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpDTS.dll</DLLNAME>
+          <FOURCC DWORD="">' STD'</FOURCC>
+          <DLLDESCRIBE CHAR="">DTS File Decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPDTS>
+      <VDPMPA>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpMPA.dll</DLLNAME>
+          <FOURCC DWORD="">'A1PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP1A File Decoder</DLLDESCRIBE>
+        </DECODE_1>
+        <DECODE_2>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpMPA.dll</DLLNAME>
+          <FOURCC DWORD="">'A2PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP2A File Decoder</DLLDESCRIBE>
+        </DECODE_2>
+        <DECODE_3>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpMPA.dll</DLLNAME>
+          <FOURCC DWORD="">' 3PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP3 File Decoder</DLLDESCRIBE>
+        </DECODE_3>
+      </VDPMPA>
+      <VDPMPEG>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpMpeg.dll</DLLNAME>
+          <FOURCC DWORD="">'V2PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">Mpeg2 Video Decoder</DLLDESCRIBE>
+        </DECODE_1>
+        <DECODE_2>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpMpeg.dll</DLLNAME>
+          <FOURCC DWORD="">'V1PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">Mpeg1 Video Decoder</DLLDESCRIBE>
+        </DECODE_2>
+        <DECODE_3>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpMpeg.dll</DLLNAME>
+          <FOURCC DWORD="">'1GPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">Mpeg1 Video Decoder</DLLDESCRIBE>
+        </DECODE_3>
+        <DECODE_4>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpMpeg.dll</DLLNAME>
+          <FOURCC DWORD="">'2GPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">Mpeg2 Video Decoder</DLLDESCRIBE>
+        </DECODE_4>
+      </VDPMPEG>
+      <VDPMPEG4>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpAPE.dll</DLLNAME>
+          <FOURCC DWORD="">'v4pm'</FOURCC>
+          <DLLDESCRIBE CHAR="">Xvid  Decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPMPEG4>
+      <VDPNELLY>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpNelly.dll</DLLNAME>
+          <FOURCC DWORD="">'8LEN'</FOURCC>
+          <DLLDESCRIBE CHAR="">Nellymoser 8kHz Audio</DLLDESCRIBE>
+        </DECODE_1>
+        <DECODE_2>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpNelly.dll</DLLNAME>
+          <FOURCC DWORD="">'LLEN'</FOURCC>
+          <DLLDESCRIBE CHAR="">Nellymoser Audio</DLLDESCRIBE>
+        </DECODE_2>
+      </VDPNELLY>
+      <VDPPCM>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpPCM.dll</DLLNAME>
+          <FOURCC DWORD="">'MCPL'</FOURCC>
+          <DLLDESCRIBE CHAR="">LPCM AUDIO Decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPPCM>
+      <VDPQCEL>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpqcel.dll</DLLNAME>
+          <FOURCC DWORD="">'PLEC'</FOURCC>
+          <DLLDESCRIBE CHAR="">QCELP Audio Decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPQCEL>
+      <VDPRMVB>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_VIDEO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpRMVB.dll</DLLNAME>
+          <FOURCC DWORD="">'01VR'</FOURCC>
+          <DLLDESCRIBE CHAR="">Real Video 10 Decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPRMVB>
+      <VDPVORBIS>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">vdpVorbis.dll</DLLNAME>
+          <FOURCC DWORD="">'SIBV'</FOURCC>
+          <DLLDESCRIBE CHAR="">Vorbis Audio Decoder</DLLDESCRIBE>
+        </DECODE_1>
+      </VDPVORBIS>
+    </AVDEC>
+    <MPSRC>
+      <MPDECSRC>
+        <DECODE_1>
+          <EXTNAME CHAR="">ST_AUDIO</EXTNAME>
+          <PRIORITY INT="">3</PRIORITY>
+          <DLLNAME CHAR="">MPDecSrc.dll</DLLNAME>
+          <FOURCC DWORD="">'****'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPDEC ALL Files</DLLDESCRIBE>
+        </DECODE_1>
+      </MPDECSRC>
+    </MPSRC>
+  </FILEDECODEDLL>
+  <FILEENCODEDLL>
+    <ENCODESYS>
+      <WP_AAC>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_aac.dll</DLLNAME>
+          <FOURCC DWORD="">' CAA'</FOURCC>
+          <DLLDESCRIBE CHAR="">Advanced Audio Coding</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_aac.dll</DLLNAME>
+          <FOURCC DWORD="">'CAAM'</FOURCC>
+          <DLLDESCRIBE CHAR="">Advanced Audio Coding</DLLDESCRIBE>
+        </ENCODE_2>
+      </WP_AAC>
+      <WP_AC3>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ac3.dll</DLLNAME>
+          <FOURCC DWORD="">' 3CA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AC-3 Audio</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_AC3>
+      <WP_ADPCM>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_adpcm.dll</DLLNAME>
+          <FOURCC DWORD="">'MCPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">intel adpcm auddio codec</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_ADPCM>
+      <WP_AMR_NB>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_amrnb.dll</DLLNAME>
+          <FOURCC DWORD="">'NRMA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AMR narrow-band</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_AMR_NB>
+      <WP_APE>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ape.dll</DLLNAME>
+          <FOURCC DWORD="">' EPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">Monkey's Audio</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_APE>
+      <WP_MFT>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_amf.dll</DLLNAME>
+          <FOURCC DWORD="">'CVAA'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AMD VCE) Video Format</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_MFT>
+      <WP_AMF>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_amf.dll</DLLNAME>
+          <FOURCC DWORD="">'FMAC'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AMD VCE) Video Format</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_AMF>
+      <WP_ATI>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ATI.dll</DLLNAME>
+          <FOURCC DWORD="">'3MAA'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-1-3LAYER</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ATI.dll</DLLNAME>
+          <FOURCC DWORD="">'CAAA'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 AAC</DLLDESCRIBE>
+        </ENCODE_2>
+        <ENCODE_3>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ATI.dll</DLLNAME>
+          <FOURCC DWORD="">'462A'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(ATI) Video Format</DLLDESCRIBE>
+        </ENCODE_3>
+        <ENCODE_4>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ATI.dll</DLLNAME>
+          <FOURCC DWORD="">'3SPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(ATI) Video Format</DLLDESCRIBE>
+        </ENCODE_4>
+        <ENCODE_5>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ATI.dll</DLLNAME>
+          <FOURCC DWORD="">'DOPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(ATI) Video Format</DLLDESCRIBE>
+        </ENCODE_5>
+        <ENCODE_6>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ATI.dll</DLLNAME>
+          <FOURCC DWORD="">'VTAA'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(ATI) Video Format</DLLDESCRIBE>
+        </ENCODE_6>
+      </WP_ATI>
+      <WP_CODECS>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'2amw'</FOURCC>
+          <DLLDESCRIBE CHAR="">wma2 Audio</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'1amw'</FOURCC>
+          <DLLDESCRIBE CHAR="">wma1 Audio</DLLDESCRIBE>
+        </ENCODE_2>
+        <ENCODE_3>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'bmcp'</FOURCC>
+          <DLLDESCRIBE CHAR="">PCM BIG ENDING Audio</DLLDESCRIBE>
+        </ENCODE_3>
+        <ENCODE_4>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'MCPD'</FOURCC>
+          <DLLDESCRIBE CHAR="">PCM Audio</DLLDESCRIBE>
+        </ENCODE_4>
+        <ENCODE_5>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'3pmf'</FOURCC>
+          <DLLDESCRIBE CHAR="">Mpeg Layer III Audio</DLLDESCRIBE>
+        </ENCODE_5>
+        <ENCODE_6>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'calf'</FOURCC>
+          <DLLDESCRIBE CHAR="">FLAC (Free Lossless Audio Codec)</DLLDESCRIBE>
+        </ENCODE_6>
+        <ENCODE_7>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'1vlf'</FOURCC>
+          <DLLDESCRIBE CHAR="">FLV video codec</DLLDESCRIBE>
+        </ENCODE_7>
+        <ENCODE_8>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'05VD'</FOURCC>
+          <DLLDESCRIBE CHAR="">dvvideo codec</DLLDESCRIBE>
+        </ENCODE_8>
+        <ENCODE_9>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'06VD'</FOURCC>
+          <DLLDESCRIBE CHAR="">dvvideo codec</DLLDESCRIBE>
+        </ENCODE_9>
+        <ENCODE_10>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'VWAR'</FOURCC>
+          <DLLDESCRIBE CHAR="">rawvideo codec</DLLDESCRIBE>
+        </ENCODE_10>
+        <ENCODE_11>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'01vr'</FOURCC>
+          <DLLDESCRIBE CHAR="">RM Video 1.0codec</DLLDESCRIBE>
+        </ENCODE_11>
+        <ENCODE_12>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'34pm'</FOURCC>
+          <DLLDESCRIBE CHAR="">MSMPEGV3</DLLDESCRIBE>
+        </ENCODE_12>
+        <ENCODE_13>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'362H'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.263 Codec</DLLDESCRIBE>
+        </ENCODE_13>
+        <ENCODE_14>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'GPJM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MJPEG Codec</DLLDESCRIBE>
+        </ENCODE_14>
+        <ENCODE_15>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'A2PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG2 Audio</DLLDESCRIBE>
+        </ENCODE_15>
+        <ENCODE_16>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'V1PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG1 Video</DLLDESCRIBE>
+        </ENCODE_16>
+        <ENCODE_17>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'v1pm'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG1 Video</DLLDESCRIBE>
+        </ENCODE_17>
+        <ENCODE_18>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'1gpm'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG1 Video</DLLDESCRIBE>
+        </ENCODE_18>
+        <ENCODE_19>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'562K'</FOURCC>
+          <DLLDESCRIBE CHAR="">HEVC Video</DLLDESCRIBE>
+        </ENCODE_19>
+        <ENCODE_20>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'CAAK'</FOURCC>
+          <DLLDESCRIBE CHAR="">AAC Audio</DLLDESCRIBE>
+        </ENCODE_20>
+        <ENCODE_21>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'VFIG'</FOURCC>
+          <DLLDESCRIBE CHAR="">gif video codec</DLLDESCRIBE>
+        </ENCODE_21>
+      </WP_CODECS>
+      <WP_NVENC>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_nvEnc.dll</DLLNAME>
+          <FOURCC DWORD="">'462E'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_nvEnc.dll</DLLNAME>
+          <FOURCC DWORD="">'DOPE'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_2>
+        <ENCODE_3>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_nvEnc.dll</DLLNAME>
+          <FOURCC DWORD="">'VTAE'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_3>
+        <ENCODE_4>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_nvEnc.dll</DLLNAME>
+          <FOURCC DWORD="">'PSPE'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_4>
+        <ENCODE_5>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_nvEnc.dll</DLLNAME>
+          <FOURCC DWORD="">'3SPE'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_5>
+      </WP_NVENC>
+      <WP_CUDA>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_cuda.dll</DLLNAME>
+          <FOURCC DWORD="">'462N'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_cuda.dll</DLLNAME>
+          <FOURCC DWORD="">'DOPN'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_2>
+        <ENCODE_3>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_cuda.dll</DLLNAME>
+          <FOURCC DWORD="">'VTAN'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_3>
+        <ENCODE_4>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_cuda.dll</DLLNAME>
+          <FOURCC DWORD="">'PSPN'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_4>
+        <ENCODE_5>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_cuda.dll</DLLNAME>
+          <FOURCC DWORD="">'3SPN'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(CUDA) Video Format</DLLDESCRIBE>
+        </ENCODE_5>
+      </WP_CUDA>
+      <WP_EAAC>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_eaac.dll</DLLNAME>
+          <FOURCC DWORD="">'CAAE'</FOURCC>
+          <DLLDESCRIBE CHAR="">EAAC Audio</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_EAAC>
+      <WP_H264>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'462H'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'462X'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_2>
+        <ENCODE_3>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'462h'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_3>
+        <ENCODE_4>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'462S'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_4>
+        <ENCODE_5>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'cvah'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_5>
+        <ENCODE_6>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'462M'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_6>
+        <ENCODE_7>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'CVAP'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format For PSP</DLLDESCRIBE>
+        </ENCODE_7>
+        <ENCODE_8>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'CVAI'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format For IPOD</DLLDESCRIBE>
+        </ENCODE_8>
+        <ENCODE_9>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'H3SP'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format For PS3</DLLDESCRIBE>
+        </ENCODE_9>
+        <ENCODE_10>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'CVAH'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_10>
+        <ENCODE_11>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'CVAV'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_11>
+        <ENCODE_12>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'CVAF'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_12>
+        <ENCODE_13>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'NOPI'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format For IPhone</DLLDESCRIBE>
+        </ENCODE_13>
+        <ENCODE_14>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'NAPI'</FOURCC>
+          <DLLDESCRIBE CHAR="">H.264(AVC) Video Format</DLLDESCRIBE>
+        </ENCODE_14>
+        <ENCODE_15>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'462K'</FOURCC>
+          <DLLDESCRIBE CHAR="">HHigh Definition H.264 for 4K</DLLDESCRIBE>
+        </ENCODE_15>
+        <ENCODE_16>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'462B'</FOURCC>
+          <DLLDESCRIBE CHAR="">HHigh Definition H.264 for 4K</DLLDESCRIBE>
+        </ENCODE_16>
+        <ENCODE_17>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'462C'</FOURCC>
+          <DLLDESCRIBE CHAR="">H264 Video</DLLDESCRIBE>
+        </ENCODE_17>
+        <ENCODE_17>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_h264.dll</DLLNAME>
+          <FOURCC DWORD="">'VBTY'</FOURCC>
+          <DLLDESCRIBE CHAR="">H264 Video</DLLDESCRIBE>
+        </ENCODE_17>
+      </WP_H264>
+      <WP_INTELMEDIA>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IntelMedia.dll</DLLNAME>
+          <FOURCC DWORD="">'XBXI'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(Intel Media) Video Format</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IntelMedia.dll</DLLNAME>
+          <FOURCC DWORD="">'462I'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(Intel Media) Video Format</DLLDESCRIBE>
+        </ENCODE_2>
+        <ENCODE_3>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IntelMedia.dll</DLLNAME>
+          <FOURCC DWORD="">'DPAI'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(Intel Media) Video Format</DLLDESCRIBE>
+        </ENCODE_3>
+        <ENCODE_4>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IntelMedia.dll</DLLNAME>
+          <FOURCC DWORD="">'VTAI'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(Intel Media) Video Format</DLLDESCRIBE>
+        </ENCODE_4>
+        <ENCODE_5>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IntelMedia.dll</DLLNAME>
+          <FOURCC DWORD="">'PSPI'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(Intel Media) Video Format</DLLDESCRIBE>
+        </ENCODE_5>
+        <ENCODE_6>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IntelMedia.dll</DLLNAME>
+          <FOURCC DWORD="">'3SPI'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(Intel Media) Video Format</DLLDESCRIBE>
+        </ENCODE_6>
+        <ENCODE_7>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IntelMedia.dll</DLLNAME>
+          <FOURCC DWORD="">'2PMI'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 H.264(Intel Media) Video Format</DLLDESCRIBE>
+        </ENCODE_7>
+      </WP_INTELMEDIA>
+      <WP_IPPCODEC>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'V2PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-2 Video</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'v2pm'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-2 Video</DLLDESCRIBE>
+        </ENCODE_2>
+        <ENCODE_3>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'2PMM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-2 Video</DLLDESCRIBE>
+        </ENCODE_3>
+        <ENCODE_4>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'2PMH'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-2 Video</DLLDESCRIBE>
+        </ENCODE_4>
+        <ENCODE_5>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'XVID'</FOURCC>
+          <DLLDESCRIBE CHAR="">DIVX Video Format</DLLDESCRIBE>
+        </ENCODE_5>
+        <ENCODE_6>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'V4PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Format</DLLDESCRIBE>
+        </ENCODE_6>
+        <ENCODE_7>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'V4MP'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Format For PSP</DLLDESCRIBE>
+        </ENCODE_7>
+        <ENCODE_8>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'V4MI'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Format For IPOD</DLLDESCRIBE>
+        </ENCODE_8>
+        <ENCODE_9>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'V4MH'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Format For PS3</DLLDESCRIBE>
+        </ENCODE_9>
+        <ENCODE_10>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'V4MV'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Format For Apple TV</DLLDESCRIBE>
+        </ENCODE_10>
+        <ENCODE_11>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'PG4M'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP4 VIDEO For 3GP</DLLDESCRIBE>
+        </ENCODE_11>
+        <ENCODE_12>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'NOPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Format For IPhone</DLLDESCRIBE>
+        </ENCODE_12>
+        <ENCODE_13>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'NAPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG4 Video Format</DLLDESCRIBE>
+        </ENCODE_13>
+      </WP_IPPCODEC>
+      <WP_MP3>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp3.dll</DLLNAME>
+          <FOURCC DWORD="">' 3PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG1 Layer-3 Audio</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_MP3>
+      <WP_OGG>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ogg.dll</DLLNAME>
+          <FOURCC DWORD="">' GGO'</FOURCC>
+          <DLLDESCRIBE CHAR="">Ogg Vorbis</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_OGG>
+      <WP_PCM>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_pcm.dll</DLLNAME>
+          <FOURCC DWORD="">' war'</FOURCC>
+          <DLLDESCRIBE CHAR="">pcm u8 auddio codec</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_pcm.dll</DLLNAME>
+          <FOURCC DWORD="">'42ni'</FOURCC>
+          <DLLDESCRIBE CHAR="">signed 24-bit big-endian PCM</DLLDESCRIBE>
+        </ENCODE_2>
+      </WP_PCM>
+      <WP_RGB565>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_RGB565.dll</DLLNAME>
+          <FOURCC DWORD="">' 565'</FOURCC>
+          <DLLDESCRIBE CHAR="">RGB565 no compress</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_RGB565>
+      <WP_SCOPY>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_scopy.dll</DLLNAME>
+          <FOURCC DWORD="">'YPCS'</FOURCC>
+          <DLLDESCRIBE CHAR="">Lossless Copy</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_SCOPY>
+      <WP_VORBIS>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_Vorbis.dll</DLLNAME>
+          <FOURCC DWORD="">'SIBV'</FOURCC>
+          <DLLDESCRIBE CHAR="">Vorbis Audio</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_VORBIS>
+      <WP_VP8>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_vp8.dll</DLLNAME>
+          <FOURCC DWORD="">' 8PV'</FOURCC>
+          <DLLDESCRIBE CHAR="">VP8 Video Format</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_VP8>
+      <WP_WAV>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_wav.dll</DLLNAME>
+          <FOURCC DWORD="">' MCP'</FOURCC>
+          <DLLDESCRIBE CHAR="">Pulse Code Modulation</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_WAV>
+      <WP_VC1>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_vc1.dll</DLLNAME>
+          <FOURCC DWORD="">'1CVH'</FOURCC>
+          <DLLDESCRIBE CHAR="">VC-1 Video Format</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_VC1>
+      <WP_WMV>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_wmv.dll</DLLNAME>
+          <FOURCC DWORD="">'8AMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">Windows media audio 8</DLLDESCRIBE>
+        </ENCODE_1>
+        <ENCODE_2>
+          <ENCMEDIATYPE CHAR="">ENC_AUDIO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_wmv.dll</DLLNAME>
+          <FOURCC DWORD="">'9AMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">Windows media audio 9</DLLDESCRIBE>
+        </ENCODE_2>
+      </WP_WMV>
+      <wp_XVID>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4v.dll</DLLNAME>
+          <FOURCC DWORD="">'divX'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 video codec</DLLDESCRIBE>
+        </ENCODE_1>
+      </wp_XVID>
+      <WP_WAAC>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_waac.dll</DLLNAME>
+          <FOURCC DWORD="">'CAAW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WIN SYSTEM AAC Encoder</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_WAAC>
+      <WP_W264>
+        <ENCODE_1>
+          <ENCMEDIATYPE CHAR="">ENC_VIDEO_TYPE</ENCMEDIATYPE>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_w264.dll</DLLNAME>
+          <FOURCC DWORD="">'462W'</FOURCC>
+          <DLLDESCRIBE CHAR="">WIN SYSTEM H264 Encoder</DLLDESCRIBE>
+        </ENCODE_1>
+      </WP_W264>
+    </ENCODESYS>
+  </FILEENCODEDLL>
+  <FILEMUXDLL>
+    <MUXSYS>
+      <WP_AAC>
+        <MUX_1>
+          <EXTNAME CHAR="">.aac</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_aac.dll</DLLNAME>
+          <FOURCC DWORD="">' CAA'</FOURCC>
+          <DLLDESCRIBE CHAR="">AAC Music File</DLLDESCRIBE>
+        </MUX_1>
+      </WP_AAC>
+      <WP_AC3>
+        <MUX_1>
+          <EXTNAME CHAR="">.ac3</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ac3.dll</DLLNAME>
+          <FOURCC DWORD="">' 3ca'</FOURCC>
+          <DLLDESCRIBE CHAR="">AC-3 Audio File</DLLDESCRIBE>
+        </MUX_1>
+      </WP_AC3>
+      <WP_APE>
+        <MUX_1>
+          <EXTNAME CHAR="">.ape</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ape.dll</DLLNAME>
+          <FOURCC DWORD="">' EPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">Monkey's Audio</DLLDESCRIBE>
+        </MUX_1>
+      </WP_APE>
+      <WP_DPG>
+        <MUX_1>
+          <EXTNAME CHAR="">.dpg</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_dpg.dll</DLLNAME>
+          <FOURCC DWORD="">' GPD'</FOURCC>
+          <DLLDESCRIBE CHAR="">DPG File</DLLDESCRIBE>
+        </MUX_1>
+      </WP_DPG>
+      <WP_ATI>
+        <MUX_1>
+          <EXTNAME CHAR="">.wmv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ATI.dll</DLLNAME>
+          <FOURCC DWORD="">'FAFA'</FOURCC>
+          <DLLDESCRIBE CHAR="">ATI WMV FILE FORMAT</DLLDESCRIBE>
+        </MUX_1>
+      </WP_ATI>
+      <WP_AVI>
+        <MUX_1>
+          <EXTNAME CHAR="">.avi</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_avi.dll</DLLNAME>
+          <FOURCC DWORD="">'IVAZ'</FOURCC>
+          <DLLDESCRIBE CHAR="">Zen Avi</DLLDESCRIBE>
+        </MUX_1>
+      </WP_AVI>
+      <WP_CODECS>
+        <MUX_1>
+          <EXTNAME CHAR="">.au</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'  UA'</FOURCC>
+          <DLLDESCRIBE CHAR="">SUN AU Format</DLLDESCRIBE>
+        </MUX_1>
+        <MUX_2>
+          <EXTNAME CHAR="">.flv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">' vlf'</FOURCC>
+          <DLLDESCRIBE CHAR="">FLV format</DLLDESCRIBE>
+        </MUX_2>
+        <MUX_3>
+          <EXTNAME CHAR="">.avi</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'IVAW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WII AVI (MJPEG)</DLLDESCRIBE>
+        </MUX_3>
+        <MUX_4>
+          <EXTNAME CHAR="">.avi</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'IVAH'</FOURCC>
+          <DLLDESCRIBE CHAR="">Audio Video Interleaved(H.263)</DLLDESCRIBE>
+        </MUX_4>
+        <MUX_5>
+          <EXTNAME CHAR="">.avi</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'IVAX'</FOURCC>
+          <DLLDESCRIBE CHAR="">Audio Video Interleaved (Xvid)</DLLDESCRIBE>
+        </MUX_5>
+        <MUX_6>
+          <EXTNAME CHAR="">.avi</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'IVAM'</FOURCC>
+          <DLLDESCRIBE CHAR="">Audio Video Interleaved (Mpeg)</DLLDESCRIBE>
+        </MUX_6>
+        <MUX_7>
+          <EXTNAME CHAR="">.asf</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">' fsa'</FOURCC>
+          <DLLDESCRIBE CHAR="">Advanced Systems Format</DLLDESCRIBE>
+        </MUX_7>
+        <MUX_8>
+          <EXTNAME CHAR="">.swf</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'2mva'</FOURCC>
+          <DLLDESCRIBE CHAR="">Flash 9 (AVM2) format</DLLDESCRIBE>
+        </MUX_8>
+        <MUX_9>
+          <EXTNAME CHAR="">.dv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'  vd'</FOURCC>
+          <DLLDESCRIBE CHAR="">DV video format</DLLDESCRIBE>
+        </MUX_9>
+        <MUX_10>
+          <EXTNAME CHAR="">.trp</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'PRTN'</FOURCC>
+          <DLLDESCRIBE CHAR="">Trp File Format</DLLDESCRIBE>
+        </MUX_10>
+        <MUX_11>
+          <EXTNAME CHAR="">.ts</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">' STN'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-2 transport stream format</DLLDESCRIBE>
+        </MUX_11>
+        <MUX_12>
+          <EXTNAME CHAR="">.gif</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">' fig'</FOURCC>
+          <DLLDESCRIBE CHAR="">GIF Animation</DLLDESCRIBE>
+        </MUX_12>
+        <MUX_13>
+          <EXTNAME CHAR="">.aiff</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'ffia'</FOURCC>
+          <DLLDESCRIBE CHAR="">Audio IFF</DLLDESCRIBE>
+        </MUX_13>
+        <MUX_14>
+          <EXTNAME CHAR="">.flac</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'calf'</FOURCC>
+          <DLLDESCRIBE CHAR="">raw FLAC</DLLDESCRIBE>
+        </MUX_14>
+        <MUX_15>
+          <EXTNAME CHAR="">.mpa</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'A2PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG Audio File</DLLDESCRIBE>
+        </MUX_15>
+        <MUX_16>
+          <EXTNAME CHAR="">.mpv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">' VPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG Video File</DLLDESCRIBE>
+        </MUX_16>
+        <MUX_17>
+          <EXTNAME CHAR="">.mpg</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'2gpm'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-2 Program File</DLLDESCRIBE>
+        </MUX_17>
+        <MUX_18>
+          <EXTNAME CHAR="">.mpg</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'2GPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-2 Program File(Video Free Size)</DLLDESCRIBE>
+        </MUX_18>
+        <MUX_19>
+          <EXTNAME CHAR="">.ts</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'  ST'</FOURCC>
+          <DLLDESCRIBE CHAR="">ts File</DLLDESCRIBE>
+        </MUX_19>
+        <MUX_20>
+          <EXTNAME CHAR="">.trp</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">' PRT'</FOURCC>
+          <DLLDESCRIBE CHAR="">Trp File</DLLDESCRIBE>
+        </MUX_20>
+        <MUX_21>
+          <EXTNAME CHAR="">.mpg</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'1gpm'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-1 System File</DLLDESCRIBE>
+        </MUX_21>
+        <MUX_22>
+          <EXTNAME CHAR="">.mpg</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecs.dll</DLLNAME>
+          <FOURCC DWORD="">'1GPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-1 System File( Video Free Size)</DLLDESCRIBE>
+        </MUX_22>
+      </WP_CODECS>
+      <WP_CODECSEX>
+        <MUX_1>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'4PML'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_1>
+        <MUX_2>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'4PLL'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_2>
+        <MUX_3>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'VOML'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_3>
+        <MUX_4>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'V4ML'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_4>
+        <MUX_5>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'3SPL'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_5>
+        <MUX_6>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'NAPL'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_6>
+        <MUX_7>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'NOPL'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_7>
+        <MUX_8>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'DOPL'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_8>
+        <MUX_9>
+          <EXTNAME CHAR="">.ts</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'1STT'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_9>
+        <MUX_10>
+          <EXTNAME CHAR="">.ts</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsEx.dll</DLLNAME>
+          <FOURCC DWORD="">'2STT'</FOURCC>
+          <DLLDESCRIBE CHAR=""></DLLDESCRIBE>
+        </MUX_10>
+        <MUX_11>
+          <EXTNAME CHAR="">.mkv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsex.dll</DLLNAME>
+          <FOURCC DWORD="">'VKMK'</FOURCC>
+          <DLLDESCRIBE CHAR="">mkv for 4K</DLLDESCRIBE>
+        </MUX_11>
+        <MUX_12>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsex.dll</DLLNAME>
+          <FOURCC DWORD="">'4PMK'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP4 for 4K</DLLDESCRIBE>
+        </MUX_12>
+        <MUX_13>
+          <EXTNAME CHAR="">.mkv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsex.dll</DLLNAME>
+          <FOURCC DWORD="">'VKMK'</FOURCC>
+          <DLLDESCRIBE CHAR="">MKV File</DLLDESCRIBE>
+        </MUX_13>
+        <MUX_14>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsex.dll</DLLNAME>
+          <FOURCC DWORD="">'4PMK'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_14>
+        <MUX_15>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsex.dll</DLLNAME>
+          <FOURCC DWORD="">'VOMK'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_15>
+        <MUX_16>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_codecsex.dll</DLLNAME>
+          <FOURCC DWORD="">'4PMC'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_16>
+      </WP_CODECSEX>
+      <WP_MKV>
+        <MUX_1>
+          <EXTNAME CHAR="">.mkv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mkv.dll</DLLNAME>
+          <FOURCC DWORD="">' VKM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MKV File</DLLDESCRIBE>
+        </MUX_1>
+        <MUX_2>
+          <EXTNAME CHAR="">.mkv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mkv.dll</DLLNAME>
+          <FOURCC DWORD="">'VKMH'</FOURCC>
+          <DLLDESCRIBE CHAR="">MKV File</DLLDESCRIBE>
+        </MUX_2>
+        <MUX_3>
+          <EXTNAME CHAR="">.mka</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mkv.dll</DLLNAME>
+          <FOURCC DWORD="">' AKM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MKA File</DLLDESCRIBE>
+        </MUX_3>
+        <MUX_4>
+          <EXTNAME CHAR="">.webm</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mkv.dll</DLLNAME>
+          <FOURCC DWORD="">'MBEW'</FOURCC>
+          <DLLDESCRIBE CHAR="">WEBM File</DLLDESCRIBE>
+        </MUX_4>
+      </WP_MKV>
+      <WP_MP3>
+        <MUX_1>
+          <EXTNAME CHAR="">.mp3</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp3.dll</DLLNAME>
+          <FOURCC DWORD="">' 3PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP3 Music File</DLLDESCRIBE>
+        </MUX_1>
+      </WP_MP3>
+      <WP_IPPCODEC>
+        <MUX_1>
+          <EXTNAME CHAR="">.trp</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">'1PRT'</FOURCC>
+          <DLLDESCRIBE CHAR="">TRP File</DLLDESCRIBE>
+        </MUX_1>
+        <MUX_2>
+          <EXTNAME CHAR="">.ts</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_IPPCodec.dll</DLLNAME>
+          <FOURCC DWORD="">' 1ST'</FOURCC>
+          <DLLDESCRIBE CHAR="">TS File</DLLDESCRIBE>
+        </MUX_2>
+      </WP_IPPCODEC>
+      <WP_MP4>
+        <MUX_1>
+          <EXTNAME CHAR="">.3gp</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' PG3'</FOURCC>
+          <DLLDESCRIBE CHAR="">3rd Generation Partnership Project</DLLDESCRIBE>
+        </MUX_1>
+        <MUX_2>
+          <EXTNAME CHAR="">.3g2</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'2PG3'</FOURCC>
+          <DLLDESCRIBE CHAR="">3rd Generation Partnership Project 2</DLLDESCRIBE>
+        </MUX_2>
+        <MUX_3>
+          <EXTNAME CHAR="">.3g2</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'IDDK'</FOURCC>
+          <DLLDESCRIBE CHAR="">3rd Generation Partnership Project 2</DLLDESCRIBE>
+        </MUX_3>
+        <MUX_4>
+          <EXTNAME CHAR="">.3gp</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'HPG3'</FOURCC>
+          <DLLDESCRIBE CHAR="">H263 3GP video</DLLDESCRIBE>
+        </MUX_4>
+        <MUX_5>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' 4PM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_5>
+        <MUX_6>
+          <EXTNAME CHAR="">.f4v</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'V4FN'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_6>
+        <MUX_7>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'4PMN'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_7>
+        <MUX_8>
+          <EXTNAME CHAR="">.m4a</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' A4M'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_8>
+        <MUX_9>
+          <EXTNAME CHAR="">.m4v</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' V4M'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Video(Video only)</DLLDESCRIBE>
+        </MUX_9>
+        <MUX_10>
+          <EXTNAME CHAR="">.mov</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' VOM'</FOURCC>
+          <DLLDESCRIBE CHAR="">Apple QuickTime</DLLDESCRIBE>
+        </MUX_10>
+        <MUX_11>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' CVA'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP4 AVC</DLLDESCRIBE>
+        </MUX_11>
+        <MUX_12>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'diVx'</FOURCC>
+          <DLLDESCRIBE CHAR="">xVid Movie</DLLDESCRIBE>
+        </MUX_12>
+        <MUX_13>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' 3SP'</FOURCC>
+          <DLLDESCRIBE CHAR="">PS3 MP4 H.264/AVC Video</DLLDESCRIBE>
+        </MUX_13>
+        <MUX_14>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' PSP'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP4 For PSP</DLLDESCRIBE>
+        </MUX_14>
+        <MUX_15>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'DOPI'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP4 For IPOD</DLLDESCRIBE>
+        </MUX_15>
+        <MUX_16>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'3SPM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP4 For PS3</DLLDESCRIBE>
+        </MUX_16>
+        <MUX_17>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'VTPA'</FOURCC>
+          <DLLDESCRIBE CHAR="">MP4 For Apple TV</DLLDESCRIBE>
+        </MUX_17>
+        <MUX_18>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'4PMM'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_18>
+        <MUX_19>
+          <EXTNAME CHAR="">.f4v</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">' V4F'</FOURCC>
+          <DLLDESCRIBE CHAR="">MPEG-4 Movie</DLLDESCRIBE>
+        </MUX_19>
+        <MUX_20>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'NOPI'</FOURCC>
+          <DLLDESCRIBE CHAR="">iPhone</DLLDESCRIBE>
+        </MUX_20>
+        <MUX_21>
+          <EXTNAME CHAR="">.mp4</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_mp4.dll</DLLNAME>
+          <FOURCC DWORD="">'NAPI'</FOURCC>
+          <DLLDESCRIBE CHAR="">iPhone</DLLDESCRIBE>
+        </MUX_21>
+      </WP_MP4>
+      <WP_OGG>
+        <MUX_1>
+          <EXTNAME CHAR="">.ogg</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_ogg.dll</DLLNAME>
+          <FOURCC DWORD="">' GGO'</FOURCC>
+          <DLLDESCRIBE CHAR="">OGG</DLLDESCRIBE>
+        </MUX_1>
+      </WP_OGG>
+      <WP_TAVI>
+        <MUX_1>
+          <EXTNAME CHAR="">.avi</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_tavi.dll</DLLNAME>
+          <FOURCC DWORD="">' IVA'</FOURCC>
+          <DLLDESCRIBE CHAR="">Audio Video Interleaved</DLLDESCRIBE>
+        </MUX_1>
+        <MUX_2>
+          <EXTNAME CHAR="">.avi</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_tavi.dll</DLLNAME>
+          <FOURCC DWORD="">'IVAG'</FOURCC>
+          <DLLDESCRIBE CHAR="">High Definition Audio Video Interleaved</DLLDESCRIBE>
+        </MUX_2>
+      </WP_TAVI>
+      <WP_WAV>
+        <MUX_1>
+          <EXTNAME CHAR="">.wav</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_wav.dll</DLLNAME>
+          <FOURCC DWORD="">' VAW'</FOURCC>
+          <DLLDESCRIBE CHAR="">Waveform Audio</DLLDESCRIBE>
+        </MUX_1>
+      </WP_WAV>
+      <WP_WMV>
+        <MUX_1>
+          <EXTNAME CHAR="">.wmv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_wmv.dll</DLLNAME>
+          <FOURCC DWORD="">' VMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">Windows Media Video</DLLDESCRIBE>
+        </MUX_1>
+        <MUX_2>
+          <EXTNAME CHAR="">.wmv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_wmv.dll</DLLNAME>
+          <FOURCC DWORD="">'VMWI'</FOURCC>
+          <DLLDESCRIBE CHAR="">Windows Media Video(iRiver)</DLLDESCRIBE>
+        </MUX_2>
+        <MUX_3>
+          <EXTNAME CHAR="">.wma</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_wmv.dll</DLLNAME>
+          <FOURCC DWORD="">' AMW'</FOURCC>
+          <DLLDESCRIBE CHAR="">Windows Media Audio</DLLDESCRIBE>
+        </MUX_3>
+        <MUX_4>
+          <EXTNAME CHAR="">.wmv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_wmv.dll</DLLNAME>
+          <FOURCC DWORD="">'VMWT'</FOURCC>
+          <DLLDESCRIBE CHAR="">Windows Media Video(Time Stamp)</DLLDESCRIBE>
+        </MUX_4>
+      </WP_WMV>
+      <wp_WinMuxer>
+        <MUX_1>
+          <EXTNAME CHAR="">.wmv</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_WinMuxer.dll</DLLNAME>
+          <FOURCC DWORD="">'VMWW'</FOURCC>
+          <DLLDESCRIBE CHAR="">Windows Media Video</DLLDESCRIBE>
+        </MUX_1>
+        <MUX_2>
+          <EXTNAME CHAR="">.wma</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_WinMuxer.dll</DLLNAME>
+          <FOURCC DWORD="">'AMWW'</FOURCC>
+          <DLLDESCRIBE CHAR="">Windows Media Audio</DLLDESCRIBE>
+        </MUX_2>
+      </wp_WinMuxer>
+      <WP_SCOPY>
+        <MUX_1>
+          <EXTNAME CHAR="">.vob</EXTNAME>
+          <PRIORITY INT="">1</PRIORITY>
+          <DLLNAME CHAR="">wp_scopy.dll</DLLNAME>
+          <FOURCC DWORD="">'YPOC'</FOURCC>
+          <DLLDESCRIBE CHAR="">Lossless Copy</DLLDESCRIBE>
+        </MUX_1>
+      </WP_SCOPY>
+    </MUXSYS>
+  </FILEMUXDLL>
+  <FILLOSSFORCCMAP>
+    <INPUTFORCCMAP>
+      <H264 CHAR="">'462H',' CVA'</H264>
+      <MPG4 CHAR="">'V4PM','v4pm','4PMF','24PM','4GPM'</MPG4>
+      <DIVX CHAR="">'XVID','05XD'</DIVX>
+      <XVID CHAR="">'DIVX'</XVID>
+      <AAC CHAR="">' CAA','A4PM'</AAC>
+      <AC3 CHAR="">' 3CA'</AC3>
+      <MP3 CHAR="">'3APM','3pm'</MP3>
+      <PCM CHAR="">' MCP'</PCM>
+      <MP2 CHAR="">'2APM',' 2pm'</MP2>
+    </INPUTFORCCMAP>
+    <OUTPUTFORCCMAP>
+      <H264 CHAR="">'462H','462X','462h','462S','cvah','462M','CVAP','CVAI','H3SP','CVAH','CVAV','CVAF','NOPI','NAPI'</H264>
+      <MPG2 CHAR="">'V2PM','v2pm','2PMM','2PMH'</MPG2>
+      <MPG4 CHAR="">'V4PM','V4MP','V4MI','V4MH','V4MV','PG4M','NOPM','NAPM'</MPG4>
+      <XVID CHAR="">'divX'</XVID>
+      <DIVX CHAR="">'XVID'</DIVX>
+      <AAC CHAR="">' CAA','CAAM'</AAC>
+      <AC3 CHAR="">' 3CA'</AC3>
+      <MP3 CHAR="">' 3PM'</MP3>
+      <PCM CHAR="">' war','42ni'</PCM>
+      <MP2 CHAR="">'A2PM' '2APM'</MP2>
+    </OUTPUTFORCCMAP>
+    <LOSSTOHARDWARE>
+      <iphone5s>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">60</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </iphone5s>
+      <iphone5>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </iphone5>
+      <iphone4s>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </iphone4s>
+      <iphone4>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">77</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </iphone4>
+      <ipodtouch4>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">77</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </ipodtouch4>
+      <ipodtouch5>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">77</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </ipodtouch5>
+      <ipad>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">77</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </ipad>
+      <ipad2>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </ipad2>
+      <thenewipad>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </thenewipad>
+      <appletv>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">3072000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(960,540)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">12888000</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">5000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">41000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+          <AC3 CHAR="">
+            <Max_Sample_Rate INT="">44100</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AC3>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(960,574)-(1280,720)</Max_Resolution>
+            <Max_Frame INT="">24</Max_Frame>
+            <Max_Video_Bitrite INT="">12888000</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">5000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">41000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+          <AC3 CHAR="">
+            <Max_Sample_Rate INT="">44100</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AC3>
+        </MP4>
+      </appletv>
+      <appletv2>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">2</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">30000000</Average_Video_Bitrite>
+            <Max_Profile INT="">77</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AC3 CHAR="">
+            <Max_Sample_Rate INT="">44100</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AC3>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </appletv2>
+      <thenewappletv>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">30000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">40</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+          <AC3 CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AC3>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </thenewappletv>
+      <galaxys>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </galaxys>
+      <captivate>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </captivate>
+      <galaxytab>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </galaxytab>
+      <galaxysii>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </galaxysii>
+      <galaxysiii>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </galaxysiii>
+      <galaxynote>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </galaxynote>
+      <galaxynexus>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">15000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </galaxynexus>
+      <iphone13gs>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </iphone13gs>
+      <psp>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(720,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </psp>
+      <kindlefire>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">4000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </kindlefire>
+      <nexus7>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">4000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </nexus7>
+      <androidos>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1280,720)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">4000000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">51</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </androidos>
+      <ipodtouch13>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </ipodtouch13>
+      <ipodclassic>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </ipodclassic>
+      <ipodnano>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">66</Max_Profile>
+            <Max_level INT="">31</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </ipodnano>
+      <youtube>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">20000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </youtube>
+      <vimeo>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">20000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </vimeo>
+      <facebook>
+        <MP4>
+          <MPG4 CHAR="">
+            <Max_Resolution INT="">(640,480)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">2500000</Average_Video_Bitrite>
+            <Max_Profile INT="">NONE</Max_Profile>
+            <Max_level INT="">NONE</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </MPG4>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+        <MP4>
+          <H264 CHAR="">
+            <Max_Resolution INT="">(1920,1080)</Max_Resolution>
+            <Max_Frame INT="">30</Max_Frame>
+            <Max_Video_Bitrite INT="">NONE</Max_Video_Bitrite>
+            <Average_Video_Bitrite INT="">20000000</Average_Video_Bitrite>
+            <Max_Profile INT="">100</Max_Profile>
+            <Max_level INT="">41</Max_level>
+            <B-Frames INT="">NONE</B-Frames>
+            <progressive INT="">NONE</progressive>
+          </H264>
+          <AAC CHAR="">
+            <Max_Sample_Rate INT="">48000</Max_Sample_Rate>
+            <Max_Channel INT="">5</Max_Channel>
+            <Max_Audio_Bitrate INT="">160000</Max_Audio_Bitrate>
+          </AAC>
+        </MP4>
+      </facebook>
+    </LOSSTOHARDWARE>
+    <LOSSFORCCMAPSYS>
+      <ALL>
+        <MAP_INPUT>
+          <MPG4 CHAR=""></MPG4>
+          <DIVX CHAR="" />
+          <XVID CHAR="" />
+          <H264 CHAR=""></H264>
+          <AAC CHAR=""></AAC>
+          <AC3 CHAR=""></AC3>
+        </MAP_INPUT>
+        <MAP_OUTPUT>
+          <AVI>
+            <DIVX INT="" />
+            <XVID INT="" />
+            <H264 CHAR=""></H264>
+          </AVI>
+          <MP4>
+            <MPG4 INT="">AAC,AC3</MPG4>
+            <H264 CHAR="">AAC,AC3</H264>
+          </MP4>
+          <MOV>
+            <MPG4 INT="">AAC,AC3</MPG4>
+            <H264 CHAR="">AAC,AC3</H264>
+          </MOV>
+          <M4V>
+            <MPG4 INT="">AAC,AC3</MPG4>
+            <H264 CHAR="">AAC,AC3</H264>
+          </M4V>
+          <MKV>
+            <DIVX CHAR="" />
+            <XVID INT="" />
+            <H264 CHAR=""></H264>
+          </MKV>
+          <DIVX>
+            <DIVX CHAR="" />
+          </DIVX>
+          <XVID>
+            <XVID INT="" />
+          </XVID>
+        </MAP_OUTPUT>
+      </ALL>
+    </LOSSFORCCMAPSYS>
+  </FILLOSSFORCCMAP>
+  <DISPLAYCARDTYPE>
+    <NVIDIA>
+      <TESLA CHAR="">C2075,M2050,M2070,M2075,M2090,C2050,C2070,S1070,M1060,C1060,C870,S870,D870,k80,k40,k20,k10,</TESLA>
+      <QUADRO>
+        <FX CHAR="">5800,5600,4800,4700 X2,4600,3800M,3800,3700M,3700,3600M,2800M,2700M,1800M,1800,1700M,1700,1600M,880M,770M,580,570M,570,470,380M,380,370,360M,</FX>
+        <NVS CHAR="">450,420,320M,300,295,160M,150M,140M,135,130M,</NVS>
+        <PLEX CHAR="">7000,2200 D2,2100 D4,2100 S4,</PLEX>
+        <OTHER CHAR="">M6000,K6000,M5000,K5200,M4000,K4200,K4000,K2200,K2000,K2000D,K1200,K620,K600,K420,410,K6000M,K5200M,K5100M,K500M,K4200M,K4100M,K3100M,K2200M,K2100M,K1100M,K620M,K610M,K510M,M5010,5000,4000M,4000,3000M,2000M,2000,2000D,1000M,600,400,CX,6000,</OTHER>
+      </QUADRO>
+      <GEFORCE>
+        <GT CHAR="">740,730,720,705,640,630,620,610,520,440,430,750M,745M,740M,735M,730M,720M,650M,645M,640M,635M,630M,625M,620M,555M,550M,540M,525M,520MX,520M,485M,470M,460M,445M,435M,420M,415M,9800M,9800,9700M,9600M,9600,9500,9400,8800,8700M,8600M,8600,8500,8400M,420,340,335M,330M,330,325M,320,240M,240,230M,220,130,120,</GT>
+        <GTS CHAR="">450,9800M,8800M,8800,8600,360M,350M,260M,250M,250,150,</GTS>
+        <GTX CHAR="">TITIAN X,TITAN Z,TITAN BLACK,TITAN,980 TI,980,970,960,780 TI,780,770,760,750 TI,750,690,680,670,660 TI,660,650 TI,650,560 TI,550 TI,590,580,570,480,470,465,460,980,980M,970M,960M,950M,880M.870M,860M,850M,780M,770M,765M,760M,680MX,680M,675MX,675M,670M,670MX,660M,580M,570M,560M,485M,480M,470M,460M,9800M,9800,8800M,8800,450,295,285M,285,280M,280,275,260M,260,</GTX>
+        <G CHAR="">9500M,9300M,9100M,</G>
+        <GS CHAR="">9650M,9600M,9500M,9300M,9200M,8800,8600M,8400,8400M,8400,</GS>
+        <TS CHAR="">8800,</TS>
+        <GX2 CHAR="">9800,</GX2>
+        <GSO CHAR="">9600,</GSO>
+        <MGPU CHAR="">9400,9300,8300,8200,8100,</MGPU>
+        <ULTRA CHAR="">8800,</ULTRA>
+        <OTHER CHAR="">710M,410M,940M,930M,920M,910M,840M,830M,820M,800M,315,310,210,G100,610M,G210M,310M,305M,G210M,G110M,G105M,9400,9300,8300,8200,8100,</OTHER>
+      </GEFORCE>
+      <NVS CHAR="">510,315,310,5400M,5200M,5100M,4200M,3100M,2100M,450,420,315,300,295,</NVS>
+      <TEGRA CHAR="">X1,K1,TK1,</TEGRA>
+    </NVIDIA>
+    <AMD>
+      <MOBILITY>
+        <FIREPRO CHAR="">M7740,M7820,M5800,
+</FIREPRO>
+        <RADEON CHAR="">5870,5850,5830,5770,5750,5730,5650,5470,5450,5430,4870,4860,4850 X2,4850,4830,5800,5700,5600,5400,4800,4600,4500,4300,</RADEON>
+      </MOBILITY>
+      <RADEON>
+        <HD CHAR="">7970,7950,7900,7800,7870,7850,7790,7770,7750,6990,6970,6950,6870,6850,6790,6770,6750,6670,6570,6450,6xxxM,5970,5870,5850,5830,5770,5750,5670,5570,5450,4890,4870 X22,4870,4850 X2,4850,4830,4770,4670,4650,4550,4350,7900,7800,7700,6900,6800,6700,6600,6500,6400,5900,5800,5700,5600,5500,5400,4800,4700,4600,4500,4300,</HD>
+        <R5 CHAR="">230,200,300,</R5>
+        <R7 CHAR="">240,250X,260,260X,265,360,300,200,FURY,NANO,</R7>
+        <R9 CHAR="">200,270,270X,280,280X,285,290,290X,295X2,300,360,</R9>
+        <RX CHAR="">460,470,470D,480,</RX>
+      </RADEON>
+      <FIREPRO CHAR="">V8800,V8750,V8700,V7800,V7750,V5800,V5700,V4800,V3800,V3750,</FIREPRO>
+      <FIRESTREAM CHAR="">9270, 9250,</FIRESTREAM>
+      <APU CHAR="">A,E2,C,E,G,Z,A10,A6,A4,A8,</APU>
+    </AMD>
+    <INTEL>
+      <HD CHAR="">2000,3000,2500,4000,4400,4600,4200,530,510,5500,6000,5600,5300,515,405,400,P530,</HD>
+      <IRIS CHAR="">5200,6200,5100,6100,6200,P580,</IRIS>
+      <CORE CHAR="">I3,I5,I7,M-,M3,M5,M7,</CORE>
+    </INTEL>
+  </DISPLAYCARDTYPE>
+</Wondershare_XML>

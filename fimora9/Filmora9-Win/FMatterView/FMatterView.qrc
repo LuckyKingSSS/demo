@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/FMatterView">
+        <file>Resources/LeftArrow.png</file>
+        <file>Resources/RightArrow.png</file>
+        <file>Resources/Media.png</file>
+        <file>Resources/FMatterView.qss</file>
+        <file>Resources/AddFolder.png</file>
+        <file>Resources/DeleteFolder.png</file>
+        <file>Resources/ThumbnailSize.png</file>
+        <file>Resources/Sort.png</file>
+        <file>Resources/favorite_off.png</file>
+        <file>Resources/ALL.png</file>
+        <file>Resources/Audio.png</file>
+        <file>Resources/Image.png</file>
+        <file>Resources/Video.png</file>
+        <file>Resources/Import Files.png</file>
+        <file>Resources/Thumbnail.png</file>
+        <file>Resources/VideoThumbnail.png</file>
+        <file>Resources/ActionCamThumbnail.png</file>
+    </qresource>
+</RCC>

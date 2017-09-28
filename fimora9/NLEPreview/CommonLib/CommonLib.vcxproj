@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{40DC3FF9-639C-4F21-925C-B239AF607469}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_XML_LIB;COMMONLIB_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtXml;..\include;..\include\inc_CommonLib;$(QTDIR)\include\QtGui;$(SolutionDir)inc;$(SolutionDir)inc\include;$(SolutionDir)inc\Shared;$(SolutionDir)inc\Include\NLEPropComPtr;$(SolutionDir)inc\interface;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common;$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Xmld.lib;Qt5Guid.lib;Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(TargetName).lib $(SolutionDir)\alib\$(Platform)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_DLL;QT_CORE_LIB;QT_XML_LIB;COMMONLIB_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtXml;..\include;..\include\inc_CommonLib;$(QTDIR)\include\QtGui;$(SolutionDir)inc;$(SolutionDir)inc\include;$(SolutionDir)inc\Shared;$(SolutionDir)inc\Include\NLEPropComPtr;$(SolutionDir)inc\interface;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common;$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Xmld.lib;Qt5Guid.lib;Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(TargetName).lib $(SolutionDir)\alib\$(Platform)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_XML_LIB;COMMONLIB_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtXml;..\include;..\include\inc_CommonLib;$(QTDIR)\include\QtGui;$(SolutionDir)inc;$(SolutionDir)inc\include;$(SolutionDir)inc\Shared;$(SolutionDir)inc\Include\NLEPropComPtr;$(SolutionDir)inc\interface;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common;$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).dll</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;Qt5Xml.lib;Qt5Gui.lib;Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(TargetName).lib $(SolutionDir)\alib\$(Platform)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_DLL;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_XML_LIB;COMMONLIB_LIB;QT_GUI_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtXml;..\include;..\include\inc_CommonLib;$(QTDIR)\include\QtGui;$(SolutionDir)inc;$(SolutionDir)inc\include;$(SolutionDir)inc\Shared;$(SolutionDir)inc\Include\NLEPropComPtr;$(SolutionDir)inc\interface;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common;$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type;$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;Qt5Xml.lib;Qt5Gui.lib;Qt5Widgets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(OutDir)$(TargetName).lib $(SolutionDir)\alib\$(Platform)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseDialog.cpp" />
+    <ClCompile Include="ColorSelecterComboBox.cpp" />
+    <ClCompile Include="CommonWidgets.cpp" />
+    <ClCompile Include="DesktopMgr.cpp" />
+    <ClCompile Include="DragValueChangedHelper.cpp" />
+    <ClCompile Include="externalapi.cpp" />
+    <ClCompile Include="FileOperation.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BaseDialog.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ColorSelecterComboBox.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ColorSelecterComboBox_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CommonWidgets.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DesktopMgr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DragValueChangedHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DragValueChangedHelper_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageTextButton.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NLEBaseWidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NLETimeline.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NLEWraper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NLEWraperPrivate.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PlayerMaterProvider.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PlayerMaterProviderPrivate.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TimelineRuler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_timelineviewruler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TopLevelWindowTitleBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TopLevelWindowTitleBar_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_CommonLib.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BaseDialog.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ColorSelecterComboBox.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ColorSelecterComboBox_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CommonWidgets.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DesktopMgr.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DragValueChangedHelper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DragValueChangedHelper_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageTextButton.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NLEBaseWidget.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NLETimeline.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NLEWraper.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NLEWraperPrivate.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PlayerMaterProvider.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PlayerMaterProviderPrivate.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TimelineRuler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_timelineviewruler.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TopLevelWindowTitleBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TopLevelWindowTitleBar_p.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GlobalResources.cpp" />
+    <ClCompile Include="ImageTextButton.cpp" />
+    <ClCompile Include="NLEBaseWidget.cpp" />
+    <ClCompile Include="NLEWraper\NLETimeline.cpp" />
+    <ClCompile Include="NLEWraper\NLEWraper.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="NLEWraper\NLEWraperPrivate.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="NLEWraper\PlayerMaterProvider.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="NLEWraper\PlayerMaterProviderPrivate.cpp" />
+    <ClCompile Include="NLEWraper\WSCreateInstance.cpp" />
+    <ClCompile Include="PathOperation.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RegexOperation.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="RenderOperation.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="StringOperation.cpp" />
+    <ClCompile Include="timelineviewruler.cpp" />
+    <ClCompile Include="TopLevelWindowTitleBar_p.cpp" />
+    <ClCompile Include="XmlOperation.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="TopLevelWindowTitleBar_p.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing TopLevelWindowTitleBar_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing TopLevelWindowTitleBar_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing TopLevelWindowTitleBar_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing TopLevelWindowTitleBar_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\BaseDialog.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing BaseDialog.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing BaseDialog.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing BaseDialog.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing BaseDialog.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\ColorSelecterComboBox.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing ColorSelecterComboBox.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing ColorSelecterComboBox.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing ColorSelecterComboBox.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath);$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing ColorSelecterComboBox.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <ClInclude Include="..\include\inc_CommonLib\commonlib_global.h" />
+    <CustomBuild Include="timelineviewruler.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing timelineviewruler.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing timelineviewruler.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing timelineviewruler.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing timelineviewruler.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\CommonWidgets.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing CommonWidgets.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing CommonWidgets.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing CommonWidgets.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing CommonWidgets.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\DesktopMgr.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing DesktopMgr.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing DesktopMgr.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing DesktopMgr.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing DesktopMgr.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\DragValueChangedHelper.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing DragValueChangedHelper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing DragValueChangedHelper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing DragValueChangedHelper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing DragValueChangedHelper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="..\include\inc_CommonLib\externalapi.h" />
+    <ClInclude Include="..\include\inc_CommonLib\FileOperation.h" />
+    <CustomBuild Include="..\include\inc_CommonLib\NLEBaseWidget.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing NLEBaseWidget.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing NLEBaseWidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing NLEBaseWidget.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing NLEBaseWidget.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\TimelineRuler.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing TimelineRuler.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing TimelineRuler.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing TimelineRuler.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing TimelineRuler.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\GlobalResources.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\ImageTextButton.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing ImageTextButton.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing ImageTextButton.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing ImageTextButton.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing ImageTextButton.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\NLEWraper.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing NLEWraper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing NLEWraper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing NLEWraper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing NLEWraper.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\PlayerMaterProvider.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing PlayerMaterProvider.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing PlayerMaterProvider.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing PlayerMaterProvider.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing PlayerMaterProvider.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_CommonLib\NLETimeline.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing NLETimeline.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing NLETimeline.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing NLETimeline.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing NLETimeline.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <ClInclude Include="..\include\inc_CommonLib\StringOperation.h" />
+    <CustomBuild Include="..\include\inc_CommonLib\TopLevelWindowTitleBar.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing TopLevelWindowTitleBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing TopLevelWindowTitleBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing TopLevelWindowTitleBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing TopLevelWindowTitleBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <CustomBuild Include="GlobalResources_p.h">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </Command>
+    </CustomBuild>
+    <CustomBuild Include="DragValueChangedHelper_p.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing DragValueChangedHelper_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing DragValueChangedHelper_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing DragValueChangedHelper_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing DragValueChangedHelper_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <CustomBuild Include="ColorSelecterComboBox_p.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing ColorSelecterComboBox_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing ColorSelecterComboBox_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing ColorSelecterComboBox_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing ColorSelecterComboBox_p.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Encoder"</Command>
+    </CustomBuild>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <CustomBuild Include="NLEWraper\PlayerMaterProviderPrivate.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing PlayerMaterProviderPrivate.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing PlayerMaterProviderPrivate.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing PlayerMaterProviderPrivate.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing PlayerMaterProviderPrivate.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+    </CustomBuild>
+    <CustomBuild Include="NLEWraper\NLEWraperPrivate.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing NLEWraperPrivate.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing NLEWraperPrivate.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-fstdafx.h" "-f../../NLEWraper/NLEWraperPrivate.h"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I.\..\include" "-I.\..\include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\Shared" "-I$(SolutionDir)inc\Include\NLEPropComPtr" "-I$(SolutionDir)inc\interface" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\COM" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\InterfaceBase\C++\Common" "-I$(SolutionDir)inc\Externlib\MultiMediaSDK\Interface\C++\Type" "-fstdafx.h" "-f../../NLEWraper/NLEWraperPrivate.h"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Moc%27ing NLEWraperPrivate.h...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing NLEWraperPrivate.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -DWIN32 -DWIN64 -DQT_DLL -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DCOMMONLIB_LIB -DQT_GUI_LIB -D_WINDLL  "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(SolutionDir)include\inc_CommonLib" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)inc" "-I$(SolutionDir)include" "-I$(SolutionDir)inc\Type" "-I$(SolutionDir)inc\include" "-I$(SolutionDir)inc\interface"</Command>
+    </CustomBuild>
+    <ClInclude Include="..\include\inc_CommonLib\PathOperation.h" />
+    <ClInclude Include="..\include\inc_CommonLib\RegexOperation.h" />
+    <ClInclude Include="..\include\inc_CommonLib\RenderOperation.h" />
+    <ClInclude Include="..\include\inc_CommonLib\XmlOperation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CommonLib.qrc">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(FullPath);%(AdditionalInputs)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Rcc%27ing %(Identity)...</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Rcc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\qrc_%(Filename).cpp;%(Outputs)</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\rcc.exe" -name "%(Filename)" -no-compress "%(FullPath)" -o .\GeneratedFiles\qrc_%(Filename).cpp</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_Win32="$(DefaultQtVersion)" Qt5Version_x0020_x64="$(DefaultQtVersion)" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

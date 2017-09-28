@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/MediaPlayerView">
+        <file>Resources/normal/Backward_d.png</file>
+        <file>Resources/normal/Backward_h.png</file>
+        <file>Resources/normal/Backward_n.png</file>
+        <file>Resources/normal/Forward_d.png</file>
+        <file>Resources/normal/Forward_h.png</file>
+        <file>Resources/normal/Forward_n.png</file>
+        <file>Resources/normal/FullScreen_d.png</file>
+        <file>Resources/normal/FullScreen_h.png</file>
+        <file>Resources/normal/FullScreen_n.png</file>
+        <file>Resources/normal/Pause_d.png</file>
+        <file>Resources/normal/Pause_h.png</file>
+        <file>Resources/normal/Pause_n.png</file>
+        <file>Resources/normal/Play_d.png</file>
+        <file>Resources/normal/Play_h.png</file>
+        <file>Resources/normal/Play_n.png</file>
+        <file>Resources/normal/RecordVoice_d.png</file>
+        <file>Resources/normal/RecordVoice_h.png</file>
+        <file>Resources/normal/RecordVoice_n.png</file>
+        <file>Resources/normal/SnapShot_d.png</file>
+        <file>Resources/normal/SnapShot_h.png</file>
+        <file>Resources/normal/SnapShot_n.png</file>
+        <file>Resources/normal/Stop_d.png</file>
+        <file>Resources/normal/Stop_h.png</file>
+        <file>Resources/normal/Stop_n.png</file>
+        <file>Resources/normal/Volume_d.png</file>
+        <file>Resources/normal/Volume_h.png</file>
+        <file>Resources/normal/Volume_n.png</file>
+        <file>Resources/normal/RestoreFullScreen_d.png</file>
+        <file>Resources/normal/RestoreFullScreen_h.png</file>
+        <file>Resources/normal/RestoreFullScreen_n.png</file>
+        <file>Resources/styles.qss</file>
+    </qresource>
+</RCC>

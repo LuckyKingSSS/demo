@@ -1,0 +1,12 @@
+#ifndef MKCOLLECTER_GLOBAL_H
+#define MKCOLLECTER_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef MKCOLLECTER_LIB
+# define MKCOLLECTER_EXPORT Q_DECL_EXPORT
+#else
+# define MKCOLLECTER_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // MKCOLLECTER_GLOBAL_H

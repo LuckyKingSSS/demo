@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/FTimelineView">
+        <file>Resources/Resources/light/redo_d.png</file>
+        <file>Resources/Resources/light/redo_h.png</file>
+        <file>Resources/Resources/light/redo_n.png</file>
+        <file>Resources/Resources/light/split_d.png</file>
+        <file>Resources/Resources/light/split_h.png</file>
+        <file>Resources/Resources/light/split_n.png</file>
+        <file>Resources/Resources/light/undo_d.png</file>
+        <file>Resources/Resources/light/undo_h.png</file>
+        <file>Resources/Resources/light/undo_n.png</file>
+        <file>Resources/Resources/styles_light.qss</file>
+    </qresource>
+</RCC>

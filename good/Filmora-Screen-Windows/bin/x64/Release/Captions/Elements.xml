@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements>
+	<ElementArray>
+
+		<Element>
+			<GUID>{0FA15A0E-3B85-4104-9991-BCAEC177DA58}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 1</Alias>
+			<BackImage>Thumbnail/Arrow_01.png</BackImage>
+			<ResFile>ElementSource/Arrow_01.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{4F98DF9C-DD7A-44CD-A312-2BFA25D62A3D}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 2</Alias>
+			<BackImage>Thumbnail/Arrow_02.png</BackImage>
+			<ResFile>ElementSource/Arrow_02.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{09975B5F-278F-40A1-8DD6-ADF3273F483A}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 3</Alias>
+			<BackImage>Thumbnail/Arrow_03.png</BackImage>
+			<ResFile>ElementSource/Arrow_03.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{DFDDABA7-52FD-4758-A701-6A576FB8D229}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 04</Alias>
+			<BackImage>Thumbnail/Arrow_04.png</BackImage>
+			<ResFile>ElementSource/Arrow_04.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{C45A0666-F778-4085-A996-857A0E68DDFB}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 5</Alias>
+			<BackImage>Thumbnail/Arrow_05.png</BackImage>
+			<ResFile>ElementSource/Arrow_05.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{F00C9143-BFC2-47F6-860C-E48A2ED494D5}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 6</Alias>
+			<BackImage>Thumbnail/Arrow_06.png</BackImage>
+			<ResFile>ElementSource/Arrow_06.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{929414F8-9C55-46DE-9331-555CF21DB7C8}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 7</Alias>
+			<BackImage>Thumbnail/Arrow_07.png</BackImage>
+			<ResFile>ElementSource/Arrow_07.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{83D3EAD8-3AAA-4EA9-BB60-970C3402A65E}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 8</Alias>
+			<BackImage>Thumbnail/Arrow_08.png</BackImage>
+			<ResFile>ElementSource/Arrow_08.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{F6510079-CBA4-4CE3-A1B2-0E9972A999A6}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 9</Alias>
+			<BackImage>Thumbnail/Arrow_09.png</BackImage>
+			<ResFile>ElementSource/Arrow_09.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{2E9D5D9C-8BF3-49BB-A5AA-E1206DCBDC9C}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 10</Alias>
+			<BackImage>Thumbnail/Arrow_10.png</BackImage>
+			<ResFile>ElementSource/Arrow_10.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{834CD247-F9EF-4029-A2D3-A32D2C5A49E0}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 11</Alias>
+			<BackImage>Thumbnail/Arrow_11.png</BackImage>
+			<ResFile>ElementSource/Arrow_11.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{F36C0324-EC6C-4DF6-B1D8-FF143B2B53CF}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 12</Alias>
+			<BackImage>Thumbnail/Arrow_12.png</BackImage>
+			<ResFile>ElementSource/Arrow_12.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{74242F05-0BE4-4A2B-BDAE-BCAB8140C467}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 13</Alias>
+			<BackImage>Thumbnail/Arrow_13.png</BackImage>
+			<ResFile>ElementSource/Arrow_13.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{EC2B8C6A-BAFE-47AE-9226-9E0C20A9445E}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 14</Alias>
+			<BackImage>Thumbnail/Arrow_14.png</BackImage>
+			<ResFile>ElementSource/Arrow_14.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{D79DD59A-A2CB-4B10-9A74-0FACA20CB6C3}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 15</Alias>
+			<BackImage>Thumbnail/Arrow_15.png</BackImage>
+			<ResFile>ElementSource/Arrow_15.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{AA7F3667-BEE5-4A87-AAFC-4EA755D2F542}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 16</Alias>
+			<BackImage>Thumbnail/Arrow_16.png</BackImage>
+			<ResFile>ElementSource/Arrow_16.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{0FE781B5-4F8E-4D03-AFE0-D181A45C999C}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 17</Alias>
+			<BackImage>Thumbnail/Arrow_17.png</BackImage>
+			<ResFile>ElementSource/Arrow_17.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{576A19B7-8011-4DA8-82C5-1DE232891021}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 18</Alias>
+			<BackImage>Thumbnail/Arrow_18.png</BackImage>
+			<ResFile>ElementSource/Arrow_18.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{59A4FA6E-9411-40EF-B372-7257086CDA9A}</GUID>
+			<type>2</type>
+			<Category>2</Category>
+			<Alias>Arrow 19</Alias>
+			<BackImage>Thumbnail/Arrow_19.png</BackImage>
+			<ResFile>ElementSource/Arrow_19.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{F3C36C08-7C2D-4553-ADFE-05A93C40A0D4}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 1</Alias>
+			<BackImage>Thumbnail/Banner_01.png</BackImage>
+			<ResFile>ElementSource/Banner_01.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{E05DD4B4-DA6E-4D8E-B970-974CE56EEFF5}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 2</Alias>
+			<BackImage>Thumbnail/Banner_02.png</BackImage>
+			<ResFile>ElementSource/Banner_02.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{08326BDB-150C-41C0-9855-9C11D3F9301B}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 3</Alias>
+			<BackImage>Thumbnail/Banner_03.png</BackImage>
+			<ResFile>ElementSource/Banner_03.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{68707239-0347-4F31-9612-2BBB190D87E8}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 4</Alias>
+			<BackImage>Thumbnail/Banner_04.png</BackImage>
+			<ResFile>ElementSource/Banner_04.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{E8C26A91-2E36-4FBF-B457-7B80EF832D43}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 5</Alias>
+			<BackImage>Thumbnail/Banner_05.png</BackImage>
+			<ResFile>ElementSource/Banner_05.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{DB34F156-2282-4AC1-863C-4D235A614EF8}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 6</Alias>
+			<BackImage>Thumbnail/Banner_06.png</BackImage>
+			<ResFile>ElementSource/Banner_06.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{D7DB12F9-8330-4C7A-852C-87124C5A304C}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 7</Alias>
+			<BackImage>Thumbnail/Banner_07.png</BackImage>
+			<ResFile>ElementSource/Banner_07.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{D7FFC794-9321-4F5F-844D-CE432A2FB940}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 8</Alias>
+			<BackImage>Thumbnail/Banner_08.png</BackImage>
+			<ResFile>ElementSource/Banner_08.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{883F3BA7-7499-4EF1-814C-62800E256F84}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 9</Alias>
+			<BackImage>Thumbnail/Banner_09.png</BackImage>
+			<ResFile>ElementSource/Banner_09.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{23843600-4827-4526-80AE-512AF2DC3807}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 10</Alias>
+			<BackImage>Thumbnail/Banner_10.png</BackImage>
+			<ResFile>ElementSource/Banner_10.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{0899F36B-4713-4209-91E2-1480433F7CCE}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 11</Alias>
+			<BackImage>Thumbnail/Banner_11.png</BackImage>
+			<ResFile>ElementSource/Banner_11.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{EE4248F8-456D-4102-B60A-13B3F052A379}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Banner 12</Alias>
+			<BackImage>Thumbnail/Banner_12.png</BackImage>
+			<ResFile>ElementSource/Banner_12.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{65750B01-44EE-4D66-A809-9BB7FB7ED551}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 1</Alias>
+			<BackImage>Thumbnail/Bubble_01.png</BackImage>
+			<ResFile>ElementSource/Bubble_01.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{19D8F38E-AA38-4A17-968C-A91CA78552EF}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 2</Alias>
+			<BackImage>Thumbnail/Bubble_02.png</BackImage>
+			<ResFile>ElementSource/Bubble_02.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{B166B56C-E2F9-4F74-8657-80501A3FD616}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 3</Alias>
+			<BackImage>Thumbnail/Bubble_03.png</BackImage>
+			<ResFile>ElementSource/Bubble_03.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{E17DF259-F6FC-4434-BEF5-BBBCDEB93794}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 4</Alias>
+			<BackImage>Thumbnail/Bubble_04.png</BackImage>
+			<ResFile>ElementSource/Bubble_04.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{6F00708A-D22D-45E0-A859-CB17F9A632AC}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 5</Alias>
+			<BackImage>Thumbnail/Bubble_05.png</BackImage>
+			<ResFile>ElementSource/Bubble_05.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{8992F6D4-0B30-428E-91B2-2B8B0F3CBF0D}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 6</Alias>
+			<BackImage>Thumbnail/Bubble_06.png</BackImage>
+			<ResFile>ElementSource/Bubble_06.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{80173C2D-827A-4F57-88E2-CCD323CF5A41}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 7</Alias>
+			<BackImage>Thumbnail/Bubble_07.png</BackImage>
+			<ResFile>ElementSource/Bubble_07.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{A4381142-56EA-40FE-9CF3-8E703758E206}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 8</Alias>
+			<BackImage>Thumbnail/Bubble_08.png</BackImage>
+			<ResFile>ElementSource/Bubble_08.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{4B8C22FB-CCDB-4E50-A942-ED77A5823F06}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 9</Alias>
+			<BackImage>Thumbnail/Bubble_09.png</BackImage>
+			<ResFile>ElementSource/Bubble_09.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{C6F19033-A4B8-4F70-88FA-E48936974879}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 10</Alias>
+			<BackImage>Thumbnail/Bubble_10.png</BackImage>
+			<ResFile>ElementSource/Bubble_10.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{BE9D7252-765C-4643-B61A-9B3E32D4C718}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 11</Alias>
+			<BackImage>Thumbnail/Bubble_11.png</BackImage>
+			<ResFile>ElementSource/Bubble_11.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{52356991-F359-4405-9D52-B6E8938E486C}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 12</Alias>
+			<BackImage>Thumbnail/Bubble_12.png</BackImage>
+			<ResFile>ElementSource/Bubble_12.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{1E754FE7-368C-41F9-B172-9CBC7E8E3120}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 13</Alias>
+			<BackImage>Thumbnail/Bubble_13.png</BackImage>
+			<ResFile>ElementSource/Bubble_13.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{21F045C3-5305-439C-B079-4B580563A47B}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 14</Alias>
+			<BackImage>Thumbnail/Bubble_14.png</BackImage>
+			<ResFile>ElementSource/Bubble_14.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{DF5BE2F1-DE4A-431A-A8B6-00B368816A18}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 15</Alias>
+			<BackImage>Thumbnail/Bubble_15.png</BackImage>
+			<ResFile>ElementSource/Bubble_15.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{4E4B1101-64C2-4E78-9CBA-FEBB0D64EDE2}</GUID>
+			<type>2</type>
+			<Category>3</Category>
+			<Alias>Bubble 16</Alias>
+			<BackImage>Thumbnail/Bubble_16.png</BackImage>
+			<ResFile>ElementSource/Bubble_16.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{D1524F13-4AF5-4EB7-8060-EB4ECAE3540B}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Medal 1</Alias>
+			<BackImage>Thumbnail/Medal_01.png</BackImage>
+			<ResFile>ElementSource/Medal_01.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{7B37D15D-68B9-48AD-8378-3DE30C3684CE}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Medal 2</Alias>
+			<BackImage>Thumbnail/Medal_02.png</BackImage>
+			<ResFile>ElementSource/Medal_02.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{3D5E7149-B755-444A-A17E-61CB19AD5690}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Medal 3</Alias>
+			<BackImage>Thumbnail/Medal_03.png</BackImage>
+			<ResFile>ElementSource/Medal_03.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{ED48703E-BB0A-4D29-9F9E-975449182472}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Medal 4</Alias>
+			<BackImage>Thumbnail/Medal_04.png</BackImage>
+			<ResFile>ElementSource/Medal_04.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{DAF861F3-5FBB-42DC-9D6A-6706C8565C27}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Medal 5</Alias>
+			<BackImage>Thumbnail/Medal_05.png</BackImage>
+			<ResFile>ElementSource/Medal_05.xml</ResFile>
+		</Element>
+		<Element>
+			<GUID>{9534E7B9-C949-4568-9B03-6EF7C1AC96BE}</GUID>
+			<type>2</type>
+			<Category>4</Category>
+			<Alias>Medal 6</Alias>
+			<BackImage>Thumbnail/Medal_06.png</BackImage>
+			<ResFile>ElementSource/Medal_06.xml</ResFile>
+		</Element>
+	</ElementArray>
+</Elements>

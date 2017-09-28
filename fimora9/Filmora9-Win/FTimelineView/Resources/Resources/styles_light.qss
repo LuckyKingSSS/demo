@@ -1,0 +1,64 @@
+/*FTimelineView*/
+
+FImageButton#FTimelineView_FToolBar_Undo
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/undo_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+FImageButton#FTimelineView_FToolBar_Undo:hover
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/undo_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+FImageButton#FTimelineView_FToolBar_Undo :disabled
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/undo_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+BaseButton#FTimelineView_FToolBar_Redo
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/redo_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+BaseButton#FTimelineView_FToolBar_Redo:hover
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/redo_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+BaseButton#FTimelineView_FToolBar_Redo :disabled
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/redo_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+BaseButton#FTimelineView_FToolBar_Split
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/split_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+BaseButton#FTimelineView_FToolBar_Split:hover
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/split_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+BaseButton#FTimelineView_FToolBar_Split :disabled
+{
+	background-image:url(:/FTimelineView/Resources/Resources/light/split_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}

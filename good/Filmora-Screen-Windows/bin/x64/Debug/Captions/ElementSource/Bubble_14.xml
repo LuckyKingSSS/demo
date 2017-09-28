@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NLETitleArray Duration="5.0">
+	<NLETitleItem NLEItemType="6">
+		<TextParam>
+			<TextData Align="4" Radius="0" Angle="0">
+				<CharData Title="E973" RowSpace="0" LineSpace="0" GroupIDX="0">
+					<Font Size="200" Bold="0" Italic="0" FontName="Scrn_fonts_v10"/>
+					<Face Enable="1" Color1="13265825" Alpha="255" BlurRadius="0" Effect="0"/>
+					<Border Enable="0" Size="1" Color1="16777215" Alpha="255" BlurRadius="0"/>
+					<Shadow Enable="0" Color="16777215" Alpha="255" BlurRadius="3" Distance="3" Direction="3"/>
+				</CharData>
+				<CharData Title="E974" RowSpace="0" LineSpace="0" GroupIDX="-1">
+					<Font Size="200" Bold="0" Italic="0" FontName="Scrn_fonts_v10"/>
+					<Face Enable="1" Color1="1721428" Alpha="255" BlurRadius="0" Effect="0"/>
+					<Border Enable="0" Size="1" Color1="16777215" Alpha="255" BlurRadius="0"/>
+					<Shadow Enable="0" Color="16777215" Alpha="255" BlurRadius="3" Distance="3" Direction="3"/>
+				</CharData>
+				<CharData Title="E975" RowSpace="0" LineSpace="0" GroupIDX="-1">
+					<Font Size="200" Bold="0" Italic="0" FontName="Scrn_fonts_v10"/>
+					<Face Enable="1" Color1="16777215" Alpha="255" BlurRadius="0" Effect="0"/>
+					<Border Enable="0" Size="1" Color1="16777215" Alpha="255" BlurRadius="0"/>
+					<Shadow Enable="0" Color="16777215" Alpha="255" BlurRadius="3" Distance="3" Direction="3"/>
+				</CharData>
+			</TextData>
+			<Texture Enable="0" TextureImagePath=""/>
+			<Gradient Enable="0" Color1="16777215" Color2="16777215" GradType="0"/>
+		</TextParam>
+		<EffectParam ZOrder="1" ImagePosX="50" ImagePosY="50" EffectIn="30" EffectOut="30" VZoom="1" HZoom="1" StartTime="0" Duration="5"/>
+		<AnimationParam MotionID="" TransitionID=""/>
+	</NLETitleItem>
+</NLETitleArray>

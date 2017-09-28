@@ -1,0 +1,459 @@
+QListWidget::Item{
+	height: 26px;
+}
+
+/*IFSExport*/
+
+QLabel#TopLevelWindowTitleBar_TitleName
+{
+	color:#FFFFFF;
+	font:18px "Lato";
+}
+
+TopLevelWindowTitleBar#IFSExport_m_titlebar > TopLevelWindowTitleBar_p#TopLevelWindowTitleBar{
+    background-color:#1E252B ;
+}
+
+BaseButton#IFSExport_mCloseBtn{
+	background-image:url(:/FSExport/Resources/light/btnClose_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#IFSExport_mCloseBtn:hover{
+	background-image:url(:/FSExport/Resources/light/btnClose_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#IFSExport_mCloseBtn:pressed{
+	background-image:url(:/FSExport/Resources/light/btnClose_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#IFSExport_mCloseBtn:disabled{
+	background-image:url(:/FSExport/Resources/light/btnClose_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+/*FSExportBar*/
+FSExportBar#FSExportBar{
+	background-color: #313C48;
+}
+
+FSButton#FSExportBar_Local{
+	border:0px;
+	background-image:url(:/FSExport/Resources/light/Local_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+FSButton#FSExportBar_Local：hover{
+	background-image:url(:/FSExport/Resources/light/Local_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSExportBar_Local:pressed{
+	background-image:url(:/FSExport/Resources/light/Local_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSExportBar_Local:checked{
+	background-image:url(:/FSExport/Resources/light/Local_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-color: #EF3062;
+}
+FSButton#FSExportBar_Local:checked:hover{
+	background-image:url(:/FSExport/Resources/light/Local_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	background-color: #EF3062;
+}
+FSButton#FSExportBar_Local:disabled{
+	background-image:url(:/FSExport/Resources/light/Local_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+/*FSExport*/
+FSExport#FSExport{
+	background-color:#1E252B;
+}
+
+QStackedWidget#FSExport_mpStackedWidget{
+	background-color:#27313B;
+}
+
+
+
+FSButton#Export_mpExportBtn{
+	color:#ffffff;
+	font:16px "Lato";
+	border: 1px solid #FFFFFF;
+	background-color:#1E252B;
+}
+
+FSButton#Export_mpExportBtn:hover{
+	color:#313C48;
+	background-color:#61DED0;
+	border:0px;
+}
+
+
+/*FSFormatDataWidget*/
+FSListWidget#FSFormatDataWidget_mpListWidget{
+	background:#27313B;
+	border-left:1px solid #27313B;
+	border-right:1px solid #1e252b;
+	border-top:1px solid #1e252b;
+	border-bottom:1px solid #27313B;
+	
+}
+
+FSListWidget#FSFormatDataWidget_mpListWidget::item {
+	padding-left:32px; 
+	color:#7F9CAF;
+	font: 18px "Lato";
+	height: 40px;
+	background:#27313B;
+	border-bottom:1px solid #1e252b;
+}
+
+FSListWidget#FSFormatDataWidget_mpListWidget::item:hover {
+	background:#354351;
+	color:#ffffff;
+	border-top:1px solid #354351;
+	border-bottom:1px solid #1e252b;
+}
+
+FSListWidget#FSFormatDataWidget_mpListWidget::item:selected {
+	background:#354351;
+	color:#ffffff;
+	border-top:1px solid #354351;
+	border-bottom:1px solid #1e252b;
+}
+
+
+FSLabel#FSFormatDataWidget_mpLabelTitle
+{
+	font:18px "Lato";
+	color:#7F9CAF;
+	background-color:#27313B;
+	border-right:1px solid #1e252b;
+}
+
+
+/*FSExportProgressDialog*/
+FSExportProgressDialog#FSExportProgressDialog{
+	background-color:#27313B ;
+}
+
+BaseButton#FSExportProgressDialog_mCloseBtn{
+	background-image:url(:/FSExport/Resources/light/btnClose_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#FSExportProgressDialog_mCloseBtn:hover{
+	background-image:url(:/FSExport/Resources/light/btnClose_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#FSExportProgressDialog_mCloseBtn:pressed{
+	background-image:url(:/FSExport/Resources/light/btnClose_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#FSExportProgressDialog_mCloseBtn:disabled{
+	background-image:url(:/FSExport/Resources/light/btnClose_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+TopLevelWindowTitleBar#FSExportProgressDialog_m_titlebar > TopLevelWindowTitleBar_p#TopLevelWindowTitleBar{
+    background-color:#1E252B ;
+}
+
+
+FSLabel#FSExportProgressDialog_mpLabelStep
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+
+FSButton#FSExportProgressDialog_mpButtonPauseResume{
+	font:16px "Lato";
+	color:#FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+FSButton#FSExportProgressDialog_mpButtonPauseResume:hover{
+	background-color:#61DED0;
+	border:0px;
+}
+
+FSButton#FSExportProgressDialog_mpButtonCancel{
+	font:16px "Lato";
+	color:#FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+FSButton#FSExportProgressDialog_mpButtonCancel:hover{
+	background-color:#61DED0;
+	border:0px;
+}
+
+FSButton#FSExportProgressDialog_mpButtonFindTarget{
+	font:16px "Lato";
+	color:#FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+FSButton#FSExportProgressDialog_mpButtonFindTarget:hover{
+    background-color:#61DED0;
+	border:0px;
+}
+
+QProgressBar#FSExportProgressDialog_mpProgressBar{
+	background-color:#1E252B ;
+	border: 0px;
+}
+
+QProgressBar#FSExportProgressDialog_mpProgressBar::chunk {
+    background-color: #EF3062;
+}
+
+QLabel#FSConfirmDlg_m_pLbDonShow
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+QCheckBox#FSConfirmDlg_m_pCbDontShow::indicator:unchecked
+{
+	width:18px;
+	height:18px;
+    image: url(:/FSExport/Resources/light/unCheckBox_n.png);
+}
+QCheckBox#FSConfirmDlg_m_pCbDontShow::indicator:unchecked:hover
+{
+	width:18px;
+	height:18px;
+    image: url(:/FSExport/Resources/light/unCheckBox_d.png);
+}
+QCheckBox#FSConfirmDlg_m_pCbDontShow::indicator:checked
+{
+    width:18px;
+	height:18px;
+    image: url(:/FSExport/Resources/light/CheckBox_n.png);
+}
+QCheckBox#FSConfirmDlg_m_pCbDontShow::indicator:checked:hover
+{
+    width:18px;
+	height:18px;
+    image: url(:/FSExport/Resources/light/CheckBox_h.png);
+}
+
+
+/*FSOptionWidget*/
+FSLabel#FSOptionWidget_LabelDescription
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+}
+
+FSLabel#FSOptionWidget_LabelVideo
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+}
+
+FSLabel#FSOptionWidget_LabelAudio
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+}
+
+FSLabel#FSOptionWidget_LabelName
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+FSLabel#FSOptionWidget_LabelSaveTo
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSOptionWidget_LabelVideoEncoder
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSOptionWidget_LabelVideoResolution
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSOptionWidget_LabelVideoFrameRate
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSOptionWidget_LabelVideoBitRate
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSOptionWidget_LabelAudioChannel
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSOptionWidget_LabelAudioSampleRate
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSOptionWidget_LabelAudioBitRate
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSOptionWidget_LabelAudioEncoder
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+FSLineEdit#FSOptionWidget_LineEditName
+{
+	font:14px "Lato";
+	color:#FFFFFF;
+	background-color:#13171B;
+	border: 1px solid #4C6671;
+	padding-left:12px;
+}
+
+FSButton#FSOptionWidget_ButtonSave{
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}
+
+FSLineEdit#FSOptionWidget_LineEditPath
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border: 0px;
+	padding-left:12px;
+}
+
+FSComboBox#FSOptionWidget_ComboBoxVideoEncoder
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+FSComboBox#FSOptionWidget_ComboBoxVideoEncoder::drop-down{
+	height:30px;
+	width:29px;
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}
+
+FSComboBox#FSOptionWidget_ComboBoxVideoResolution
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+FSComboBox#FSOptionWidget_ComboBoxVideoResolution::drop-down{
+	height:30px;
+	width:29px;
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}
+
+FSComboBox#FSOptionWidget_ComboBoxVideoFrameRate
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+FSComboBox#FSOptionWidget_ComboBoxVideoFrameRate::drop-down{
+	height:30px;
+	width:29px;
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}
+FSComboBox#FSOptionWidget_ComboBoxVideoBitRate
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+FSComboBox#FSOptionWidget_ComboBoxVideoBitRate::drop-down{
+	height:30px;
+	width:29px;
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}
+FSComboBox#FSOptionWidget_ComboBoxAudioEncoder
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+FSComboBox#FSOptionWidget_ComboBoxAudioEncoder::drop-down{
+	height:30px;
+	width:29px;
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}
+FSComboBox#FSOptionWidget_ComboBoxAudioChannel
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+FSComboBox#FSOptionWidget_ComboBoxAudioChannel::drop-down{
+	height:30px;
+	width:29px;
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}
+FSComboBox#FSOptionWidget_ComboBoxAudioSampleRate
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+FSComboBox#FSOptionWidget_ComboBoxAudioSampleRate::drop-down{
+	height:30px;
+	width:29px;
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}
+FSComboBox#FSOptionWidget_ComboBoxAudioBitRate
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+FSComboBox#FSOptionWidget_ComboBoxAudioBitRate::drop-down{
+	height:30px;
+	width:29px;
+	border-image: url(:/FSExport/Resources/light/parmaDrag_n.png); 
+}

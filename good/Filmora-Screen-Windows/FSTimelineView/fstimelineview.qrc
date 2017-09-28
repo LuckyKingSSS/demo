@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/FSTimelineView/light">
+        <file>Resources/light/redo_d.png</file>
+        <file>Resources/light/split_d.png</file>
+        <file>Resources/light/undo_d.png</file>
+        <file>Resources/light/add_d.png</file>
+        <file>Resources/light/add_h.png</file>
+        <file>Resources/light/add_n.png</file>
+        <file>Resources/light/add_p.png</file>
+        <file>Resources/light/redo_h.png</file>
+        <file>Resources/light/redo_n.png</file>
+        <file>Resources/light/redo_p.png</file>
+        <file>Resources/light/split_h.png</file>
+        <file>Resources/light/split_n.png</file>
+        <file>Resources/light/split_p.png</file>
+        <file>Resources/light/sub_d.png</file>
+        <file>Resources/light/sub_n.png</file>
+        <file>Resources/light/sub_p.png</file>
+        <file>Resources/light/undo_h.png</file>
+        <file>Resources/light/undo_n.png</file>
+        <file>Resources/light/undo_p.png</file>
+        <file>Resources/light/sub_h.png</file>
+        <file>Resources/light/rulerBack.png</file>
+        <file>Resources/light/freeze.png</file>
+        <file>Resources/light/hide.png</file>
+        <file>Resources/light/show.png</file>
+        <file>Resources/light/unfreeze.png</file>
+        <file>Resources/light/color1.png</file>
+        <file>Resources/light/color2.png</file>
+        <file>Resources/light/color3.png</file>
+        <file>Resources/light/color4.png</file>
+        <file>Resources/light/color5.png</file>
+        <file>Resources/light/color6.png</file>
+        <file>Resources/light/color7.png</file>
+        <file>Resources/light/color8.png</file>
+        <file>Resources/light/mark_n.png</file>
+        <file>Resources/light/mark_d.png</file>
+        <file>Resources/light/mark_h.png</file>
+        <file>Resources/light/mark_p.png</file>
+        <file>Resources/light/ReSpeed_Cursor.png</file>
+    </qresource>
+</RCC>

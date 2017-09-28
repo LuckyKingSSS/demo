@@ -1,0 +1,23 @@
+LIBRARY "NLEGUID.dll"
+
+EXPORTS
+	CLSID_NLEXml @1
+	IID_INLEXml @2
+
+	CLSID_NLETimelineBase @3
+	IID_INLETimelineBase @4
+	IID_INLETimelineClipControl @5
+	IID_INLERender @6
+
+
+	CLSID_NLEProperties @7
+	IID_INLEProperties @8
+
+	CLSID_NLEFactory @9
+	IID_INLEFactory @10
+
+	IID_INLESerialize @11
+	IID_INLEService @12
+
+	CLSID_NLERepository @13 DATA
+	IID_INLERepository @14 DATA

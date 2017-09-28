@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NLETitleArray Duration="5.0">
+    <NLETitleItem NLEItemType="4">
+        <ShapeParam ShapeID="24">
+            <ShapeGeometry ShapeGeometryWidth="600" ShapeGeometryHeight="600" ShapeGeometryPointCnt="1" ShapeGeometryPointX0="300" ShapeGeometryPointY0="0"/>
+            <ShapeColor>
+                <ShapeFace ColorEnable="1" ColorType="0">
+                    <SingleColor A="255" R="251" G="176" B="59"/>
+                    <GradientColor GradientDir="-1">
+                        <GradientColorStart A="255" R="255" G="255" B="255"/>
+                        <GradientColorEnd A="255" R="255" G="255" B="255"/>
+                    </GradientColor>
+                </ShapeFace>
+                <ShapeBorder ColorEnable="0" ColorType="0" BorderWidth="3" BorderBlur="0">
+                    <SingleColor A="255" R="255" G="255" B="255"/>
+                    <GradientColor GradientDir="-1">
+                        <GradientColorStart A="255" R="255" G="255" B="255"/>
+                        <GradientColorEnd A="255" R="255" G="255" B="255"/>
+                    </GradientColor>
+                </ShapeBorder>
+            </ShapeColor>
+        </ShapeParam>
+        <EffectParam ZOrder="1" ImagePosX="50" ImagePosY="50" EffectIn="30" EffectOut="30" VZoom="0.25" HZoom="0.25" StartTime="0" Duration="5"/>
+	</NLETitleItem>
+</NLETitleArray>

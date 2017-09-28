@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wondershare_XML>
+  <OUTPUT_MAP>
+    <AVI>
+      <Video>
+        <H264 CHAR=""></H264>
+      </Video>
+      <Audio>
+        <MP3 CHAR="" />
+        <PCM CHAR="" />
+      </Audio>
+    </AVI>
+    <MKV>
+      <Video>
+        <H264 CHAR=""></H264>
+      </Video>
+      <Audio>
+        <AAC CHAR="" />
+        <AC3 CHAR="" />
+        <MP3 CHAR="" />
+      </Audio>
+    </MKV>
+    <MP4>
+      <Video>
+        <H264 CHAR=""></H264>
+      </Video>
+      <Audio>
+        <AAC CHAR="" />
+        <AC3 CHAR="" />
+        <PCM CHAR="" />
+        <MP3 CHAR="" />
+      </Audio>
+    </MP4>
+    <MOV>
+      <Video>
+        <H264 CHAR=""></H264>
+      </Video>
+      <Audio>
+        <AAC CHAR="" />
+        <AC3 CHAR="" />
+        <PCM CHAR="" />
+        <MP3 CHAR="" />
+      </Audio>
+    </MOV>
+    <M4V>
+      <Video>
+        <H264 CHAR=""></H264>
+      </Video>
+      <Audio>
+        <AAC CHAR="" />
+        <AC3 CHAR="" />
+      </Audio>
+    </M4V>
+    <FLV>
+      <Video>
+        <H264 CHAR=""></H264>
+      </Video>
+      <Audio>
+        <AAC CHAR="" />
+      </Audio>
+    </FLV>
+    <M2TS>
+      <Video>
+        <H264 CHAR=""></H264>
+      </Video>
+      <Audio>
+        <AC3 CHAR="" />
+      </Audio>
+    </M2TS>
+    <MTS>
+      <Video>
+        <H264 CHAR=""></H264>
+      </Video>
+      <Audio>
+        <AC3 CHAR="" />
+      </Audio>
+    </MTS>
+  </OUTPUT_MAP>
+</Wondershare_XML>

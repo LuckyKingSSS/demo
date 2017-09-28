@@ -1,0 +1,13 @@
+﻿
+#define INITGUID                               
+#include <Guiddef.h>                           
+
+//{6E8AACA9-576C-AA94-3F79-E1DDD3149278}
+DEFINE_GUID(CLSID_NLETimelineInfo, 0x6E8AACA9, 0x576C, 0xAA94, 0x3F, 0x79, 0xE1, 0xDD, 0xD3, 0x14, 0x92, 0x78);
+
+//{8E2319C8-AC5B-970B-6A01-A203B394DE42}
+DEFINE_GUID(IID_INLETimelineInfo, 0x8E2319C8, 0xAC5B, 0x970B, 0x6A, 0x01, 0xA2, 0x03, 0xB3, 0x94, 0xDE, 0x42);
+
+#undef INITGUID 
+
+

@@ -1,0 +1,258 @@
+# *** D-TYPE MAIN INITIALIZATION FILE VERSION 4.6.1.7 OR HIGHER ***
+
+# A) OPTIONAL SECONDARY INITIALIZATION FILES
+
+# 1. Stream descriptor for the initial font list
+#    (Use the 'NONE' stream if the initial font list is not needed)
+#
+# 2. Stream descriptor for the pattern catalog
+#    (Use the 'NONE' stream if the pattern catalog is not needed)
+#
+# 3. Stream descriptor for the custom gray-scale table
+#    (Use the 'NONE' stream for the default 256 levels of gray)
+#
+# Notes:
+#
+#  * All stream descriptors must be specified as [Stream ID],[Stream Locator]
+#    (See the manual for a list of stream descriptors)
+#
+#  * Any non-existent or inaccessible streams (e.g. due to lack of adequate
+#    read permissions) will be interpreted as 'NONE' streams.
+
+{
+0,
+0,
+0,
+}
+
+
+# B) PARAMETERS FOR D-TYPE RASTERIZER
+
+# 1. Maximum width to render in a single pass, in pixels
+#    (Must be a multiple of 4)
+#
+# 2. Maximum height to render in a single pass, in pixels
+#
+# 3. Initial number of intersection points in each scan-line
+#
+# 4. Rasterizer to utilize: 0=Ultra-Fast Grayscale Rasterizer
+#                           1=Perfect Grayscale Rasterizer
+#                           2=Universal Rasterizer - Grayscale
+#                           3=Universal Rasterizer - Black & White
+#
+# Notes:
+#
+# * Shapes wider than B1 pixels or higher than B2 pixels will be rendered
+#   using multi-pass rendering techniques.
+#
+# * Parameter B3 is only an initial value. If the number of intersection
+#   points in any scan-line at any point in time exceeds this initial value,
+#   the scan-line will be reallocated.
+
+{
+1200
+1000
+8
+1
+}
+
+
+# C) PARAMETERS FOR D-TYPE FONT ENGINE
+
+# 1. Size of the bitmap cache in RAM, in bytes
+#    (Must be greater than parameter B1 * B2)
+#
+# 2. Maximum number of bitmaps to store in the bitmap cache
+#
+# 3. Maximum number of transformations to store in the transformation cache
+#
+# 4. Bitmap cache compression: 0=Disable Compression, 1=Enable Compression
+#
+# 5. Quality:  0=Medium, 1=High, 2=Very High
+#              3=Dispersion Filter 1, 4=Dispersion Filter 2
+#              5=Hint Filter 1, 6=Hint Filter 2, 7=Hint Filter 3, 8=Hint Filter 4
+#              9=LCD_RGB_SUB_1, 10=LCD_RGB_INT_1, 11=LCD_BGR_SUB_1, 12=LCD_BGR_INT_1
+#             13=LCD_RGB_SUB_2, 14=LCD_RGB_INT_2, 15=LCD_BGR_SUB_2, 16=LCD_BGR_INT_2
+#             17=LCD_RGB_SUB_3, 18=LCD_RGB_INT_3, 19=LCD_BGR_SUB_3, 20=LCD_BGR_INT_3
+#             21=LCD2_RGB_SUB_1, 22=LCD2_RGB_INT_1, 23=LCD2_BGR_SUB_1, 24=LCD2_BGR_INT_1
+#             25=LCD2_RGB_SUB_2, 26=LCD2_RGB_INT_2, 27=LCD2_BGR_SUB_2, 28=LCD2_BGR_INT_2
+#
+# 6. Glyph alignment method: 0=Old, 1=Reserved, 2=New, 514=New(2)+CJK(512)
+#
+# 7. Font size subscale for fractional sizing, both horizontal and vertical.
+#
+# Notes:
+#
+# * Larger cache means better performance but higher consumption of RAM.
+#
+# * Bitmap cache compression is extremely fast and effective. If enabled, bitmaps
+#   will be stored in a compressed format and will consume 3-10 times less space
+#   in the bitmap cache than non-compressed bitmaps. This is highly recommended when
+#   the size of the bitmap cache is small (e.g. in memory constrained environments).
+
+{
+2650000
+8000
+5000
+1
+6
+514
+4
+}
+
+
+# D) TEMPORARY FOLDER
+
+# Notes:
+#
+# * This folder will serve as a storage place for any temporary objects that might
+#   be created at run-time. Consequently, this folder must be configured to allow
+#   D-Type Font Engine to read/write/modify/delete files in it.
+#
+# * If the temporary folder is non-existent or inaccessible (e.g. due to lack of
+#   adequate read/write permissions), RAM will serve as a storage place for any
+#   temporary resources.
+#
+# * If this parameter is specified as NULL, RAM will serve as a storage place
+#   for any temporary resources.
+
+{
+tmp/
+}
+
+
+# E) FONT FACTORIES
+
+# 1. CDTFontDType Font Factory List
+#
+# Notes:
+#
+# * Each line specifies [Font Format ID],0,NULL
+# * The last line must be -1 which is an end-of-list marker
+
+{
+0,0,NULL
+-1
+}
+
+# 2. CDTFontOpenTypeTtf Font Factory List
+#
+# Notes:
+#
+# * Each line specifies [Font Format ID],[CMap ID],[Stream ID],[Stream Locator],[Flags]
+# * The last line must be -1 which is an end-of-list marker
+
+{
+1,0,0,ccv/ot-mac-ascii.ccv,NULL
+3,4,0,ccv/ot-win-unicode.ccv,NULL
+81,4,0,ccv/ot-win-symbol.ccv,NULL
+93,4,0,ccv/ot-win-unicode.ccv,ACCEPT_MALFORMED_FONT
+-1
+}
+
+# 3. CDTFontOpenTypeCff Font Factory List
+#
+# Notes:
+#
+# * Each line specifies [Font Format ID],[CMap ID],[Stream ID],[Stream Locator],[Flags]
+# * The last line must be -1 which is an end-of-list marker
+
+{
+6,0,0,ccv/ot-mac-ascii.ccv,NULL
+5,4,0,ccv/ot-win-unicode.ccv,NULL
+14,0,0,ccv/t1-adobe-std.ccv,INTERPRET_AS_BARE_CFF
+15,1,0,ccv/t1-iso-latin.ccv,INTERPRET_AS_BARE_CFF
+16,1,0,ccv/t1-win-unicode.ccv,INTERPRET_AS_BARE_CFF
+82,4,0,ccv/ot-win-symbol.ccv,NULL
+95,4,0,ccv/ot-win-unicode.ccv,ACCEPT_MALFORMED_FONT
+-1
+}
+
+# 4. CDTFontType1 Font Factory List
+#
+# Notes:
+#
+# * Each line specifies [Font Format ID],[CMap ID],[Stream ID],[Stream Locator],NULL
+# * The last line must be -1 which is an end-of-list marker
+
+{
+2,0,0,ccv/t1-adobe-std.ccv,NULL
+7,1,0,ccv/t1-iso-latin.ccv,NULL
+8,1,0,ccv/t1-win-unicode.ccv,NULL
+-1
+}
+
+# 5. CDTFontType3 Font Factory List
+#
+# Notes:
+#
+# * Each line specifies [Font Format ID],[CMap ID],[Stream ID],[Stream Locator],NULL
+# * The last line must be -1 which is an end-of-list marker
+# * CDTFontType3 Font Factory supports only those Type 3 PostScript fonts that obey
+#   D-Type's strict parsing rules. See the manual for details.
+
+{
+11,1,0,ccv/t1-iso-latin.ccv,NULL
+12,1,0,ccv/t1-win-unicode.ccv,NULL
+-1
+}
+
+
+# F) LIST OF ADDITIONAL PARAMETERS
+
+# 1. Maximum size of D-Type Power Engine's caching subsystem in RAM, in bytes
+# 2. Maximum number of items to store in D-Type Power Engine's caching subsystem
+# 3. DrawCallback level: 0=generate DrawCallback for visible user-defined objects
+#                        1=generate DrawCallback for visible user-defined and built-in objects
+#                        2=generate DrawCallback for all user-defined objects
+#                        3=generate DrawCallback for all user-defined and built-in objects
+#
+# The last line must be -1 which is an end-of-list marker
+
+{
+6291456
+1000
+3
+-1
+}
+
+
+# G) LIST OF ADDITIONAL FILES
+
+# 1. Thai line breaking data file
+# 2-27. Hyphenation data file - English, French, German, Spanish, Russian etc.
+#
+# The last line must be -1 which is an end-of-list marker
+
+{
+0,exec/tools/system/misc/map_thai.dat
+11001,English,0,files/hyphendict/en.hyp
+11002,French,0,files/hyphendict/fr.hyp
+11003,German,0,files/hyphendict/de.hyp
+11004,Spanish,0,files/hyphendict/es.hyp
+11005,Russian,0,files/hyphendict/ru.hyp
+11006,Bulgarian,0,files/hyphendict/bg.hyp
+11007,Czech,0,files/hyphendict/cs.hyp
+11008,Croatian,0,files/hyphendict/hr.hyp
+11009,Danish,0,files/hyphendict/da.hyp
+11010,Dutch,0,files/hyphendict/nl.hyp
+11011,Greek (Monotonic),0,files/hyphendict/el-monoton.hyp
+11012,Greek (Polytonic),0,files/hyphendict/el-polyton.hyp
+11013,Finnish,0,files/hyphendict/fi.hyp
+11014,Hungarian,0,files/hyphendict/hu.hyp
+11015,Italian,0,files/hyphendict/it.hyp
+11016,Norwegian (Bokmal),0,files/hyphendict/nb.hyp
+11017,Norwegian (Nynorsk),0,files/hyphendict/nn.hyp
+11018,Polish,0,files/hyphendict/pl.hyp
+11019,Portuguese,0,files/hyphendict/pt.hyp
+11020,Romanian,0,files/hyphendict/ro.hyp
+11021,Slovak,0,files/hyphendict/sk.hyp
+11022,Slovenian,0,files/hyphendict/sl.hyp
+11023,Serbian (Cyrillic),0,files/hyphendict/sr-cyrl.hyp
+11024,Swedish,0,files/hyphendict/sv.hyp
+11025,Turkish,0,files/hyphendict/tr.hyp
+11026,Ukrainian,0,files/hyphendict/uk.hyp
+-1
+}
+
+# END OF FILE

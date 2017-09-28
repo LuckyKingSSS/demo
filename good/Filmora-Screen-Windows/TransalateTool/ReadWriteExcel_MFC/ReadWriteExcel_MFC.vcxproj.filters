@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\excelReader">
+      <UniqueIdentifier>{eaf680da-6409-4a1a-a514-08656fd4b2b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\progressBar">
+      <UniqueIdentifier>{caa65fc0-90aa-4530-a9c4-20d7b046f4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\progressBar">
+      <UniqueIdentifier>{afa98274-159f-4d66-9564-1abf0e31b545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Control">
+      <UniqueIdentifier>{1bfcd3f0-a4fb-4ade-8597-e357c92b0341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{72d8a9fe-78b8-43af-8fee-c44c46fcf8bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\View">
+      <UniqueIdentifier>{9945ac16-a2d0-4a4c-a7ce-4c1d5319696c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tinyXml2">
+      <UniqueIdentifier>{f1a52b5d-940e-4754-aae0-3f8dcee33b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Cache">
+      <UniqueIdentifier>{b62d75b3-e0b3-47a0-a70b-6288a1cb5a92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ReadWriteExcel_MFC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="excelReader\Application.h">
+      <Filter>头文件\excelReader</Filter>
+    </ClInclude>
+    <ClInclude Include="excelReader\Range.h">
+      <Filter>头文件\excelReader</Filter>
+    </ClInclude>
+    <ClInclude Include="excelReader\Workbook.h">
+      <Filter>头文件\excelReader</Filter>
+    </ClInclude>
+    <ClInclude Include="excelReader\Workbooks.h">
+      <Filter>头文件\excelReader</Filter>
+    </ClInclude>
+    <ClInclude Include="excelReader\Worksheet.h">
+      <Filter>头文件\excelReader</Filter>
+    </ClInclude>
+    <ClInclude Include="excelReader\Worksheets.h">
+      <Filter>头文件\excelReader</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml2.h">
+      <Filter>头文件\tinyXml2</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDiaglog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyProgressCtrl.h">
+      <Filter>头文件\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolMainDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\StringUtils.h">
+      <Filter>源文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\XMLUtil.h">
+      <Filter>源文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileFinderHelper.h">
+      <Filter>源文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractorCtrl.h">
+      <Filter>源文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractorTabelView.h">
+      <Filter>源文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadWriteExcel_MFCDlg.h">
+      <Filter>源文件\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\TranslateCtrl.h">
+      <Filter>源文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ExcelUtil.h">
+      <Filter>源文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache.h">
+      <Filter>源文件\Cache</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ReadWriteExcel_MFC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDiaglog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyProgressCtrl.cpp">
+      <Filter>源文件\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="gifHelper\PictureEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolMainDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\StringUtils.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\XMLUtil.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileFinderHelper.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractorCtrl.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractorTabelView.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadWriteExcel_MFCDlg.cpp">
+      <Filter>源文件\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ExcelUtil.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache.cpp">
+      <Filter>源文件\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\TranslateCtrl.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ReadWriteExcel_MFC.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ReadWriteExcel_MFC.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\gif1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\gif2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ReadWriteExcel_MFC.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\progress.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

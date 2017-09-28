@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/UpdateRegister">
+        <file>Resources/x_small_d.png</file>
+        <file>Resources/x_small_h.png</file>
+        <file>Resources/x_small_n.png</file>
+        <file>Resources/x_small_p.png</file>
+        <file>Resources/UpdateRegister.css</file>
+    </qresource>
+</RCC>

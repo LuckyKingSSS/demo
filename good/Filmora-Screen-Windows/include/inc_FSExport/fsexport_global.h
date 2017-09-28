@@ -1,0 +1,11 @@
+#ifndef FSEXPORT_GLOBAL_H
+#define FSEXPORT_GLOBAL_H
+
+
+#ifdef FSEXPORT_LIB
+# define FSEXPORT_EXPORT Q_DECL_EXPORT
+#else
+# define FSEXPORT_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // FSEXPORT_GLOBAL_H

@@ -1,0 +1,75 @@
+<RCC>
+    <qresource prefix="/FPropertyPanel">
+        <file alias="FPropertyPanel.css">Resources/FPropertyPanel.css</file>
+        <file alias="FlipHorizontal.png">Resources/FlipHorizontal.png</file>
+        <file alias="FlipVertical.png">Resources/FlipVertical.png</file>
+        <file alias="Rotate90Anticlockwise.png">Resources/Rotate90Anticlockwise.png</file>
+        <file alias="Rotate90Clockwise.png">Resources/Rotate90Clockwise.png</file>
+        <file>Resources/Trash.png</file>
+        <file>Resources/SliderDrag.png</file>
+        <file>Resources/btnClose_d.png</file>
+        <file>Resources/btnClose_n.png</file>
+        <file>Resources/btnClose_h.png</file>
+        <file>Resources/btnClose_p.png</file>
+        <file>Resources/Folder.png</file>
+        <file>Resources/Overlap.png</file>
+        <file>Resources/Postfix.png</file>
+        <file>Resources/Prefix.png</file>
+        <file>Resources/Pause.png</file>
+        <file>Resources/Play.png</file>
+        <file>Resources/Stop.png</file>
+        <file>Resources/Music.png</file>
+        <file>Resources/PIP.png</file>
+        <file>Resources/Video.png</file>
+        <file>Resources/Audio.png</file>
+        <file>Resources/screen.png</file>
+        <file>Resources/collapse.png</file>
+        <file>Resources/collapse_p.png</file>
+        <file>Resources/Refesh.png</file>
+        <file>Resources/D_Down.png</file>
+        <file>Resources/D_Left.png</file>
+        <file>Resources/D_Left_Down.png</file>
+        <file>Resources/D_Left_Top.png</file>
+        <file>Resources/D_Right.png</file>
+        <file>Resources/D_Right_Down.png</file>
+        <file>Resources/D_Right_Top.png</file>
+        <file>Resources/D_Top.png</file>
+        <file>Resources/Cursor.png</file>
+    </qresource>
+    <qresource prefix="/Qss">
+        <file>Resources/FPropertyPanel.css</file>
+    </qresource>
+    <qresource prefix="/MediaPlayerView">
+        <file>Resources/normal/Backward_d.png</file>
+        <file>Resources/normal/Backward_h.png</file>
+        <file>Resources/normal/Backward_n.png</file>
+        <file>Resources/normal/Forward_d.png</file>
+        <file>Resources/normal/Forward_h.png</file>
+        <file>Resources/normal/Forward_n.png</file>
+        <file>Resources/normal/FullScreen_d.png</file>
+        <file>Resources/normal/FullScreen_h.png</file>
+        <file>Resources/normal/FullScreen_n.png</file>
+        <file>Resources/normal/Pause_d.png</file>
+        <file>Resources/normal/Pause_h.png</file>
+        <file>Resources/normal/Pause_n.png</file>
+        <file>Resources/normal/Play_d.png</file>
+        <file>Resources/normal/Play_h.png</file>
+        <file>Resources/normal/Play_n.png</file>
+        <file>Resources/normal/RecordVoice_d.png</file>
+        <file>Resources/normal/RecordVoice_h.png</file>
+        <file>Resources/normal/RecordVoice_n.png</file>
+        <file>Resources/normal/RestoreFullScreen_d.png</file>
+        <file>Resources/normal/RestoreFullScreen_h.png</file>
+        <file>Resources/normal/RestoreFullScreen_n.png</file>
+        <file>Resources/normal/SnapShot_d.png</file>
+        <file>Resources/normal/SnapShot_h.png</file>
+        <file>Resources/normal/SnapShot_n.png</file>
+        <file>Resources/normal/Stop_d.png</file>
+        <file>Resources/normal/Stop_h.png</file>
+        <file>Resources/normal/Stop_n.png</file>
+        <file>Resources/normal/Volume.png</file>
+        <file>Resources/normal/Volume_d.png</file>
+        <file>Resources/normal/Volume_h.png</file>
+        <file>Resources/normal/Volume_n.png</file>
+    </qresource>
+</RCC>

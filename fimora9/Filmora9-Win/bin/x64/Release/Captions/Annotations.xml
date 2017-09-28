@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NLECaption>
+  <CaptionArray> 
+    <CaptionResource>
+		<Alias>Arrow1</Alias>
+      <BackImage>Thumbnail/Tip Text1.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274941}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text1.xml</ResFile>
+			<CanEditText>1</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+      <Alias>Text Arrow</Alias>
+      <BackImage>Thumbnail/Tip Text2.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274942}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text2.xml</ResFile>
+			<CanEditText>1</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+      <Alias>Arrow1</Alias>
+      <BackImage>Thumbnail/Tip Text3.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274943}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text3.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+      <Alias>Line</Alias>
+      <BackImage>Thumbnail/Tip Text4.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274944}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text4.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+      <Alias>Ellipse</Alias>
+      <BackImage>Thumbnail/Tip Text5.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274945}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text5.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+    <CaptionResource>
+      <Alias>Square</Alias>
+      <BackImage>Thumbnail/Tip Text6.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274946}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text6.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		
+		 <CaptionResource>
+      <Alias>Text</Alias>
+      <BackImage>Thumbnail/Tip Text7.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274947}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text7.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		 <CaptionResource>
+      <Alias>Round</Alias>
+      <BackImage>Thumbnail/Tip Text8.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274948}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text8.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		 <CaptionResource>
+      <Alias>Triangle</Alias>
+      <BackImage>Thumbnail/Tip Text10.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274950}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text10.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		<!-- <CaptionResource> -->
+      <!-- <Alias>Tip Text11</Alias> -->
+      <!-- <BackImage>Thumbnail/Tip Text11.png</BackImage> -->
+      <!-- <BackVideo /> -->
+      <!-- <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274951}</GUID> -->
+      <!-- <ResourceType>0</ResourceType> -->
+      <!-- <TemplateStyle>8</TemplateStyle> -->
+      <!-- <ResourceTag>Tip;</ResourceTag> -->
+      <!-- <ResFile>ResFiles/Tip Text11.xml</ResFile> -->
+			<!-- <CanEditText>0</CanEditText> -->
+    <!-- </CaptionResource> -->
+		 <CaptionResource>
+      <Alias>Pentagon</Alias>
+      <BackImage>Thumbnail/Tip Text12.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274952}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text12.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		 <CaptionResource>
+      <Alias>Hexagon</Alias>
+      <BackImage>Thumbnail/Tip Text13.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274953}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text13.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+		 <CaptionResource>
+      <Alias>Arrow</Alias>
+      <BackImage>Thumbnail/Tip Text14.png</BackImage>
+      <BackVideo />
+      <GUID>{86C1C62C-5148-4016-9F7A-F2D2AD274954}</GUID>
+      <ResourceType>0</ResourceType>
+      <TemplateStyle>8</TemplateStyle>
+      <ResourceTag>Tip;</ResourceTag>
+      <ResFile>ResFiles/Tip Text14.xml</ResFile>
+			<CanEditText>0</CanEditText>
+    </CaptionResource>
+  </CaptionArray>
+</NLECaption>

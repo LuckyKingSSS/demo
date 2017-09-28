@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{d781ac7d-9ad6-4673-ac7a-ed8053d40b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{a0432a52-488d-46f7-9ca3-b5dc24a0dd72}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{a1d26330-b2b5-495a-a1a2-3f5965d2884d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\VideoPanel">
+      <UniqueIdentifier>{da0e7cee-78cf-441e-a4d0-c6e8af17a830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExportDlg">
+      <UniqueIdentifier>{572381ed-6925-42cd-9423-997390e0f673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExportDlg\Control">
+      <UniqueIdentifier>{76dc06ef-94b9-4885-a1b8-9b7be954ca76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExportDlg\Header Files">
+      <UniqueIdentifier>{1f0f461d-ef55-4e7b-a022-3de0db7b3687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{5a46bcba-c844-4691-841b-78f64918b927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PhotoPanel">
+      <UniqueIdentifier>{2735032d-dd95-4787-bdf3-944d7ff924a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TransitionPanel">
+      <UniqueIdentifier>{6476ce61-6c5e-48ea-86b4-7fb305a77ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AudioMixerDialog">
+      <UniqueIdentifier>{627b5cd9-5553-4196-a34f-b3861dff2639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AudioPanel">
+      <UniqueIdentifier>{aab4673a-a767-4719-8a01-495b1a17b348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PIPEditDialog">
+      <UniqueIdentifier>{8ce318d5-9f74-41e1-bec5-245f4c6166e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AdvanceVedioDlg">
+      <UniqueIdentifier>{fcc0214e-9524-4b0d-8926-d1674119abca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AdvanceVedioDlg\control">
+      <UniqueIdentifier>{05d91f09-8379-4a03-9ca2-5bba744af793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MediaPlayer">
+      <UniqueIdentifier>{0865ff8d-93b9-4953-ad95-0ada4431d85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MotionPannel">
+      <UniqueIdentifier>{75202ea3-51a5-4a17-bc25-95335ccabcd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PowerToolDlg">
+      <UniqueIdentifier>{6b094ee8-cbb1-4371-92e4-e191ca852d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CropAndZoomDlg">
+      <UniqueIdentifier>{288d9e03-14e5-4bee-aa1a-93889a4ea6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AdvanceVedioDlg\FoldWidget">
+      <UniqueIdentifier>{2f8f6e08-9bb6-42e9-b8d8-d37240a232d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OverlayPannel">
+      <UniqueIdentifier>{82947d0a-afcf-472c-9101-0c7ea0da94be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EditPlayer">
+      <UniqueIdentifier>{dba2e014-9bf7-4099-b561-23315eca8f0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FPropertyPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPropertyEditPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPropertyDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPropertyCommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPropertySlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_FPropertyPanel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FToolBarSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyPanelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPanelMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPanelMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPropertyCommon.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPropertyCommon.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPropertySlider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPropertySlider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FToolBarSlider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FToolBarSlider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPropertyDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPropertyDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPropertyEditPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPropertyEditPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PropertyPanelManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PropertyPanelManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPropertyPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPropertyPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FPanelMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\control\F3DLUTDataMgr.cpp">
+      <Filter>Source Files\AdvanceVedioDlg\control</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_F3DLUTDataMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_F3DLUTDataMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\control\FAdvanceVedioMgr.cpp">
+      <Filter>Source Files\AdvanceVedioDlg\control</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FAdvanceVedioMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FAdvanceVedioMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\control\FPresentWndMgr.cpp">
+      <Filter>Source Files\AdvanceVedioDlg\control</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPresentWndMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPresentWndMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FoldWidget\FFoldWidget.cpp">
+      <Filter>Source Files\AdvanceVedioDlg\FoldWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FFoldWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FFoldWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioPanel\FAudioProperPanel.cpp">
+      <Filter>Source Files\AudioPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FAudioProperPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FAudioProperPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FExportBar.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FExportDlg.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FExportDlgPrivate.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FExportLocalPanel.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FExportSettingWnd.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FListCtrl.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FParameterSettingWnd.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FPathSelectEdit.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FTypeLabel.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\FTypeSettingWnd.cpp">
+      <Filter>Source Files\ExportDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\Control\FEncodeDataControl.cpp">
+      <Filter>Source Files\ExportDlg\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\Control\FExportSettingControl.cpp">
+      <Filter>Source Files\ExportDlg\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\Control\FSettingDataContr.cpp">
+      <Filter>Source Files\ExportDlg\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\Control\FSExportHelper.cpp">
+      <Filter>Source Files\ExportDlg\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\Control\FSExportHelperManager.cpp">
+      <Filter>Source Files\ExportDlg\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg\Control\FSExportSettingData.cpp">
+      <Filter>Source Files\ExportDlg\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FEncodeDataControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FEncodeDataControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FExportBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FExportBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FExportDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FExportDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FExportDlgPrivate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FExportDlgPrivate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FExportLocalPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FExportLocalPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FExportSettingControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FExportSettingControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FExportSettingWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FExportSettingWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FListCtrl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FListCtrl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FParameterSettingWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FParameterSettingWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPathSelectEdit.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPathSelectEdit.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSettingDataContr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSettingDataContr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSExportHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSExportHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSExportHelperManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSExportHelperManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSExportSettingData.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSExportSettingData.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FTypeLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FTypeLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FTypeSettingWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FTypeSettingWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaPlayer\FMediaPlayerBarBase.cpp">
+      <Filter>Source Files\MediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FMediaPlayerBarBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FMediaPlayerBarBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaPlayer\FPannelMediaPlayer.cpp">
+      <Filter>Source Files\MediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPannelMediaPlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPannelMediaPlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionPannel\FMotionListItem.cpp">
+      <Filter>Source Files\MotionPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionPannel\FMotionListItemWidget.cpp">
+      <Filter>Source Files\MotionPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FMotionListItemWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FMotionListItemWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionPannel\FMotionPanel.cpp">
+      <Filter>Source Files\MotionPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FMotionPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FMotionPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionPannel\FMotionPannelMgr.cpp">
+      <Filter>Source Files\MotionPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FMotionPannelMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FMotionPannelMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayPannel\FOverlayPanel.cpp">
+      <Filter>Source Files\OverlayPannel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FOverlayPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FOverlayPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerToolDlg\FPowerToolDlg.cpp">
+      <Filter>Source Files\PowerToolDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPowerToolDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPowerToolDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerToolDlg\FPowerToolMgr.cpp">
+      <Filter>Source Files\PowerToolDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPowerToolMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPowerToolMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerToolDlg\FPowerToolSettingWidget.cpp">
+      <Filter>Source Files\PowerToolDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPowerToolSettingWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPowerToolSettingWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerToolDlg\FPreViewMediaPlayer.cpp">
+      <Filter>Source Files\PowerToolDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPreViewMediaPlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPreViewMediaPlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotoPanel\FPhotoPanel.cpp">
+      <Filter>Source Files\PhotoPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPhotoPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPhotoPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotoPanel\FPhotoPanelMgr.cpp">
+      <Filter>Source Files\PhotoPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPhotoPanelMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPhotoPanelMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionPanel\FTransitionPanel.cpp">
+      <Filter>Source Files\TransitionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FTransitionPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FTransitionPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="TransitionPanel\FTransitionPanelMgr.cpp">
+      <Filter>Source Files\TransitionPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FTransitionPanelMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FTransitionPanelMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPanel\FVideoPanel.cpp">
+      <Filter>Source Files\VideoPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FVideoPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FVideoPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoPanel\FVideoPanelMgr.cpp">
+      <Filter>Source Files\VideoPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FVideoPanelMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FVideoPanelMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMixerDialog\FAudioMixerBaseWidget.cpp">
+      <Filter>Source Files\AudioMixerDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FAudioMixerBaseWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FAudioMixerBaseWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMixerDialog\FAudioMixerDialog.cpp">
+      <Filter>Source Files\AudioMixerDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FAudioMixerDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FAudioMixerDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMixerDialog\FAudioMixerDialogMgr.cpp">
+      <Filter>Source Files\AudioMixerDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FAudioMixerDialogMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FAudioMixerDialogMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PIPEditDialog\FPIPEditBaseWidget.cpp">
+      <Filter>Source Files\PIPEditDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPIPEditBaseWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPIPEditBaseWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PIPEditDialog\FPIPEditDialog.cpp">
+      <Filter>Source Files\PIPEditDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPIPEditDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPIPEditDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="PIPEditDialog\FPIPEditDialogMgr.cpp">
+      <Filter>Source Files\PIPEditDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPIPEditDialogMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPIPEditDialogMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FAdvanceVedioDlg.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FAdvanceVedioDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FAdvanceVedioDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FCollapseHeaderBase.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FCollapseHeaderBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FCollapseHeaderBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FColorAdjustPanel.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FColorAdjustPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FColorAdjustPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FColorSettingWnd.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FColorSettingWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FColorSettingWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FFoldWidgetItem.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FFoldWidgetItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FFoldWidgetItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FFoldWidgetItemPrivate.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FFoldWidgetItemPrivate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FFoldWidgetItemPrivate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FFoldWidgetPrivate.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FFoldWidgetPrivate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FFoldWidgetPrivate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FHistogramPannel.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FHistogramPannel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FHistogramPannel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FPresentWnd.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPresentWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPresentWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FPreviewPlayer.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPreviewPlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPreviewPlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FPreviewPlayerHeader.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FPreviewPlayerHeader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FPreviewPlayerHeader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvanceVedioDlg\FRulerWidget.cpp">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FRulerWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FRulerWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CropAndZoom\FCropAndZoomPanel.cpp">
+      <Filter>Source Files\CropAndZoomDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FCropAndZoomPanel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FCropAndZoomPanel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CropAndZoom\MediaCropDialog.cpp">
+      <Filter>Source Files\CropAndZoomDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaCropDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaCropDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPlayer\FEditPlayer.cpp">
+      <Filter>Source Files\EditPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FEditPlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FEditPlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPlayer\FEditPlayerMgr.cpp">
+      <Filter>Source Files\EditPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FEditPlayerMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FEditPlayerMgr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPlayer\FEditRectangle.cpp">
+      <Filter>Source Files\EditPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FEditRectangle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FEditRectangle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPlayer\FEditPlayerImpl.cpp">
+      <Filter>Source Files\EditPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FEditPlayerImpl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FEditPlayerImpl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPlayer\FEditRectangleView.cpp">
+      <Filter>Source Files\EditPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FEditRectangleView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FEditRectangleView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CropAndZoom\CropPlayerView.cpp">
+      <Filter>Source Files\CropAndZoomDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CropPlayerView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CropPlayerView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\inc_FPropertyPanel\fpropertypanel_global.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportDlg\Header Files\FSExportDataDef.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionPannel\FMotionListItem.h">
+      <Filter>Source Files\MotionPannel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FPropertyPanel.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FPanelMgr.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FPropertyCommon.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FPropertySlider.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FToolBarSlider.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FPropertyDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FPropertyEditPanel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_FPropertyPanel\PropertyPanelManager.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FPropertyPanel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\control\F3DLUTDataMgr.h">
+      <Filter>Source Files\AdvanceVedioDlg\control</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\control\FAdvanceVedioMgr.h">
+      <Filter>Source Files\AdvanceVedioDlg\control</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\control\FPresentWndMgr.h">
+      <Filter>Source Files\AdvanceVedioDlg\control</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FoldWidget\FFoldWidget.h">
+      <Filter>Source Files\AdvanceVedioDlg\FoldWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AudioPanel\FAudioProperPanel.h">
+      <Filter>Source Files\AudioPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FEncodeDataControl.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FExportBar.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FExportDlg.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FExportDlgPrivate.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FExportLocalPanel.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FExportSettingControl.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FExportSettingWnd.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FListCtrl.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FParameterSettingWnd.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FPathSelectEdit.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FSettingDataContr.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FSExportHelper.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FSExportHelperManager.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FSExportSettingData.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FTypeLabel.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ExportDlg\Header Files\FTypeSettingWnd.h">
+      <Filter>Source Files\ExportDlg\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MediaPlayer\FMediaPlayerBarBase.h">
+      <Filter>Source Files\MediaPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MediaPlayer\FPannelMediaPlayer.h">
+      <Filter>Source Files\MediaPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MotionPannel\FMotionListItemWidget.h">
+      <Filter>Source Files\MotionPannel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MotionPannel\FMotionPanel.h">
+      <Filter>Source Files\MotionPannel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MotionPannel\FMotionPannelMgr.h">
+      <Filter>Source Files\MotionPannel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OverlayPannel\FOverlayPanel.h">
+      <Filter>Source Files\OverlayPannel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PowerToolDlg\FPowerToolDlg.h">
+      <Filter>Source Files\PowerToolDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PowerToolDlg\FPowerToolMgr.h">
+      <Filter>Source Files\PowerToolDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PowerToolDlg\FPowerToolSettingWidget.h">
+      <Filter>Source Files\PowerToolDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PowerToolDlg\FPreViewMediaPlayer.h">
+      <Filter>Source Files\PowerToolDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PhotoPanel\FPhotoPanel.h">
+      <Filter>Source Files\PhotoPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PhotoPanel\FPhotoPanelMgr.h">
+      <Filter>Source Files\PhotoPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransitionPanel\FTransitionPanel.h">
+      <Filter>Source Files\TransitionPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TransitionPanel\FTransitionPanelMgr.h">
+      <Filter>Source Files\TransitionPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VideoPanel\FVideoPanel.h">
+      <Filter>Source Files\VideoPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VideoPanel\FVideoPanelMgr.h">
+      <Filter>Source Files\VideoPanel</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AudioMixerDialog\FAudioMixerBaseWidget.h">
+      <Filter>Source Files\AudioMixerDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AudioMixerDialog\FAudioMixerDialog.h">
+      <Filter>Source Files\AudioMixerDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AudioMixerDialog\FAudioMixerDialogMgr.h">
+      <Filter>Source Files\AudioMixerDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PIPEditDialog\FPIPEditBaseWidget.h">
+      <Filter>Source Files\PIPEditDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PIPEditDialog\FPIPEditDialog.h">
+      <Filter>Source Files\PIPEditDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="PIPEditDialog\FPIPEditDialogMgr.h">
+      <Filter>Source Files\PIPEditDialog</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FAdvanceVedioDlg.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FCollapseHeaderBase.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FColorAdjustPanel.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FColorSettingWnd.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FFoldWidgetItem.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FFoldWidgetItemPrivate.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FFoldWidgetPrivate.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FHistogramPannel.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FPresentWnd.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FPreviewPlayer.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FPreviewPlayerHeader.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="AdvanceVedioDlg\FRulerWidget.h">
+      <Filter>Source Files\AdvanceVedioDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CropAndZoom\FCropAndZoomPanel.h">
+      <Filter>Source Files\CropAndZoomDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CropAndZoom\MediaCropDialog.h">
+      <Filter>Source Files\CropAndZoomDlg</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditPlayer\FEditPlayer.h">
+      <Filter>Source Files\EditPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditPlayer\FEditPlayerMgr.h">
+      <Filter>Source Files\EditPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditPlayer\FEditRectangle.h">
+      <Filter>Source Files\EditPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditPlayer\FEditPlayerImpl.h">
+      <Filter>Source Files\EditPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EditPlayer\FEditRectangleView.h">
+      <Filter>Source Files\EditPlayer</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CropAndZoom\CropPlayerView.h">
+      <Filter>Source Files\CropAndZoomDlg</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

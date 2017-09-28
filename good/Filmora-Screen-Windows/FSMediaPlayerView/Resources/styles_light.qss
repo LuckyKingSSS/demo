@@ -1,0 +1,1295 @@
+/*FSBaseToolBar*/
+FSBaseToolBar#FSCommonLib_FSBaseToolBar 
+{
+	background-color:#313C48;
+	border:1px solid #313C48;
+	border-top:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	
+}
+BaseButton#FSBaseToolBar_Backward 
+{
+	border:1px solid #313C48;
+	border-bottom:1px solid #27313B;
+	border-right:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Backward_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Backward:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Backward_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Backward:pressd
+ {
+	 background-image:url(:/FSMediaPlayerView/Resources/light/Backward_p.png);
+	 background-position: center; 
+	 background-repeat:no-repeat;
+	 }
+BaseButton#FSBaseToolBar_Backward:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Backward_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+
+BaseButton#FSBaseToolBar_Play 
+{
+	border:1px solid #313C48;
+	border-right:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Play_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Play:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Play_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Play:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Play_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Play:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Play_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+
+BaseButton#FSBaseToolBar_Pause 
+{
+	border:1px solid #313C48;
+	border-right:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Pause_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Pause:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Pause_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Pause:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Pause_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Pause:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Pause_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+
+BaseButton#FSBaseToolBar_Forward 
+{
+	border:1px solid #313C48;
+	border-bottom:1px solid #27313B;
+	border-right:1px solid #27313B;	
+	background-image:url(:/FSMediaPlayerView/Resources/light/Forward_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Forward:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Forward_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Forward:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Forward_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Forward:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Forward_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+
+BaseButton#FSBaseToolBar_Stop 
+{
+	border:1px solid #313C48;
+	border-right:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Stop_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Stop:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Stop_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Stop:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Stop_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Stop:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Stop_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+
+BaseButton#FSBaseToolBar_Volume 
+{
+	border:1px solid #313C48;
+	border-left:1px solid #27313B;
+	border-right:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Volume_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Volume:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Volume_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Volume:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Volume_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_Volume:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Volume_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+
+BaseButton#FSBaseToolBar_FullScreen
+{
+	border:1px solid #313C48;
+	border-right:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/FullScreen_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_FullScreen:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/FullScreen_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_FullScreen:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/FullScreen_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_FullScreen:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/FullScreen_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+
+BaseButton#FSBaseToolBar_FullScreenExit 
+{
+	border:1px solid #313C48;
+	border-right:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/RestoreFullScreen_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_FullScreenExit:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RestoreFullScreen_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#FSBaseToolBar_FullScreenExit:diabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RestoreFullScreen_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+	
+FSLabel#FSBaseToolBar_mpLabelPreViewDuration{
+	font:12px "Lato";
+	color:#FFFFFF;
+}
+
+FSLabel#FSBaseToolBar_mpLabelEditDuration{
+	font:12px "Lato";
+	color:#FFFFFF;
+}
+
+BaseButton#FSBaseToolBar_View
+{
+	border:1px solid #313C48;
+	border-right:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/VeiwCut_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#FSBaseToolBar_Scale
+{
+	border:1px solid #313C48;
+	border-right:1px solid #27313B;
+	border-bottom:1px solid #27313B;
+	background-image:url(:/FSMediaPlayerView/Resources/light/VeiwScale_n.png); 
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+
+/***************************************RecorderFSBaseToolBar*****************************************/
+FSRecorderBaseToolBar#RecorderToolBar{
+	background-color:#1A1F23;  
+}
+
+
+FSLabel#RecorderFSBaseToolBar_mpLabelPreViewDuration{
+	font:12px "Lato";
+}
+
+BaseButton#RecorderFSBaseToolBar_VolumeOn
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderAudio_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_VolumeOn:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderAudio_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_VolumeOn:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderAudio_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_VolumeOn:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderAudio_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+
+BaseButton#RecorderFSBaseToolBar_VolumeOff 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Volume_off_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_VolumeOff:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Volume_off_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}	
+BaseButton#RecorderFSBaseToolBar_VolumeOff:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/Volume_off_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_VolumeOff:disabled
+ {
+	 background-image:url(:/FSMediaPlayerView/Resources/light/Volume_off_d.png);
+	 background-position: center; 
+	 background-repeat:no-repeat;
+}
+
+BaseButton#RecorderFSBaseToolBar_Play 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderPlay_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_Play:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderPlay_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_Play:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderPlay_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_Play:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderPlay_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+
+BaseButton#RecorderFSBaseToolBar_Pause 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderPause_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_Pause:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderPause_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_Pause:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderPause_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_Pause:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderPause_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_FullScreen
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderFullScreen_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_FullScreen:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderFullScreen_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_FullScreen:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderFullScreen_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_FullScreen:disabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RecorderFullScreen_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+	}
+
+BaseButton#RecorderFSBaseToolBar_FullScreenExit 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RestoreFullScreen_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_FullScreenExit:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RestoreFullScreen_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+	BaseButton#RecorderFSBaseToolBar_FullScreenExit:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RestoreFullScreen_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+	}
+BaseButton#RecorderFSBaseToolBar_FullScreenExit:diabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/RestoreFullScreen_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+
+/*FSMediaPlayer*/
+QWidget#FSCommonLib_IFSMediaPlayer {background-color:#13191D;}
+
+/*FSPropertyView*/
+FSLabel#FSPropertyView_m_pStyleTitle{
+	background-color:#1e252b;
+	border-bottom:1px solid #000000;
+}
+
+FSButton#FSPropertyView_m_pButtonVisual
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+    background-image:url(:/FSMediaPlayerView/Resources/light/media_n.png);
+    background-position: center;
+    background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonVisual:hover
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/media_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+FSButton#FSPropertyView_m_pButtonVisual:pressed
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/media_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonVisual:diabled
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/media_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonVisual:checked
+{
+	border:1px solid #1a1f23;
+	border-right:1px solid #000000;
+	background-color:#1a1f23;
+	background-image:url(:/FSMediaPlayerView/Resources/light/media_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+FSButton#FSPropertyView_m_pButtonCursor
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/cursor_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonCursor:hover
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/cursor_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonCursor:pressed
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/cursor_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonCursor:diabled
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/cursor_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonCursor:checked
+{
+	border:1px solid #1a1f23;
+	border-right:1px solid #000000;
+	background-color:#1a1f23;
+	background-image:url(:/FSMediaPlayerView/Resources/light/cursor_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+
+FSButton#FSPropertyView_m_pButtonHotKey
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Hotkey_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonHotKey:hover
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Hotkey_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonHotKey:pressed
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Hotkey_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonHotKey:diabled
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Hotkey_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonHotKey:checked
+{
+	border:1px solid #1a1f23;
+	border-right:1px solid #000000;
+	background-color:#1a1f23;
+	background-image:url(:/FSMediaPlayerView/Resources/light/Hotkey_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+
+FSButton#FSPropertyView_m_pButtonAudio
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/voice2_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+ }
+FSButton#FSPropertyView_m_pButtonAudio:hover
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/voice2_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonAudio:pressed
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/voice2_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+ }
+FSButton#FSPropertyView_m_pButtonAudio:diabled
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/voice2_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonAudio:checked
+{
+	border:1px solid #1a1f23;
+	border-right:1px solid #000000;
+	background-color:#1a1f23;
+	background-image:url(:/FSMediaPlayerView/Resources/light/voice2_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+FSButton#FSPropertyView_m_pButtonAnnotation
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/annotation_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonAnnotation:hover
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/annotation_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonAnnotation:pressed
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/annotation_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonAnnotation:diabled
+{
+	border:1px solid #1e252b;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/annotation_d.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+FSButton#FSPropertyView_m_pButtonAnnotation:checked
+{
+	border:1px solid #1a1f23;
+	border-right:1px solid #000000;
+	background-color:#1a1f23;
+	background-image:url(:/FSMediaPlayerView/Resources/light/annotation_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+QWidget#FSPropertyView_m_pWidgetTitle
+{
+	border:1px solid #1e252b;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+}
+
+QWidget#IFSOptionView_m_pOptionWidget{
+	border:1px solid #1e252b;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+}
+
+
+BaseButton#FSPropertyView_m_pShowPropertyBtn 
+{
+	border:1px solid #1e252b;
+	border-left:1px solid #000000;
+	border-bottom:1px solid #000000;
+    background-color:#1e252b;
+	background-image:url(:/FSMediaPlayerView/Resources/light/menun_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+BaseButton#FSPropertyView_m_pShowPropertyBtn:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/menun_h.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+BaseButton#FSPropertyView_m_pShowPropertyBtn:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/menun_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+BaseButton#FSPropertyView_m_pShowPropertyBtn:diabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/menun_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#FSPropertyView_m_pHidePropertyBtn 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/menun2_n.png);
+	background-position: center;
+	background-repeat:no-repeat;
+ }
+BaseButton#FSPropertyView_m_pHidePropertyBtn:hover 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/menun2_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+BaseButton#FSPropertyView_m_pHidePropertyBtn:pressed 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/menun2_p.png);
+	background-position: center;
+	background-repeat:no-repeat;
+ }
+BaseButton#FSPropertyView_m_pHidePropertyBtn:diabled 
+{
+	background-image:url(:/FSMediaPlayerView/Resources/light/menun2_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+FSMediaScrollArea#FSMediaScrollArea
+{
+	background-color:#13191D;
+}
+
+QScrollBar#FSMediaScrollArea_horizontalScrollBar:horizontal
+{
+    height:0px;
+    background:#1A1F23;
+    margin:0px,0px,0px,0px;
+    padding-top:0px; 
+    padding-bottom:0px;
+}
+QScrollBar#FSMediaScrollArea_verticalScrollBar:vertical
+{
+    width:0px;
+    background:#1A1F23;
+    margin:0px,0px,0px,0px;
+    padding-top:0px; 
+    padding-bottom:0px;
+}
+
+QWidget#FSScrollArea_m_pWidget{background-color:#1e252b;}
+
+FSBaseWidget#FSPropertyView{background-color:#1e252b;}
+
+FSPreviewEditView#FSPreviewEditView{
+	background-color:#13191D;
+}
+
+QScrollBar:horizontal
+{
+    height:6px;
+    background:#1A1F23;
+    margin:0px,0px,0px,0px;
+    padding-top:0px; 
+    padding-bottom:0px;
+}
+
+QScrollBar::handle:horizontal
+{
+    height:6px;
+	border:1px solid #1A1F23;
+    background:#4E6873;
+    border-radius:3px;
+	max-width:20;
+    min-width:20;	
+}
+QScrollBar::add-line:horizontal 
+{
+    height:6px;width:0px;
+    subcontrol-position:right;
+}
+QScrollBar::sub-line:horizontal 
+{
+    height:6px;width:0px;
+    subcontrol-position:left;
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal   
+{
+    background:#1A1F23;
+    border-radius:3px;
+}
+
+
+
+QScrollBar:vertical
+{
+    width:6px;
+    background:#1A1F23;
+    margin:0px,0px,0px,0px;
+    padding-top:0px; 
+    padding-bottom:0px;
+}
+
+QScrollBar::handle:vertical
+{
+    width:6px;
+	border:1px solid #1A1F23;
+    background:#4E6873;
+    border-radius:3px;
+	max-height:20;
+    min-height:20;	
+}
+QScrollBar::add-line:vertical 
+{
+    height:0px;width:6px;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical 
+{
+    height:0px;width:6px;
+    subcontrol-position:top;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background:#1A1F23;
+    border-radius:3px;
+}
+
+QPushButton#FSPropertyTitle_m_pTitleBtn
+{
+	
+	border: 1px solid #1A1F23;
+	border-bottom:1px solid #000000;
+	background-color:#1A1F23;
+}
+
+
+FSLabel#FSPropertyView_m_pTextLabel
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+FSLabel#FSPropertyTitle_m_pTitleLabel
+{
+	font:16px "Lato";
+	color:#7F9CAF;
+}
+
+FSLabel#FSVisualPorpertyView_pLabelScale{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSVisualPorpertyView_pLabelRotation{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSVisualPorpertyView_pLabelPosition{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSVisualPorpertyView_pLabelPositionX{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSVisualPorpertyView_pLabelPositionY{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSPropertyTitle_m_pLabelColor{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSBackground2Option_m_pLabelOpacity{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSPropertyTitle_m_pLabelFont{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSPropertyTitle_m_pLabelSize{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSPropertyTitle_m_pLabelColor{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSPropertyTitle_m_pLabelAlign{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSCursorClickSoundOption_m_pLabelVoluem{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSCursorBaseOption_m_pLabelOpacity{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSCursorBaseOption_m_pLabelScale{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+QLabel#FSAnotationOption_pLine{
+	background-color:#29333D;
+}
+
+FSLabel#FSDenoiseOption_m_pLevelLable{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+FSLabel#FSDenoiseOption_m_pEnableLabel{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+FSButton#FSColorSelecter_m_pButtonMore{
+	font:12px "Lato";
+	color:#7F9CAF;
+	background-color:#27313B;
+	border-radius:6px;
+}
+
+QDoubleSpinBox#FSVisualPorpertyView_pDoubleSpinBox
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+	background-color:#13171B;
+	border: 1px solid #27313B;
+}
+QSpinBox#FSVisualPorpertyView_pSpinBox
+{
+	font:14px "Lato";
+	color:#7F9CAF;
+	background-color:#13171B;
+	border: 1px solid #27313B;
+}
+
+
+
+FSButton#FSPropertyTitle_m_pDeleteBtn
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/x_small_n.png);
+}
+FSButton#FSPropertyTitle_m_pDeleteBtn:hover
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/x_small_h.png);
+}
+FSButton#FSPropertyTitle_m_pDeleteBtn:pressed
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/x_small_p.png);
+}
+FSButton#FSPropertyTitle_m_pDeleteBtn:disabled
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/x_small_d.png);
+}
+
+FSButton#FSPropertyTitle_m_pResetBtn
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/Reset_n.png);
+}
+FSButton#FSPropertyTitle_m_pResetBtn:hover
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/Reset_h.png);
+}
+FSButton#FSPropertyTitle_m_pResetBtn:pressed
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/Reset_p.png);
+}
+FSButton#FSPropertyTitle_m_pResetBtn:disabled
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/Reset_d.png);
+}
+
+
+FSButton#FSTextBaseOption_m_pButtonAlignLeft
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_1_n.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlignLeft:hover
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_1_h.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlignLeft:pressed
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_1_p.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlignLeft:disabled
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_1_d.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlignLeft:checked
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_1_h.png);
+}
+
+
+FSButton#FSTextBaseOption_m_pButtonBold
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Bold_n.png);
+}
+FSButton#FSTextBaseOption_m_pButtonBold:hover
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Bold_h.png);
+}
+FSButton#FSTextBaseOption_m_pButtonBold:pressed
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Bold_p.png);
+}
+FSButton#FSTextBaseOption_m_pButtonBold:disabled
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Bold_d.png);
+}
+FSButton#FSTextBaseOption_m_pButtonBold:checked
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Bold_h.png);
+}
+
+FSButton#FSTextBaseOption_m_PButtonItalic
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Italic_n.png);
+}
+FSButton#FSTextBaseOption_m_PButtonItalic:hover
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Italic_h.png);
+}
+FSButton#FSTextBaseOption_m_PButtonItalic:pressed
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Italic_p.png);
+}
+FSButton#FSTextBaseOption_m_PButtonItalic:disabled
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Italic_d.png);
+}
+FSButton#FSTextBaseOption_m_PButtonItalic:checked
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_Italic_h.png);
+}
+
+
+FSButton#FSTextBaseOption_m_PButtonAlignCenter
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_2_n.png);
+}
+FSButton#FSTextBaseOption_m_PButtonAlignCenter:hover
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_2_h.png);
+}
+FSButton#FSTextBaseOption_m_PButtonAlignCenter:pressed
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_2_p.png);
+}
+FSButton#FSTextBaseOption_m_PButtonAlignCenter:disabled
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_2_d.png);
+}
+FSButton#FSTextBaseOption_m_PButtonAlignCenter:checked
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_2_h.png);
+}
+
+FSButton#FSTextBaseOption_m_pButtonAlignRight
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_3_n.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlignRight:hover
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_3_h.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlignRight:pressed
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_3_p.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlignRight:disabled
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_3_d.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlignRight:checked
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_3_h.png);
+}
+
+FSButton#FSTextBaseOption_m_pButtonAlign2Side
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_4_n.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlign2Side:hover
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_4_h.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlign2Side:pressed
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_4_p.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlign2Side:disabled
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_4_d.png);
+}
+FSButton#FSTextBaseOption_m_pButtonAlign2Side:checked
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/align_4_h.png);
+}
+
+
+FSTextEdit#FSTextBaseOption_m_pTextEdit{
+	border:none;
+	background-color:#435263;
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+ToolBarSlider#FSVisualPorpertyView_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_bg
+{
+	background-color:#13171B;
+}
+
+ToolBarSlider#FSVisualPorpertyView_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_chunk 
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/SliderDrag.png);
+}
+
+ToolBarSlider#FSVisualPorpertyView_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_chunk:disabled 
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/SliderDrag.png);
+}
+
+ToolBarSlider#FSVisualPorpertyView_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_groove 
+{
+	background-color:#4C6671;
+}
+
+ToolBarSlider#FSVisualPorpertyView_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_groove:disabled 
+{
+	background-color:#13171B;
+}
+
+
+ToolBarSlider#RecorderFSBaseToolBar_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_bg
+{
+	background-color:#313C48;
+}
+
+ToolBarSlider#RecorderFSBaseToolBar_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_chunk 
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/SliderDrag.png);
+}
+
+ToolBarSlider#RecorderFSBaseToolBar_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_chunk:disabled 
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/SliderDrag.png);
+}
+
+ToolBarSlider#RecorderFSBaseToolBar_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_groove 
+{
+	background-color:#4C6671;
+}
+
+ToolBarSlider#RecorderFSBaseToolBar_pToolBarSlider > QWidget#CommonLib_ToolBarSlider_groove:disabled 
+{
+	background-color:#313C48;
+}
+
+ToolBarSlider#mpProgressSlider > QWidget#CommonLib_ToolBarSlider_bg
+{
+	background-color:#1E252B;
+}
+
+ToolBarSlider#mpProgressSlider > QWidget#CommonLib_ToolBarSlider_chunk 
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/SliderDrag.png);
+}
+
+ToolBarSlider#mpProgressSlider > QWidget#CommonLib_ToolBarSlider_chunk:disabled 
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/SliderDrag.png);
+}
+
+ToolBarSlider#mpProgressSlider > QWidget#CommonLib_ToolBarSlider_groove 
+{
+	background-color:#4C6671;
+}
+
+ToolBarSlider#mpProgressSlider > QWidget#CommonLib_ToolBarSlider_groove:disabled 
+{
+	background-color:#1E252B;
+}
+
+
+AudioVolumeSlider#AudioVolumeSliderDialog
+{
+    background-color:#313C48;
+}
+
+ToolBarSlider#myVolueSlider > QWidget#CommonLib_ToolBarSlider_bg
+{
+	background-color:#1E252B;
+}
+ToolBarSlider#myVolueSlider > QWidget#CommonLib_ToolBarSlider_chunk 
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/SliderDrag.png);
+}
+
+ToolBarSlider#myVolueSlider > QWidget#CommonLib_ToolBarSlider_chunk:disabled 
+{
+	border-image:url(:/FSMediaPlayerView/Resources/light/SliderDrag.png);
+}
+
+ToolBarSlider#myVolueSlider > QWidget#CommonLib_ToolBarSlider_groove 
+{
+	background-color:#4C6671;
+}
+
+ToolBarSlider#myVolueSlider > QWidget#CommonLib_ToolBarSlider_groove:disabled 
+{
+	background-color:#1E252B;
+}
+
+
+
+
+
+FSComboBox#FSTextBaseOption_m_pComboBox{
+	font:14px "Lato";
+	color:#7F9CAF;
+	background-color:#13171B;
+	border: 1px solid #27313B;
+}
+
+FSComboBox#FSTextBaseOption_m_pComboBox::drop-down{
+	height:20px;
+	width:20px;
+	image: url(:/FSMediaPlayerView/Resources/light/drag_n.png); 
+}
+FSComboBox#FSTextBaseOption_m_pComboBox::drop-down:hover{
+	height:20px;
+	width:20px;
+	image: url(:/FSMediaPlayerView/Resources/light/drag_h.png); 
+}
+FSComboBox#FSTextBaseOption_m_pComboBox::drop-down:pressed{
+	height:20px;
+	width:20px;
+	image: url(:/FSMediaPlayerView/Resources/light/drag_p.png); 
+}
+FSComboBox#FSTextBaseOption_m_pComboBox::drop-down:disabled{
+	height:20px;
+	width:20px;
+	image: url(:/FSMediaPlayerView/Resources/light/drag_d.png); 
+}
+QWidget#ColorSelecter_m_pButtonMore{
+	font:12px "Lato";
+	color:#7F9CAF;
+	background-color:#27313B;
+	border-radius:4px;
+}
+QWidget#ComboBoxColorSelect_m_pButtonDrag
+{
+	border-image:url(:/CommonLib/Resources/normal/drag_n.png)
+}
+QWidget#ComboBoxColorSelect_m_pButtonDrag:hover
+{
+	border-image:url(:/CommonLib/Resources/normal/drag_h.png)
+}
+QWidget#ComboBoxColorSelect_m_pButtonDrag:pressed
+{
+	border-image:url(:/CommonLib/Resources/normal/drag_p.png)
+}
+QWidget#ComboBoxColorSelect_m_pButtonDrag:disabled
+{
+	border-image:url(:/CommonLib/Resources/normal/drag_d.png)
+}
+

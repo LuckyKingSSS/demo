@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/CommonLib">
+        <file>Resources/normal/ScaleUnitSlider_ZoomIn_h.png</file>
+        <file>Resources/normal/ScaleUnitSlider_ZoomIn_n.png</file>
+        <file>Resources/normal/ScaleUnitSlider_ZoomOut_h.png</file>
+        <file>Resources/normal/ScaleUnitSlider_ZoomOut_n.png</file>
+        <file>Resources/normal/TitleBar_Close.png</file>
+        <file>Resources/normal/TitleBar_Maximized.png</file>
+        <file>Resources/normal/TitleBar_Minimized.png</file>
+        <file>Resources/normal/TitleBar_Normal.png</file>
+        <file>Resources/styles.qss</file>
+        <file>Resources/normal/ScaleUnitSlider_ZoomIn_d.png</file>
+        <file>Resources/normal/ScaleUnitSlider_ZoomOut_d.png</file>
+        <file>Resources/normal/VideoTrackBar_Pointer_n.png</file>
+        <file>Resources/normal/VideoTrackBar_Track_bg.png</file>
+        <file>Resources/normal/VideoTrackBar_Track_groove.png</file>
+        <file>Resources/normal/VideoTrackBar_Pointer_d.png</file>
+        <file>Resources/normal/toplevelwindow_menu_maxmize.png</file>
+        <file>Resources/normal/toplevelwindow_menu_minimize.png</file>
+        <file>Resources/normal/toplevelwindow_menu_restore.png</file>
+        <file>Resources/normal/cursor_transparent.png</file>
+        <file>Resources/normal/drag_d.png</file>
+        <file>Resources/normal/drag_h.png</file>
+        <file>Resources/normal/drag_n.png</file>
+        <file>Resources/normal/drag_p.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Categorys>
+	<Category>
+		<type>0</type>
+		<text>Captions</text>
+	</Category>
+	<Category>
+		<type>1</type>
+		<text>Overlays</text>
+	</Category>
+	<Category>
+		<type>2</type>
+		<text>Arrows</text>
+	</Category>
+	<Category>
+		<type>3</type>
+		<text>Bubbles</text>
+	</Category>
+		<Category>
+		<type>4</type>
+		<text>Banners</text>
+	</Category>
+</Categorys>

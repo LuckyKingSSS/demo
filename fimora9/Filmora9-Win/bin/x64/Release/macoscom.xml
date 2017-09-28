@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <CLSID id="{E71EAD89-1CCD-4c34-97A8-7D45B5F16613}" name="WS_DecMgr.dll"></CLSID>
+  <CLSID id="{6487969C-8280-4371-B037-6FDD91321A3E}" name="WSPlayer.dll"></CLSID>
+  <CLSID id="{7e55d7f9-454a-4d4c-bd2d-8fec187b657f}" name="WS_Converter.dll"></CLSID>
+  <!--CLSID_CLossLessCopy-->
+  <CLSID id="{235fec1a-b7e6-4fab-b89f-0743344e484a}" name="LossLessCopy.dll"></CLSID>
+  <CLSID id="{f1eb87e5-6940-42b6-b4ce-208aa7695819}" name="WS_EncMgr.dll"></CLSID>
+  <CLSID id="{e2737827-e04a-4969-aabb-badbd0cfe40f}" name="WS_DataProcess.dll"></CLSID>
+  <!--IAudioProcess-->
+  <CLSID id="{c1242906-5995-4ed4-b1ab-9faee1cfcce7}" name="WS_DataProcess.dll"></CLSID>
+  <!--IAudioSlider-->
+  <CLSID id="{911b921b-b28a-44d1-a0ed-4bdecf18a3bc}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVolumeSetting-->
+  <CLSID id="{e2737827-e04a-4969-aabb-badbd0cfe40f}" name="WS_DataProcess.dll"></CLSID>
+  <!--IAudioFade-->
+  <CLSID id="{68cce4e2-e906-47a8-9820-f710890d0a2a}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoCrop-->
+  <CLSID id="{465a9d1d-55d6-4bdd-9232-9b035e796667}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoEffect-->
+  <CLSID id="{9f97a1bf-884d-4c14-b9cc-4da7cdf35bc7}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoRotation-->
+  <CLSID id="{807dea6d-2e28-41b4-89a8-2d330cba4dfc}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoResizer-->
+  <CLSID id="{fc2c8098-6c82-492a-926c-cbb964d12d3f}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoSlider-->
+  <CLSID id="{315ab12e-abfb-4327-a38a-2b0b886df849}" name="WS_DataProcess.dll"></CLSID>
+  <!--IAudioPackFrame-->
+  <CLSID id="{b26ee074-d0fc-41d9-9b63-b2daa84b8058}" name="WS_DataProcess.dll"></CLSID>
+  <!--ISlideDecoder-->
+  <CLSID id="{21c7bb8b-657a-46fb-86e5-a439960ad004}" name="MediaSlide.dll"></CLSID>
+  <!--IVideoCompositor-->
+  <CLSID id="{375daf31-a4b7-40b0-9f2b-3b90ac944536}" name="WS_VideoCompositor.dll"></CLSID>
+  <!--ICheckEncParams-->
+  <CLSID id="{f1eb87e5-6940-42b6-b4ce-208aa7690020}" name="WS_EncMgr.dll"></CLSID>
+  <!--IPCText-->
+  <CLSID id="{c3297339-6fc4-4b45-81cc-578b39bfac45}" name="WS_Text.dll"></CLSID>
+  <!--ISOInfo-->
+  <CLSID id="{A13F85D0-420C-4cf0-BD56-B6C1F101A99F}" name="DVDReader.dll"></CLSID>
+  <!--ISubPicSearch-->
+  <CLSID id="{5f44370f-215a-440e-a913-182826da1944}" name="SubPic.dll"></CLSID>
+  <!--IVideoPreview-->
+  <CLSID id="{f590e2b0-c009-4baa-8293-6838d8a6b63e}" name="WS_VideoPreview.dll"></CLSID>
+  <!--IVideoCopy-->
+  <CLSID id="{c2aa0e9e-3e1a-48a9-b288-99a59da0cb9d}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoCropDraw-->
+  <CLSID id="{55004296-0256-4df1-bd00-90e184814603}" name="VideoCropDraw.dll"></CLSID>
+  <!--IMediaConvItem-->
+  <CLSID id="{5B53122D-57AD-4f7b-B548-AA6AA9D1E47E}" name="SimpleConverter.dll"></CLSID>
+  <!--IMediaConv-->
+  <CLSID id="{AC4C9158-3E9D-48b6-80C2-86CF1B1BCBA8}" name="SimpleConverter.dll"></CLSID>
+  <!--IXMLRead-->
+  <CLSID id="{540A7D1C-96D7-49b9-84FD-A9E51A56ADEA}" name="XMLRead.dll"></CLSID>
+  <!--IEncMgr-->
+  <CLSID id="{9415EA92-D975-4c82-9787-AE99313BA350}" name="WS_EncMgr.dll"></CLSID>
+  <!--ISnapshotStream-->
+  <CLSID id="{118A8D06-BF42-49e3-A6DF-F325700A23BE}" name="SnapshotStream.dll"></CLSID>
+  <!--ICaptureEngine-->
+  <CLSID id="{F7AFB65B-D0EF-4778-9F0B-E6236DE49591}" name="CaptureEngine.dll"></CLSID>
+  <!--IVideoCaptureSource-->
+  <CLSID id="{58DA667D-94C6-415a-82CA-5B8CAC3C821B}" name="CaptureSource.dll"></CLSID>
+  <!--IMediaLossCopyConverter-->
+  <CLSID id="{B4BFC2EE-D154-4139-9986-07A6BCC5D3F5}" name="WS_MediaLossConverter.dll"></CLSID>
+  <!--ICaptureMgrEx-->
+  <CLSID id="{2DCB5621-B5F2-4578-889F-CDBA0028C653}" name="CaptureSource.dll"></CLSID>
+  <!--ICaptureEngineEx-->
+  <CLSID id="{A016905B-2C21-4704-95FD-391C8AB26BB3}" name="CaptureEngineEx.dll"></CLSID>
+  <!--ILocalFileMuxerMgr-->
+  <CLSID id="{F150A0CE-A353-450e-AE8A-D62065D36B95}" name="CaptureMuxer.dll"></CLSID>
+  <!--ICapturePlayer-->
+  <CLSID id="{07E89C72-9CBD-4e02-852A-ABC44C74FDDA}" name="CapturePlayer.dll"></CLSID>
+  <!--INLECaptureMgr-->
+  <CLSID id="{E7C2FB23-A71C-4AE0-8186-6B469731E52E}" name="NLECaptureMgr.dll"></CLSID>
+</Root>

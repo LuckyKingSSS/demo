@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config_root version="V1.0">
+  <Demuxers>
+    <Demuxer1>TS</Demuxer1>
+    <Demuxer2>M2TS</Demuxer2>
+    <Demuxer3>MTS</Demuxer3>
+    <Demuxer4>TRP</Demuxer4>
+    <Demuxer5>MKV</Demuxer5>
+    <Demuxer6>AIFF</Demuxer6>
+    <Demuxer7>AAC</Demuxer7>
+    <Demuxer8>AVI</Demuxer8>
+    <Demuxer9>EVO</Demuxer9>
+    <Demuxer10>VOB</Demuxer10>
+    <Demuxer11>MPG</Demuxer11>
+    <Demuxer12>MPEG</Demuxer12>
+    <Demuxer13>TP</Demuxer13>
+    <Demuxer14>ASF</Demuxer14>
+    <Demuxer15>WTV</Demuxer15>
+    <Demuxer16>AU</Demuxer16>
+    <Demuxer17>DVR-MS</Demuxer17>
+    <Demuxer18>DAT</Demuxer18>
+    <Demuxer19>MOD</Demuxer19>
+    <Demuxer20>WMV</Demuxer20>
+  </Demuxers>
+  <ProcessTimeout>120</ProcessTimeout>
+  <UseAuto>1</UseAuto>
+</config_root>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+	三场景{场景拉伸，源居中、裁剪}
+	3个场景，边框【粗细3，黄色65535】
+	布局如下示意图：
+	----------------------------
+	|       \          /       |
+	|  场景0 \  场景1 /  场景2 |
+	|         \      /         |
+	----------------------------
+-->
+
+<Property.Montage name="3 Screen H/{32F7AC75-C463-4a04-825F-958FD9D42CBC}">
+
+	<!-- 蒙太奇总览 -->
+	<Properties Count="11">
+		<Property key="GUID" type="GUID" value="{E1F31A35-3820-47C8-BE69-030EDD1A703F}"/>
+		<Property key="Level" type="int" value="0"/>
+		<Property key="Name" type="std::wstring" value="Montage.Top"/>
+		<Property key="REFCLSID" type="GUID" value="{3FEB3BF6-573E-4FFC-A36A-1F3E769EFF47}"/>
+		<Property key="REFIID" type="GUID" value="{29FDB4EE-DE39-151E-ED38-06C8CFB45CDA}"/>
+		<Property key="Render.Mode" type="int" value="1"/>
+		<Property key="Render.Region" type="NLERectF" value="left:0.000000, top:0.000000, width:1.000000, height:1.000000"/>
+		<!-- 3个场景，边框【粗细3，黄色65535】 -->
+		<Property key="Montage.SceneCnt" type="int" value="3"/>
+		<Property key="Render.MaskFile" type="std::wstring" value=""/>
+		<Property key="Render.BorderWidth" type="int" value="3"/>
+		<Property key="Render.BorderColor" type="unsigned int" value="65535"/>
+	</Properties>
+	
+	<!-- 第0个场景 -->
+	<Property.Child>
+		<!-- 场景0的框架 -->
+		<Properties Count="11">
+			<Property key="GUID" type="GUID" value="{2C3DB68D-5AC5-4042-921B-29BC4954BA83}"/>
+			<Property key="Level" type="int" value="0"/>
+			<Property key="Name" type="std::wstring" value="Montage.Frame.0"/>
+			<Property key="REFCLSID" type="GUID" value="{CD61E0E4-0074-3FD5-4915-951546E34A03}"/>
+			<Property key="REFIID" type="GUID" value="{29FDB4EE-DE39-151E-ED38-06C8CFB45CDA}"/>
+			<Property key="Render.Mode" type="int" value="1"/>
+			<Property key="Render.Region" type="NLERectF" value="left:0.000000, top:0.000000, width:1.000000, height:1.000000"/>
+			<!-- 场景编号0 -->
+			<Property key="Montage.SceneIdx" type="int" value="0"/>
+			<Property key="Render.MaskFile" type="std::wstring" value="0.000000,0.000000,0.200000,0.000000,0.320000,0.999999,0.000000,0.999999"/>
+			<Property key="Render.BorderWidth" type="int" value="3"/>
+			<Property key="Render.BorderColor" type="unsigned int" value="65535"/>
+		</Properties>
+		
+		<!-- 场景0的源 -->
+		<Property.Child>
+			<Properties Count="9">
+				<Property key="Absolute.FilePath" type="std::wstring" value="%CurrentDir%\MontageTemplate\resource\m00.jpg"/>
+				<Property key="GUID" type="GUID" value="{8A41F72B-B125-430F-BBA8-89BA4628BADA}"/>
+				<Property key="Level" type="int" value="0"/>
+				<Property key="Name" type="std::wstring" value="Montage.Source.0"/>
+				<Property key="REFCLSID" type="GUID" value="{9B42D098-1E44-6B5F-C3DA-23CB57969A0B}"/>
+				<Property key="REFIID" type="GUID" value="{29FDB4EE-DE39-151E-ED38-06C8CFB45CDA}"/>
+				<Property key="Render.Mode" type="int" value="1"/>
+				<Property key="Render.AnchorPoint" type="NLEPointF" value="x:-0.340000, y:0.000000"/>
+				<Property key="Render.ResizeScaleF" type="NLESizeF" value="Width:1.000000, cy:1.000000"/>
+			</Properties>
+		</Property.Child>			
+	</Property.Child>
+	
+	<!-- 第1个场景 -->
+	<Property.Child>
+		<!-- 场景1的框架 -->
+		<Properties Count="11">
+			<Property key="GUID" type="GUID" value="{CCA59462-5D05-4260-811F-B8FA5D4894D1}"/>
+			<Property key="Level" type="int" value="1"/>
+			<Property key="Name" type="std::wstring" value="Montage.Frame.1"/>
+			<Property key="REFCLSID" type="GUID" value="{CD61E0E4-0074-3FD5-4915-951546E34A03}"/>
+			<Property key="REFIID" type="GUID" value="{29FDB4EE-DE39-151E-ED38-06C8CFB45CDA}"/>
+			<Property key="Render.Mode" type="int" value="1"/>
+			<Property key="Render.Region" type="NLERectF" value="left:0.000000, top:0.000000, width:1.000000, height:1.000000"/>
+			<!-- 场景编号1 -->
+			<Property key="Montage.SceneIdx" type="int" value="1"/>
+			<Property key="Render.MaskFile" type="std::wstring" value="0.200000,0.000000,0.800000,0.000000,0.680000,0.999999,0.320000,0.999999"/>
+			<Property key="Render.BorderWidth" type="int" value="3"/>
+			<Property key="Render.BorderColor" type="unsigned int" value="65535"/>
+		</Properties>
+		
+		<!-- 场景1的源 -->
+		<Property.Child>
+			<Properties Count="9">
+				<Property key="Absolute.FilePath" type="std::wstring" value="%CurrentDir%\MontageTemplate\resource\m01.jpg"/>
+				<Property key="GUID" type="GUID" value="{4F104E42-9D9B-4AC8-A69A-FC1F9C4912A8}"/>
+				<Property key="Level" type="int" value="0"/>
+				<Property key="Name" type="std::wstring" value="Montage.Source.1"/>
+				<Property key="REFCLSID" type="GUID" value="{9B42D098-1E44-6B5F-C3DA-23CB57969A0B}"/>
+				<Property key="REFIID" type="GUID" value="{29FDB4EE-DE39-151E-ED38-06C8CFB45CDA}"/>
+				<Property key="Render.Mode" type="int" value="1"/>
+				<Property key="Render.AnchorPoint" type="NLEPointF" value="x:0.000000, y:0.000000"/>
+				<Property key="Render.ResizeScaleF" type="NLESizeF" value="Width:1.000000, cy:1.000000"/>
+			</Properties>
+		</Property.Child>
+	</Property.Child>
+
+	<!-- 第2个场景 -->
+	<Property.Child>
+		<!-- 场景2的框架 -->
+		<Properties Count="11">
+			<Property key="GUID" type="GUID" value="{0F5AD513-DE13-490D-B0FC-A58E362D0325}"/>
+			<Property key="Level" type="int" value="2"/>
+			<Property key="Name" type="std::wstring" value="Montage.Frame.2"/>
+			<Property key="REFCLSID" type="GUID" value="{CD61E0E4-0074-3FD5-4915-951546E34A03}"/>
+			<Property key="REFIID" type="GUID" value="{29FDB4EE-DE39-151E-ED38-06C8CFB45CDA}"/>
+			<Property key="Render.Mode" type="int" value="1"/>
+			<Property key="Render.Region" type="NLERectF" value="left:0.000000, top:0.000000, width:1.000000, height:1.000000"/>
+			<!-- 场景编号2 -->
+			<Property key="Montage.SceneIdx" type="int" value="2"/>
+			<Property key="Render.MaskFile" type="std::wstring" value="0.800000,0.000000,0.999999,0.000000,0.999999,0.999999,0.680000,0.999999"/>
+			<Property key="Render.BorderWidth" type="int" value="3"/>
+			<Property key="Render.BorderColor" type="unsigned int" value="65535"/>
+		</Properties>
+		
+		<!-- 场景2的源 -->
+		<Property.Child>
+			<Properties Count="9">
+				<Property key="Absolute.FilePath" type="std::wstring" value="%CurrentDir%\MontageTemplate\resource\m02.jpg"/>
+				<Property key="GUID" type="GUID" value="{486E1278-2751-4379-B0AE-64C9EA45598F}"/>
+				<Property key="Level" type="int" value="0"/>
+				<Property key="Name" type="std::wstring" value="Montage.Source.2"/>
+				<Property key="REFCLSID" type="GUID" value="{9B42D098-1E44-6B5F-C3DA-23CB57969A0B}"/>
+				<Property key="REFIID" type="GUID" value="{29FDB4EE-DE39-151E-ED38-06C8CFB45CDA}"/>
+				<Property key="Render.Mode" type="int" value="1"/>
+				<Property key="Render.AnchorPoint" type="NLEPointF" value="x:0.340000, y:0.000000"/>
+				<Property key="Render.ResizeScaleF" type="NLESizeF" value="Width:1.000000, cy:1.000000"/>
+			</Properties>
+		</Property.Child>
+	</Property.Child>
+	
+</Property.Montage>

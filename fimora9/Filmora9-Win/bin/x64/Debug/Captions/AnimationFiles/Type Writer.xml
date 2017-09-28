@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AnimationParam>
+  <AnimationConfig AnimationType = "0" InterpolateType="0" DurationType="1" StartValue="0" EndValue="255" Property="0" />
+  <AnimationConfig AnimationType = "1" InterpolateType="0" DurationType="1" StartValue="255" EndValue="0" Property="0" />
+</AnimationParam>

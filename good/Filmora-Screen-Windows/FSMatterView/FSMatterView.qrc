@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/FSMatterView/light">
+        <file>Resources/light/audio.png</file>
+        <file>Resources/light/image.png</file>
+        <file>Resources/light/video.png</file>
+        <file>Resources/light/thumbnail_audio.png</file>
+        <file>Resources/light/add_h.png</file>
+        <file>Resources/light/add_n.png</file>
+        <file>Resources/light/add_new_files.png</file>
+        <file>Resources/light/annotation_d.png</file>
+        <file>Resources/light/annotation_h.png</file>
+        <file>Resources/light/annotation_n.png</file>
+        <file>Resources/light/annotation_p.png</file>
+        <file>Resources/light/cursor_d.png</file>
+        <file>Resources/light/cursor_h.png</file>
+        <file>Resources/light/cursor_n.png</file>
+        <file>Resources/light/cursor_p.png</file>
+        <file>Resources/light/media_d.png</file>
+        <file>Resources/light/media_h.png</file>
+        <file>Resources/light/media_n.png</file>
+        <file>Resources/light/media_p.png</file>
+        <file>Resources/light/mediafilter_d.png</file>
+        <file>Resources/light/mediafilter_h.png</file>
+        <file>Resources/light/mediafilter_n.png</file>
+        <file>Resources/light/mediafilter_p.png</file>
+        <file>Resources/light/sort_d.png</file>
+        <file>Resources/light/sort_h.png</file>
+        <file>Resources/light/sort_n.png</file>
+        <file>Resources/light/sort_p.png</file>
+        <file>Resources/light/ClickRing.png</file>
+        <file>Resources/light/ClickSound.png</file>
+        <file>Resources/light/Hightline.png</file>
+        <file>Resources/light/import_d.png</file>
+        <file>Resources/light/import_h.png</file>
+        <file>Resources/light/import_n.png</file>
+        <file>Resources/light/import_p.png</file>
+        <file>Resources/light/RecordeAudio.png</file>
+        <file>Resources/light/favorite_on.png</file>
+        <file>Resources/light/favorite_off.png</file>
+        <file>Resources/light/favorite_off_h.png</file>
+    </qresource>
+</RCC>

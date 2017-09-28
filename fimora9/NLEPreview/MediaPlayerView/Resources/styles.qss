@@ -1,0 +1,50 @@
+
+/* 主播放器*/
+QWidget#MediaPlayerView_DisplayView {background-color:black;}
+QWidget#MediaPlayerView_MainMediaPlayerToolBar{background:white;}
+
+/*
+ScaleUnitSlider#TimelineView_ScaleUnitSlider QWidget#CommonLib_ToolBarSlider_bg {border-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Zoom_Track_bg.png)}
+ScaleUnitSlider#TimelineView_ScaleUnitSlider QWidget#CommonLib_ToolBarSlider_chunk {background-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Zoom_chunk.png);background-position: center center; background-repeat:no-repeat;}
+ScaleUnitSlider#TimelineView_ScaleUnitSlider QWidget#CommonLib_ToolBarSlider_groove {border-image:url(:/TimelineViewPrivate/Resources/normal/TimelineView_Zoom_Track_groove.png)}
+*/
+
+BaseButton#MediaPlayerView_ToolBarBase_Backward {background-image:url(:/MediaPlayerView/Resources/normal/Backward_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Backward:hover {background-image:url(:/MediaPlayerView/Resources/normal/Backward_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Backward:disabled {background-image:url(:/MediaPlayerView/Resources/normal/Backward_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_ToolBarBase_Play {background-image:url(:/MediaPlayerView/Resources/normal/Play_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Play:hover {background-image:url(:/MediaPlayerView/Resources/normal/Play_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Play:disabled {background-image:url(:/MediaPlayerView/Resources/normal/Play_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_ToolBarBase_Pause {background-image:url(:/MediaPlayerView/Resources/normal/Pause_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Pause:hover {background-image:url(:/MediaPlayerView/Resources/normal/Pause_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Pause:disabled {background-image:url(:/MediaPlayerView/Resources/normal/Pause_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_ToolBarBase_Forward {background-image:url(:/MediaPlayerView/Resources/normal/Forward_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Forward:hover {background-image:url(:/MediaPlayerView/Resources/normal/Forward_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Forward:disabled {background-image:url(:/MediaPlayerView/Resources/normal/Forward_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_ToolBarBase_Stop {background-image:url(:/MediaPlayerView/Resources/normal/Stop_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Stop:hover {background-image:url(:/MediaPlayerView/Resources/normal/Stop_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_ToolBarBase_Stop:disabled {background-image:url(:/MediaPlayerView/Resources/normal/Stop_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_RecordVoice {background-image:url(:/MediaPlayerView/Resources/normal/RecordVoice_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_RecordVoice:hover {background-image:url(:/MediaPlayerView/Resources/normal/RecordVoice_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_RecordVoice:disabled {background-image:url(:/MediaPlayerView/Resources/normal/RecordVoice_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_SnapShot {background-image:url(:/MediaPlayerView/Resources/normal/SnapShot_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_SnapShot:hover {background-image:url(:/MediaPlayerView/Resources/normal/SnapShot_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_SnapShot:disabled {background-image:url(:/MediaPlayerView/Resources/normal/SnapShot_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_Volume {background-image:url(:/MediaPlayerView/Resources/normal/Volume_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_Volume:hover {background-image:url(:/MediaPlayerView/Resources/normal/Volume_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_Volume:disabled {background-image:url(:/MediaPlayerView/Resources/normal/Volume_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_FullScreen {background-image:url(:/MediaPlayerView/Resources/normal/FullScreen_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_FullScreen:hover {background-image:url(:/MediaPlayerView/Resources/normal/FullScreen_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_FullScreen:disabled {background-image:url(:/MediaPlayerView/Resources/normal/FullScreen_d.png);background-position: center; background-repeat:no-repeat;}
+
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_RestoreFullScreen {background-image:url(:/MediaPlayerView/Resources/normal/RestoreFullScreen_n.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_RestoreFullScreen:hover {background-image:url(:/MediaPlayerView/Resources/normal/RestoreFullScreen_h.png);background-position: center; background-repeat:no-repeat;}
+BaseButton#MediaPlayerView_MainMediaPlayerToolBar_RestoreFullScreen:diabled {background-image:url(:/MediaPlayerView/Resources/normal/RestoreFullScreen_d.png);background-position: center; background-repeat:no-repeat;}

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="FSBaseToolBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSCropWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSMediaPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IFSMediaPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSFullScreenControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_FSMediaPlayerView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSEditHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSEditHelperManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSPropertyView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSUnDoReDoCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSBaseToolBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSBaseToolBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSCropWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSCropWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSEditHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSEditHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSEditHelperManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSEditHelperManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSFullScreenControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSFullScreenControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSMediaPlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSMediaPlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSPropertyView.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSPropertyView.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSUnDoReDoCommand.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSUnDoReDoCommand.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_IFSMediaPlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_IFSMediaPlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSDragBoxControl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSDragBoxControl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FSDragBoxControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSPainterPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSPainterPath.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSPainterPath.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FSPlayerShortCutContrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSPlayerShortCutContrl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSPlayerShortCutContrl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="FSTextShadowSelecter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FSTextShadowSelecter.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FSTextShadowSelecter.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="FSMediaPlayerView.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSBaseToolBar.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSCropWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSEditHelper.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSEditHelperManager.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSFullScreenControl.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSMediaPlayer.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSPropertyView.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSUnDoReDoCommand.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\include\inc_FSMediaPlayerView\IFSMediaPlayer.h">
+      <Filter>Interface</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSDragBoxControl.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSPainterPath.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSPlayerShortCutContrl.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FSTextShadowSelecter.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\light\Backward_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Backward_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Backward_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Forward_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Forward_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Forward_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\FullScreen_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\FullScreen_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\FullScreen_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\FullScreenExit_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\NapShot_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Pause_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Pause_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Pause_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Play_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Play_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Play_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\RestoreFullScreen_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\RestoreFullScreen_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\RestoreFullScreen_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\SnapShot_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\SnapShot_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\SnapShot_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Stop_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Stop_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Stop_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\VeiwCut_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\VideoTrackBar_Pointer_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\VideoTrackBar_Pointer_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\VideoTrackBar_Track_bg.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\VideoTrackBar_Track_groove.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Volume.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Volume_d.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Volume_h.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+    <Image Include="Resources\light\Volume_n.png">
+      <Filter>Resource Files\light</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\styles_light.qss">
+      <Filter>Resource Files\light</Filter>
+    </None>
+    <None Include="FSMediaPlayerView_de.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="FSMediaPlayerView_en.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="FSMediaPlayerView_pt.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="FSMediaPlayerView_it.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="FSMediaPlayerView_es.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="FSMediaPlayerView_fr.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="fsmediaplayerview_ja.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{966c0cd3-fb07-4704-a825-94fccc68d852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{f12b034c-1e51-4e2d-9e0f-a586f2710b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{96ec185a-ae39-45f5-9297-116ec85514ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\light">
+      <UniqueIdentifier>{49c029d3-27e0-4e33-9492-443fc67ad12b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\inc_FSMediaPlayerView\fsmediaplayerview_global.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

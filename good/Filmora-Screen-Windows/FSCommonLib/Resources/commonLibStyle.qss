@@ -1,0 +1,390 @@
+QMenu{
+    background-color: #1E252B;
+    border:1px solid #4C6671;
+}
+
+QMenu::item {
+    padding: 8px 14px 8px 20px;
+    border: 0px;
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+QMenu::item:selected {
+    background: #27313B;
+	color:#FFFFFF;
+}
+
+QMenu::item:disabled {
+	color:#4C6671;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: #27313B;
+    margin-left: 1px;
+    margin-right:1px;
+}
+
+QMenu::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+QMenuBar::item {
+    background: transparent;
+}
+
+QMenuBar::item:hover {
+    background: #354351;
+}
+QMenuBar::item:pressed {
+    background: #354351;
+}
+
+QMenuBar::item:selected { 
+    background: #354351;
+}
+
+
+QSplitterHandle{
+ background-color:#27313B;
+}
+
+QListView#FSCommonLib_FSComboBox_QListView{
+font:14px "Lato";
+	background-color: #1E252B;
+    border:1px solid #4C6671;
+}
+
+QListView#FSCommonLib_FSComboBox_QListView::item{
+	font:14px "Lato";
+	color:#7F9CAF;
+	height:26px;
+	border:0px;
+}
+
+QListView#FSCommonLib_FSComboBox_QListView::item:hover {
+	background: #27313B;
+	color:#FFFFFF;
+}
+
+QListView#FSCommonLib_FSComboBox_QListView::item:selected {
+	background: #27313B;
+	color:#FFFFFF;
+}
+
+
+
+QCheckBox{
+	font:14px "Lato";
+	color:#7F9CAF;
+}
+
+QCheckBox::indicator:unchecked
+{
+	width:18px;
+	height:18px;
+    image: url(:/FSCommonLib/Resources/light/unCheckBox_n.png);
+}
+
+QCheckBox::indicator:unchecked:hover
+{
+	width:18px;
+	height:18px;
+    image: url(:/FSCommonLib/Resources/light/unCheckBox_h.png);
+}
+
+QCheckBox::indicator:unchecked:disabled
+{
+	width:18px;
+	height:18px;
+    image: url(:/FSCommonLib/Resources/light/unCheckBox_d.png);
+}
+QCheckBox::indicator:checked
+{
+    width:18px;
+	height:18px;
+    image: url(:/FSCommonLib/Resources/light/CheckBox_n.png);
+}
+QCheckBox::indicator:checked:hover
+{
+    width:18px;
+	height:18px;
+    image: url(:/FSCommonLib/Resources/light/CheckBox_h.png);
+}
+
+QCheckBox::indicator:checked:disabled
+{
+    width:18px;
+	height:18px;
+    image: url(:/FSCommonLib/Resources/light/CheckBox_d.png);
+}
+
+QRadioButton{
+    font:14px "Lato";
+	color:#7F9CAF;
+}
+
+QRadioButton:disabled{
+	color:#4C6671;
+}
+
+QRadioButton::indicator {
+    width: 18px;
+    height: 18px;
+}
+
+QRadioButton::indicator::unchecked {
+    image: url(:/FSCommonLib/Resources/light/RadioUnChecked_n.png);
+}
+
+QRadioButton::indicator:unchecked:hover {
+    image: url(:/FSCommonLib/Resources/light/RadioUnChecked_h.png);
+}
+
+QRadioButton::indicator:unchecked:disabled{
+    image: url(:/FSCommonLib/Resources/light/RadioUnChecked_d.png);
+}
+
+QRadioButton::indicator::checked {
+    image: url(:/FSCommonLib/Resources/light/RadioChecked_n.png);
+}
+
+QRadioButton::indicator:checked:hover {
+    image: url(:/FSCommonLib/Resources/light/RadioChecked_h.png);
+}
+
+QRadioButton::indicator:checked:disabled{
+    image: url(:/FSCommonLib/Resources/light/RadioChecked_d.png);
+}
+
+
+
+QComboBox
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	background-color:#313C48;
+	border:0px;
+	padding-left:12px;
+}
+QComboBox:disabled
+{
+	color:#aaaaaa;
+}
+
+QComboBox::drop-down{
+	height:30px;
+	width:29px;
+	image: url(:/FSCommonLib/Resources/light/parmaDrag_n.png); 
+}
+
+QComboBox QAbstractItemView{
+    selection-background-color: #27313B;
+	outline: none; 
+}
+
+
+QProgressBar{
+	background-color:#1E252B ;
+	border: 0px;
+}
+
+QProgressBar::chunk {
+    background-color: #EF3062;
+}
+
+QLabel{
+	font-family:"Lato";
+}
+
+QPushButton{
+	font-family:"Lato";
+}
+
+/*FSTipWidget*/
+FSTipWidget#FSTipWidget{
+	font:12px "Lato";
+	color:#7F9CAF;
+	border-image:url(:/FSCommonLib/Resources/light/TipText.png);
+	background-color:transparent;
+}
+
+/*FSMessageBox*/
+FSMessageBox#FSMessageBox{
+	background-color:#27313B;
+}
+
+
+/*MediaImportDlg*/
+
+MediaImportDlg#MediaImportDlg{
+	background-color:#27313B;
+}
+
+TopLevelWindowTitleBar#MatterView_MediaImportDlg_TitleBar > TopLevelWindowTitleBar_p#TopLevelWindowTitleBar
+{
+	background-color:#1E252B;
+}
+
+TopLevelWindowTitleBar#MatterView_MediaImportDlg_TitleBar QLabel#TopLevelWindowTitleBar
+{
+	color:#ffffff;
+	font:16px "Lato";
+}
+
+QLabel#MatterView_MediaImportDlg_NameLabel
+{
+	
+	color:#7F9CAF;
+	font:14px "Lato";
+}
+
+QLabel#MatterView_MediaImportDlg_ProgressLabel
+{
+	color:#FFFFFF;
+	font:16px "Lato";
+}
+
+QPushButton#MatterView_MediaImportDlg_CancelButton
+{
+	border: 1px solid #FFFFFF;
+	color:#FFFFFF;
+	font:16px "Lato";
+	background-color:#27313B;
+}
+
+QPushButton#MatterView_MediaImportDlg_CancelButton:hover
+{
+	background-color:#61DED0;
+	border:0px;
+}
+
+TopLevelWindowTitleBar#FSMessageBox_m_titlebar > TopLevelWindowTitleBar_p#TopLevelWindowTitleBar
+{
+	background-color:#1E252B;
+}
+
+BaseButton#TitleBar_CloseButton{
+	background-image:url(:/FSCommonLib/Resources/light/btnClose_n.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#TitleBar_CloseButton:hover{
+	background-image:url(:/FSCommonLib/Resources/light/btnClose_h.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#TitleBar_CloseButton:pressed{
+	background-image:url(:/FSCommonLib/Resources/light/btnClose_p.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+BaseButton#TitleBar_CloseButton:disabled{
+	background-image:url(:/FSCommonLib/Resources/light/btnClose_d.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+QTextEdit#FSMessageBox_TextEdit
+{	
+	font:14px "Lato";
+	color:#7F9CAF;	
+	background-color:#27313B;
+}
+
+QPushButton#FSMessageBox_btn
+{
+	font:16px "Lato";
+	color:#FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+
+QPushButton#FSMessageBox_btn:hover{
+	background-color:#61DED0;
+	border:0px;
+}
+
+FSLabel#MessageBox_Icon_Information
+{
+	background-image:url(:/FSCommonLib/Resources/light/logo.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+FSLabel#MessageBox_Icon_Question
+{
+	background-image:url(:/FSCommonLib/Resources/light/logo.png);
+	background-position: center; 
+	background-repeat:no-repeat;
+}
+
+/*ExportWarringDlg*/
+ExportWarringDlg#ExportWarringDlg{
+	background-color:#27313B;
+}
+
+ExportWarringDlg#ExportWarringDlg > QLabel{
+	font:14px "Lato";
+	color:#FFFFFF;
+}
+
+ExportWarringDlg#ExportWarringDlg > QPushButton{
+	font:16px "Lato";
+	color:#FFFFFF;
+	border: 1px solid #FFFFFF;
+	background-color:#27313B;
+}
+
+ExportWarringDlg#ExportWarringDlg > QPushButton:hover{
+	border: 0px;
+	background-color:#61DED0;
+}
+
+QLabel#ExportWarringDlg_m_pLbTrialImg{
+	border-image:url(:/FSCommonLib/Resources/light/WaterMask.jpg);
+	
+}
+
+QLabel#ExportWarringDlg_m_pLbRegisterImg{
+	border-image:url(:/FSCommonLib/Resources/light/UnWaterMask.jpg);
+	
+}
+
+AddNewItemWidget#AddNewItemWidget{
+	background-color:#1E252B;
+}
+
+TimelinePropertyDialog#TimelinePropertyDialog, TimelinePropertyDialog#TimelinePropertyDialog, QTextEdit#TimelinePropertyDialog_TextEdit{
+	background-color:#1A1F23;
+	color: #7F9CAF;
+}
+TopLevelWindowTitleBar#TimelinePropertyDialog_m_titlebar QLabel#TopLevelWindowTitleBar_TitleName
+{
+	color:#7F9CAF;
+	font:18px "Lato";
+}
+
+FSButton#TimelinePropertyDialog_OK
+{
+	font:16px "Lato";
+	color:#ffffff;
+	background-color: #1A1F23;
+	border: 1px solid #FFFFFF;
+}
+
+FSButton#TimelinePropertyDialog_OK:hover
+{
+	background-color:#61DED0;
+	border:0px;
+}
+
+/* 视频属性对话框样式 */
+TopLevelWindowTitleBar#TimelinePropertyDialog_m_titlebar  TopLevelWindowTitleBar_p#TopLevelWindowTitleBar
+{
+   background-color:#1E252B;
+}

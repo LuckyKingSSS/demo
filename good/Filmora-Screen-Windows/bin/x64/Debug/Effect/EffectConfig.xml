@@ -1,0 +1,944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Effects>
+  <Effect FriendName="CircleHighlight" GUID="AA82D502-0B8D-4BEC-B553-CD33A9C71C6E">
+    <Params>
+	  <Param FriendName="iMouse" VariantName="iMouse" type="vector2f" default="100.0,100.0" range_min="0.0,0.0" range_max="10000.0,10000.0" />
+	  <Param FriendName="Radius" VariantName="Radius" type="float" default="0.1" range_min="0.0" range_max="1.0" />
+	  <Param FriendName="Color" VariantName="Color" type="vector3f" default="0.0,1.0,1.0" range_min="0.0,0.0,0.0" range_max="1.0,1.0,1.0" />
+	  <Param FriendName="Opacity" VariantName="Opacity" type="float" default="0.7" range_min="0" range_max="1.0" />	  
+	  <Param FriendName="Softness" VariantName="Softness" type="float" default="0.1" range_min="0" range_max="1.0" />	  
+      <Param FriendName="Enable" VariantName="Enable" type="float" default="1.0" range_min="0.0" range_max="1.0" />	  
+	</Params>
+  </Effect>
+  <Effect FriendName="Rings" GUID="737F8965-7D66-4670-83E8-C470A7B2AED1">
+    <Params>
+	  <Param FriendName="iMouse" VariantName="iMouse" type="vector2f" default="100.0,100.0" range_min="0.0,0.0" range_max="10000.0,10000.0" />
+	  <Param FriendName="Radius" VariantName="Radius" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+	  <Param FriendName="Color" VariantName="Color" type="vector3f" default="1.0,0.0,1.0" range_min="0.0,0.0,0.0" range_max="1.0,1.0,1.0" />
+	  <Param FriendName="Opacity" VariantName="Opacity" type="float" default="0.7" range_min="0.0" range_max="1.0" />
+	  <Param FriendName="Duration" VariantName="Duration" type="float" default="0.5" range_min="0.1" range_max="4.0" />	  
+      <Param FriendName="Enable" VariantName="Enable" type="float" default="1.0" range_min="0.0" range_max="1.0" />	
+	  <Param FriendName="clicked" VariantName="clicked" type="float" default="0.0" range_min="0.0" range_max="1.0" />	  
+	  <Param FriendName="process" VariantName="process" type="float" default="0.0" range_min="0.0" range_max="1.0" />	  
+	</Params>
+  </Effect>
+  <Effect FriendName="LightRoom" GUID="2C9B3B85-BC60-4cc6-B3D4-7B439317FFE6">
+    <Params>
+      <Param FriendName="Temperature" VariantName="u_temperature" type="integer" default="11500" range_min="1000" range_max="30000" />
+      <Param FriendName="Tint" VariantName="u_tint" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="Exposure" VariantName="u_exposure" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="Brightness" VariantName="u_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="Contrast" VariantName="u_contrast" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="Vibrance" VariantName="u_vib" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="Saturation" VariantName="u_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HighLight" VariantName="u_highLight" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="Shadow" VariantName="u_shadow" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="Whites" VariantName="u_whiteLevel" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="Blacks" VariantName="u_blackLevel" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="VignetteAmount" VariantName="u_vignette_amount" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="VignetteSize" VariantName="u_vignette_size" type="float" default="100.0" range_min="-0.0" range_max="100.0" />
+      <Param FriendName="VignetteRoundness" VariantName="u_vignette_roundness" type="float" default="0.0" range_min="0.0" range_max="100.0" />
+      <Param FriendName="VignetteFeather" VariantName="u_vignette_feather" type="float" default="0.0" range_min="0.0" range_max="100.0" />
+      <Param FriendName="VignetteExposure" VariantName="u_vignette_exposure" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="VignetteHighLights" VariantName="u_vignette_highlights" type="float" default="50.0" range_min="0.0" range_max="100.0" />
+	  
+      <Param FriendName="HSLRedHue" VariantName="u_hsl_red_hue" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLRedSaturation" VariantName="u_hsl_red_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLRedBrightness" VariantName="u_hsl_red_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+	  
+      <Param FriendName="HSLOrangeHue" VariantName="u_hsl_orange_hue" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLOrangeSaturation" VariantName="u_hsl_orange_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLOrangeBrightness" VariantName="u_hsl_orange_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+	  
+      <Param FriendName="HSLYellowHue" VariantName="u_hsl_yellow_hue" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLYellowSaturation" VariantName="u_hsl_yellow_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLYellowBrightness" VariantName="u_hsl_yellow_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+	  
+      <Param FriendName="HSLGreenHue" VariantName="u_hsl_green_hue" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLGreenSaturation" VariantName="u_hsl_green_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLGreenBrightness" VariantName="u_hsl_green_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+	  
+      <Param FriendName="HSLMagentaHue" VariantName="u_hsl_magenta_hue" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLMagentadSaturation" VariantName="u_hsl_magenta_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLMagentaBrightness" VariantName="u_hsl_magenta_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+	  
+      <Param FriendName="HSLPurpleHue" VariantName="u_hsl_purple_hue" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLPurpleSaturation" VariantName="u_hsl_purple_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLPurpleBrightness" VariantName="u_hsl_purple_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+	  
+      <Param FriendName="HSLBlueHue" VariantName="u_hsl_blue_hue" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLBlueSaturation" VariantName="u_hsl_blue_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLBlueBrightness" VariantName="u_hsl_blue_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+	  
+      <Param FriendName="HSLAquaHue" VariantName="u_hsl_aqua_hue" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLAquaSaturation" VariantName="u_hsl_aqua_sat" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+      <Param FriendName="HSLAquaBrightness" VariantName="u_hsl_aqua_brightness" type="float" default="0.0" range_min="-100.0" range_max="100.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="LightRoomPlus" GUID="CB87BAF6-5462-4877-BE55-C2A95D8FAF2A">
+    <Params>
+      <Param FriendName="clarity" VariantName="clarity" type="float" default="0.0" range_min="0.0" range_max="100.0" />
+      <Param FriendName="sharpen" VariantName="sharpen" type="float" default="0.0" range_min="0.0" range_max="100.0" />
+      <Param FriendName="dehaze" VariantName="dehaze" type="float" default="0.0" range_min="0.0" range_max="100.0" />
+      <Param FriendName="distort" VariantName="distort" type="float" default="0.0" range_min="0.0" range_max="100.0" />
+      <Param FriendName="diffuse" VariantName="diffuse" type="float" default="0.0" range_min="0.0" range_max="100.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Crop" GUID="8C29A653-EE3A-44c2-9D26-B0424C532E95">
+    <Params>
+      <Param FriendName="Crop" VariantName="crop_box" type="vector4f" default="0.0,0.0,1.0,1.0" range_min="0.0,0.0,0.0,0.0" range_max="1.0,1.0,1.0,1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Scale/Rotate/Translate" GUID="39774410-8DD1-4278-A399-A0326FF19D3E">
+    <Params>
+      <Param FriendName="Scale" VariantName="stScale" type="vector2f" default="1.0,1.0" range_min="0.0,0.0" range_max="100.0,100.0" />
+    </Params>
+	<Params>
+      <Param FriendName="Rotate" VariantName="stRotate" type="float" default="1.0" range_min="0.0" range_max="360.0" />
+    </Params>
+	<Params>
+      <Param FriendName="Translate" VariantName="stTranslate" type="vector2f" default="0,0,0.0" range_min="-1.0,-1.0" range_max="1.0,1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Triangle Blur" GUID="4BADD6CB-B71B-44ed-8737-9F3DE9634C31">
+    <Params>
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="50" range_min="0" range_max="200" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Equalize" GUID="F6B936B0-CF61-4da8-B532-8DC88617FB9C">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="HueShift" GUID="12E5BC38-3508-44b0-AD1A-D0B37D19289F">
+    <Params>
+      <Param FriendName="Hue" VariantName="Hue" type="integer" default="95" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Split Style" GUID="569E97C5-13FB-441a-B3C1-EA0CEC829623">
+    <Params>
+      <Param FriendName="R" VariantName="R" type="integer" default="100" range_min="0" range_max="100" />
+      <Param FriendName="G" VariantName="G" type="integer" default="100" range_min="0" range_max="100" />
+      <Param FriendName="B" VariantName="B" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="IsLeft" VariantName="IsLeft" type="boolean" default="0" range_min="0" range_max="1" />
+      <Param FriendName="IsSplit" VariantName="IsSplit" type="boolean" default="1" range_min="0" range_max="1" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Glow" GUID="25E4478A-C617-4c60-B95A-F378D2923E17">
+    <Params>
+      <Param FriendName="Blur" VariantName="Blur" type="float" default="0.1" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="SquareBlur" GUID="3DC7BBD0-E1EA-4c23-8947-51BF32442581">
+    <Params>
+      <Param FriendName="Blur" VariantName="Size" type="integer" default="2" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="TVWall" GUID="562330DC-1334-4b02-A5B9-B140FC68B0E2">
+    <Params>
+      <Param FriendName="SplitSize" VariantName="SpliteSize" type="integer" default="3" range_min="2" range_max="8" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Holiday" GUID="8B086E1E-BB01-4f3e-934B-5DB4ADA2567F">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Metropolis" GUID="81D46CE2-7D13-4a85-9EE1-DFEE0C44FE3D">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="September" GUID="637B6036-9E00-4f91-ACEA-AA1ABF1E82C5">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="SimpleElegent" GUID="94C674C7-B853-4b72-A035-46412DA6B447">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Rise" GUID="BECC0DB2-67E8-4a9c-BFFB-B1AFD8351811">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="BW_Noise" GUID="3E3535CE-7881-4e9e-A1EE-D5220E323EB7">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="PurpleLomo" GUID="56F86BED-AA95-4fb1-8DC8-49A5C15A7111">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Bright Lights" GUID="740E5BD0-1BAD-4688-AF49-946FAE0F2E7A">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="BeautifyImg" GUID="D3FFB279-0581-4c3c-8CAC-CB2E1D148614">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="FuzzyImg" GUID="004AF9BF-A233-4f3a-A14F-2E475C732091">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Vintage" GUID="08ECFF4C-CD36-4c89-9D4D-F515451BB2DB">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="FreshNew" GUID="3F68EC3C-4003-488c-8BD4-4D6CA41E85C5">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Blue Skies" GUID="23ED6584-3EB2-4451-80CE-89D3529DE5C8">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="PurpleLove" GUID="F944258F-0E51-4f7b-979F-91E3E826E4FC">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Aegean" GUID="154FD34E-0DF8-481f-A99C-4913DDC4938A">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Sandra_Lomo" GUID="2C052C3B-F0BD-4d5c-A8C0-5C86389DD7CB">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="BlueExplosion" GUID="4E3B761D-7A15-411a-A2E7-B0832D755F6D">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="FocusColor" GUID="DA82B39B-F380-46c6-9445-3E096905D4E3">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Aibao" GUID="EE53FABA-42CD-486e-AAF7-A3549401CA9E">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="MeregeStar" GUID="A501137B-73A8-4183-97A2-E26E2E3C64AE">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Woven" GUID="DCDFA16D-FDAE-45b5-8758-6477B9B3819F">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="SunShine" GUID="E05DAB18-F084-445b-BEA6-9EE4D7E5249B">
+    <Params>
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="PositionX" VariantName="PositionX" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="PositionY" VariantName="PositionY" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Willow" GUID="DEE5DFA9-F7FE-4cd1-9871-37A3C7673A1A">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Baltan" GUID="E27040D3-6FEE-4708-B95B-384055CE7FDA">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Retro" GUID="EFFE7C7D-AA0F-4cb0-8C1C-CDE05D04BC97">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Sunkissed" GUID="9B478F78-6FE4-46b1-AF38-7C83100B7E5D">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Purple Haze" GUID="30055315-346C-4ed0-BF83-572605B2CF59">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="GetColor" GUID="309BBE5F-12C8-4ded-9689-A69896691A87">
+    <Params>
+      <Param FriendName="DecolorPosX" VariantName="DecolorPosX" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="DecolorPosY" VariantName="DecolorPosY" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="30" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="SunSet" GUID="6DE84CB8-C186-4419-8E88-6EE3B2967660">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Vivid" GUID="9E2DC6CF-BDC2-4368-99DD-DBB8A42A8298">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="SunFlower" GUID="534C741C-4450-4ea4-9D8C-BD54AD7ED668">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Romantic" GUID="06540EAC-C188-426e-952D-7DD97435F6F9">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="FourSeason" GUID="FB66DCAA-F85E-4be4-9470-9D6771AE26B8">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Radio Explike FX" GUID="2FFCED76-6277-41a5-B1AD-4BB27C8D44D3">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="WS_OLD_PHOTO" GUID="43E461FF-BEB3-4ef1-974A-93812CB8D210">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Jigsaw_A" GUID="52535B89-F700-43c1-992F-C7CB8D3FCE48">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Jigsaw_B" GUID="89AD1E6D-CF9D-4280-BE45-9D4DF7874E18">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Jigsaw_C" GUID="269A3DB6-D705-43c3-BC2C-57D28FEB23B6">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Jigsaw_D" GUID="590333AC-70B7-43b4-B854-AA12815C8A55">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Jigsaw_E" GUID="EADA816C-CC38-4964-AE9D-6030F9A1E705">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Jigsaw_F" GUID="AB623CB4-A037-4734-ABE3-E11528C2F878">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="VignetteRadius" GUID="B708C1BB-39A4-410b-A622-8FBC323FD2D7">
+    <Params>
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="85" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="AmMosaic" GUID="AEA88997-7954-4974-8E58-457073A0BC99">
+    <Params>
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="70s" GUID="1A09570B-8B15-444b-A074-33685EE7E086">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="VignetteWhite" GUID="77036E5E-515D-4bc8-841D-8804E7EC5705">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Blur2" GUID="1FF3A847-984D-4239-95A5-3874F722C46E">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Emboss" GUID="83BECB59-BA1F-4a4d-9CE1-B918E7F026B0">
+    <Params>
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="FilmGrain" GUID="6EEFFABB-4894-446c-8187-3D9D9922E3A9">
+    <Params>
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="AmPlash" GUID="4E7B2717-D7A7-4725-83FF-E3705512F8E8">
+    <Params>
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Shine B" GUID="35B558CD-37D6-43aa-8AA2-1E3090524931">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Sight" GUID="38E6C98E-7699-4f87-80EC-2F2D633E71B6">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="WindowShades" GUID="A2BFFA17-14AA-4b46-8B73-9D9439E31660">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Concert" GUID="0C38F204-F299-4de4-B481-7B94C155DE16">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="NightGlassView" GUID="886112EE-FEBC-4e57-A11F-945EA86F6BC0">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Camcorder" GUID="44F89F06-AF33-4630-AF91-19D266FE382C">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Bubble" GUID="FD40DFF8-3C71-416a-970D-0531586C5DA2">
+    <Params>
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="30" range_min="0" range_max="100" />
+      <Param FriendName="Direction" VariantName="Direction" type="integer" default="1" range_min="0" range_max="3" />
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="20" range_min="4" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Screen" GUID="20D18E32-E3C0-4063-8F0F-8E7C2DF00F7F">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="VideoWall" GUID="CB730FB7-9D79-4353-B26E-F67D218733D0">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Flip" GUID="CD9DCD75-DC0E-4f7a-8484-52778D9FB202">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Flip Up" GUID="7ADBCFB3-ACCF-4c5c-B188-A7537AED400D">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Rotate" GUID="9B6A315E-2CEA-42b0-ABB2-A20FB790A433">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Mirror" GUID="4D34F72D-3307-4f4a-9BED-72E6B7B8FF99">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Mirror Flip" GUID="BE80CF63-1E35-4b1f-92A3-B1FACD636AEA">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Distort" GUID="8E3062B2-FA4C-44be-8DF1-2187B4FBEB4A">
+    <Params>
+      <Param FriendName="Amplitude" VariantName="Amplitude" type="integer" default="100" range_min="0" range_max="300" />
+      <Param FriendName="Frequency" VariantName="Frequency" type="integer" default="100" range_min="0" range_max="200" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Enlarge" GUID="22F62993-FF48-4182-B70E-29A6CDBD05AA">
+    <Params>
+      <Param FriendName="xPos" VariantName="PositionX" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="yPos" VariantName="PositionY" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Narrow" GUID="07992914-52E9-4e8f-A022-01BE34F9C4F0">
+    <Params>
+      <Param FriendName="xPos" VariantName="PositionX" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="yPos" VariantName="PositionY" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Whirl" GUID="44650ECB-CC5A-4de9-8840-825573599B94">
+    <Params>
+      <Param FriendName="xPos" VariantName="PositionX" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="yPos" VariantName="PositionY" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Blur" GUID="98DA6C30-55AD-4164-9FF5-53D535E719B8">
+    <Params>
+      <Param FriendName="PhaseIncrement" VariantName="PhaseIncrement" type="integer" default="1" range_min="0" range_max="100" />
+      <Param FriendName="ZoomRate" VariantName="ZoomRate" type="integer" default="4" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Fisheye" GUID="A0DFCB73-9C3D-4d18-813E-8CC29D76D406">
+    <Params>
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="100" range_min="1" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="DelayGrab" GUID="9F704262-6F1E-4039-B05D-490A59D6B8CF">
+    <Params>
+      <Param FriendName="Mode" VariantName="Mode" type="integer" default="1" range_min="1" range_max="4" />
+      <Param FriendName="BlockSize" VariantName="BlockSize" type="integer" default="1" range_min="1" range_max="10" />
+    </Params>
+  </Effect>
+  <Effect FriendName="WaterRipple" GUID="87E372F5-44F1-45aa-8C6E-BC3762CA7798">
+    <Params>
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="71" range_min="0" range_max="100" />
+      <Param FriendName="Height" VariantName="Height" type="integer" default="349" range_min="0" range_max="1000" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Tunnel" GUID="ED8A19BD-37E7-49e4-B6FA-D25095C41D44">
+    <Params>
+      <Param FriendName="PositionX" VariantName="PositionX" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="PositionY" VariantName="PositionY" type="integer" default="50" range_min="0" range_max="100" />
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Bad_TVSignal" GUID="9B5EFE7A-C286-406e-A286-681142AC8B66">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Kaleidoscope" GUID="A5394086-2AE7-4df3-B85B-0D69E4594338">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Snow2" GUID="A1080F1E-9F4E-41ee-B0C2-4E9BD4D49B0D">
+    <Params>
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="20" range_min="0" range_max="100" />
+      <Param FriendName="Direction" VariantName="Direction" type="integer" default="1" range_min="0" range_max="3" />
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="80" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Star" GUID="9F0E5279-EA88-427a-BC51-219E916EA8E7">
+    <Params>
+      <Param FriendName="Percent" VariantName="Percent" type="integer" default="50" range_min="0" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="RainDrop" GUID="D0A14E0A-298C-4adb-B82D-FDADA4E48A01">
+    <Params>
+      <Param FriendName="Radius" VariantName="Radius" type="integer" default="100" range_min="0" range_max="100" />
+      <Param FriendName="Desity" VariantName="Desity" type="integer" default="2" range_min="0" range_max="10" />
+      <Param FriendName="Height" VariantName="Height" type="integer" default="321" range_min="0" range_max="1000" />
+    </Params>
+  </Effect>
+  <Effect FriendName="WaterSuffer" GUID="AF1C5813-A7C2-4d6a-8AD7-95C3D70A8F78">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Raindrop2" GUID="C8300A8C-A146-4ef5-BEA6-6EE337300959">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Cartoon" GUID="F0A59856-167B-4164-A721-39F5330C6F94">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Sketch" GUID="04E1E803-CB09-49cf-91C9-071B1BF67315">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="ColorSketch" GUID="2D0FCDC7-956B-469f-8E05-7B36CC2933FF">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Charcoal" GUID="F24A2C3E-214F-4f9f-ADD9-C8221CC5B637">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Textile" GUID="84966D50-730C-4f9b-B10F-B4C94112B77E">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Shadow" GUID="D4A1FDF7-FD14-490e-8D29-177AEC4DED39">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Wash" GUID="647304F8-B2DC-4200-B8B2-E8FF95020A44">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Canvas" GUID="B23034C1-24C4-4504-9776-6805CFBD7F02">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Classic" GUID="49D37319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Water" GUID="56D37319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params>
+      <Param FriendName="Emboss" VariantName="u_emboss" type="float" default="0.5" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Steps" VariantName="u_steps" type="integer" default="8" range_min="1" range_max="10" />
+    </Params>
+  </Effect>
+  <Effect FriendName="1977" GUID="BB101941-A006-4332-B70F-22DD4B4236BD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Amaro" GUID="BB101941-A016-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Brannan" GUID="BB101941-A026-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Chromatic Aberration" GUID="50D37319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Colorful Bokeh 1" GUID="51D37319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params>
+      <Param FriendName="Transparent" VariantName="u_transparent" type="float" default="0.5" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Height" VariantName="u_height" type="float" default="0.99" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Speed" VariantName="u_speed" type="float" default="0.18" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Count" VariantName="u_count" type="integer" default="30" range_min="1" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Colorful Bokeh 2" GUID="52D37319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params>
+      <Param FriendName="Transparent" VariantName="u_transparent" type="float" default="0.2" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Size" VariantName="u_size" type="float" default="0.23" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Count" VariantName="u_count" type="integer" default="24" range_min="1" range_max="100" />
+    </Params>
+  </Effect>
+  <Effect FriendName="EarlyBird" GUID="BB101941-A036-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Flushed" GUID="6C614395-EEA7-4d86-B3B5-2C475429B4B5">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Hefe" GUID="BB101941-A046-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Hudson" GUID="BB101941-A056-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="InkWell" GUID="BB101941-A066-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Lomo" GUID="BB101941-A076-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="LordKelvin" GUID="BB101941-A086-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Nashville" GUID="BB101941-A096-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Sunrise" GUID="BB101941-A106-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Sierra" GUID="BB101941-A116-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Sutro" GUID="BB101941-A126-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Toaster" GUID="BB101941-A136-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Valencia" GUID="BB101941-A146-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Walden" GUID="BB101941-A156-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="XproII" GUID="BB101941-A166-4332-B70F-22DD4B4236BD">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="1.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Old video" GUID="53D37319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params>
+      <Param FriendName="Colorful" VariantName="u_colorful" type="boolean" default="0" range_min="0" range_max="1" />
+      <Param FriendName="Frequency" VariantName="u_frequency" type="integer" default="5" range_min="1" range_max="10" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Rainbow1" GUID="B8418684-23EF-4e0d-94C4-6F5F3FA62666">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Rainbow2" GUID="986D9EB4-F480-4757-B661-10C87DB2EFCB">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Ribbon" GUID="83A3EBFF-0A46-465b-B201-1E8A7DD5DA1B">
+    <Params>
+      <Param FriendName="Swing" VariantName="u_swing" type="float" default="0.3" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Frequency" VariantName="u_frequency" type="float" default="0.41" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Sharp" GUID="BAC37FE1-0A77-4dca-9C45-2FDFE66F3D46">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Snowy" GUID="54D37319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params>
+      <Param FriendName="Speed" VariantName="u_speed" type="float" default="0.2" range_min="0.1" range_max="1.0" />
+      <Param FriendName="Distance" VariantName="u_distance" type="float" default="0.5" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="TiltShift" GUID="8BBD7340-309D-4268-933C-0C97FD49BB8C">
+    <Params>
+      <Param FriendName="PosX" VariantName="u_pos_x" type="float" default="0.5" range_min="0.0" range_max="1.0" />
+      <Param FriendName="PosY" VariantName="u_pos_y" type="float" default="0.5" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Distance" VariantName="u_distance" type="float" default="0.2" range_min="0.0" range_max="1.0" />
+      <Param FriendName="Angle" VariantName="u_angle" type="float" default="0.0" range_min="0.0" range_max="360.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="VCR distortion" GUID="55D37319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params>
+      <Param FriendName="Bright" VariantName="u_bright" type="float" default="0.0" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Subdued" GUID="9ACE53A0-A7B9-439e-8CEB-6BFDBE7AE6FD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Marina" GUID="9ACE53A1-A7B9-439e-8CEB-6BFDBE7AE6FD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Viola" GUID="9ACE53A3-A7B9-439e-8CEB-6BFDBE7AE6FD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Golden" GUID="9ACE53A4-A7B9-439e-8CEB-6BFDBE7AE6FD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Arizoona" GUID="9ACE53A5-A7B9-439e-8CEB-6BFDBE7AE6FD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Sage" GUID="9ACE53A6-A7B9-439e-8CEB-6BFDBE7AE6FD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Faux Film 7" GUID="9ACE53A7-A7B9-439e-8CEB-6BFDBE7AE6FD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Ash" GUID="9ACE53A8-A7B9-439e-8CEB-6BFDBE7AE6FD">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Black &amp; White 1" GUID="BCC1FDCE-791D-4f87-B321-A899F655D855">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Black &amp; White 2" GUID="BCC2FDCE-791D-4f87-B321-A899F655D855">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Black &amp; White 3" GUID="BCC3FDCE-791D-4f87-B321-A899F655D855">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Black &amp; White 4" GUID="BCC4FDCE-791D-4f87-B321-A899F655D855">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Black &amp; White 5" GUID="BCC5FDCE-791D-4f87-B321-A899F655D855">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Negative Red" GUID="51237319-8F37-4593-BBAF-9FF0A6307C01">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="0.8" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Negative Green" GUID="51237319-8F37-4593-BBAF-9FF0A6307C02">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="0.8" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Negative Blue" GUID="51237319-8F37-4593-BBAF-9FF0A6307C03">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="0.8" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Negative" GUID="51237319-8F37-4593-BBAF-9FF0A6307C04">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="0.8" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Effect FriendName="Black Vignette" GUID="51237319-8F37-4593-BBAF-9FF0A6307C05">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Exposure Flash" GUID="51237329-8F37-4593-BBAF-9FF0A6307C06">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Rapid Flash" GUID="51237339-8F37-4593-BBAF-9FF0A6307C07">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Glitch Distortion" GUID="51237439-8F37-4593-BBAF-9FF0A6307C08">
+    <Params></Params>
+  </Effect>
+  <Effect FriendName="Vignette Camera Blur" GUID="51237539-8F37-4593-BBAF-9FF0A6307C09">
+    <Params>
+      <Param FriendName="Strength" VariantName="u_strength" type="float" default="0.8" range_min="0.0" range_max="1.0" />
+    </Params>
+  </Effect>
+  <Transition FriendName="ButterFlyWaveScrawler" GUID="3F9270DE-728F-4898-8C4C-7856B4540539">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="CrazyParammetricFun" GUID="215C0EDA-9628-4e30-A1FB-0E4F809FB05D">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="ColourDistance" GUID="DD893BBE-B3E6-4702-848B-27F44C9871C9">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="CrossZoom" GUID="A679E80D-8647-4028-A366-6BFFEE34715A">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cube" GUID="0FCB240F-5328-4e85-869A-2D989F50D387">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="dispersionblur" GUID="09009453-4474-4742-959D-1EA7EE351CCC">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="DoorWay" GUID="976B2502-3B22-4dd4-AEB4-0AAA2C1E5AC8">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Fadegrayscale" GUID="CEF5D4D6-EEE4-4073-A948-8C74F1B2870B">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Flyeye" GUID="E8134C17-CE91-4918-AD23-40F4A5A0A7AF">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Kaleidoscope" GUID="7A55E400-DED3-4789-B656-E8D6CBCC3956">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Morph" GUID="332477CB-A441-4b5d-A2D4-BF842B7298B2">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Ripper" GUID="DB22C576-091B-4160-90C6-9E5359B75595">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Swap" GUID="C3612776-D62E-41a2-8733-0429F50E11F5">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Swirl" GUID="D429C480-BC4C-4e9d-AC65-A7626B34ECFD">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Undulating" GUID="AD78BFB4-0137-4358-9075-411F232CF219">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Erase" GUID="667A322D-7351-44fd-AACC-17B0F766DA5F">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Slide" GUID="4CA4EF88-5997-41a6-AAE6-0C2226D5A96E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Bar" GUID="B41CF7F3-E39A-40e9-AE28-F21292EDDD03">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Drop" GUID="136D4AD9-F8E6-44ef-8485-730F0F269FFD">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Blind" GUID="95F00574-529C-485e-87F4-970AD90419E9">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Turn" GUID="1B033EDA-6869-4957-AF60-323B09FB49FC">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Roll" GUID="026C7976-00C0-4a05-A27A-E8D3372C06E7">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Roll_right_top" GUID="1B3AF7D9-695E-4af0-9DC6-A8CFEE464DF8">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Wind" GUID="7E154FAA-91D3-4002-AEDD-9EBA2201711E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="MoveRect_1" GUID="F47CBE2C-CE60-40b9-B962-CABF3175E488">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="MoveRect_2" GUID="48DE56F4-D272-45b0-99AA-8F359C7FA3A7">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Swipe" GUID="FD4A4891-4E1C-4e05-B290-8195CC55E8C5">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Push" GUID="925C36FB-9EE1-4fca-899F-549D8328F2DC">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Flash" GUID="BF94B014-EFD7-4303-8243-76C0A29B20E7">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Dissolve" GUID="2981D185-D52E-44f4-ABD5-3CE83890E32E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Fade" GUID="0CAA397E-6EB2-4e51-9DF7-B7DDB338EB22">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Wave" GUID="9C91C7DA-1ABE-4304-BD50-CE7780E77EEA">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="H_random_line" GUID="B6A86CA4-2864-415c-8620-6E4341812E35">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="V_random_line" GUID="470EC1DC-A0F0-4dd4-BB2D-D312C39F54F2">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Drop_bounce" GUID="8EF84F2E-C203-4f98-84D1-959EF228456D">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Pixelate" GUID="0FBDABAD-9BC5-42e7-9596-EC20AC763806">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_whisk" GUID="4C481959-DA74-459b-B538-D0590BFB2CE">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Col_whisk" GUID="25045AAA-9ACA-445c-B24C-21052C9B8D27">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_whisk" GUID="50C89935-C9C8-44a1-A4F4-99B8A29A517A">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_split" GUID="98CD2167-3F82-4eaf-AE93-D8EFFDCECC1E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Col_split" GUID="48497ECE-F824-4480-A04D-984977F3AA29">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_merge" GUID="47EEB6BF-8E99-488f-BCD8-ABD73A495CB4">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Merge" GUID="84611DFC-9C1F-4f2a-B514-B434D849B956">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_split" GUID="75A09E8D-21D1-4c4e-AEA9-EB9CEC11A644">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_merge" GUID="0D227E56-DB1E-4fe4-B07B-A9C062FF6F73">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Rect_zoom_in" GUID="CACF5228-B4B6-44e2-91C6-4CA8367EECBA">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Rect_zoom_out" GUID="F7BD83DF-999C-4d09-8F4C-85DAB842E720">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Skew_right_split" GUID="2D4099D2-9B28-437f-8FEB-2A7E25C0B549">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Skew_left_split" GUID="5003D879-7930-44fa-A333-F21F62564709">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Skew_left_merge" GUID="DECFFC57-1EE6-41ef-A453-75EBC7E9172B">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Skew_right_merge" GUID="40164154-9921-419c-A4D2-3751573655F0">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Round_zoom_out" GUID="97D5B991-903E-43bc-9B03-A808F74692D3">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Round_zoom_in" GUID="ABBD7AED-1384-4fd2-862B-E955E5F9C3AE">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Diamond_zoom_in" GUID="9303303E-2AFC-4301-B2C7-F4C5F681A580">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Diamond_zoom_out" GUID="06E3515B-3EA3-4071-AD49-B9EDCD468B93">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Roll_clockwise" GUID="1EE81222-189E-4159-A917-D15EE518D2FF">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Roll_anti_clockwise" GUID="8115A683-09ED-4d19-8D8F-A6010B6EEEBA">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Vertical_shutter" GUID="B4292352-81D3-4e7d-ACC9-F040150E41A3">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Horizontal_shutter" GUID="DCD3D68E-FFCD-4240-B1EE-348E9E393CC9">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_shutter_1" GUID="AFED7E12-9A02-49d4-8233-7EB50FB749B9">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Cross_shutter_2" GUID="0922661A-A249-40f7-999B-A60DBD447E2F">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Grid_zoom_in" GUID="426F529C-3486-4973-BA25-F61A4955A0A1">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Grid_zoom_out" GUID="0E7A04C3-95DA-4633-9AF3-E39BCC95B86F">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Deposit_up" GUID="A8D9BD07-A79B-4f00-952E-9FDE7072CF64">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Sweep_clockwise" GUID="74876B99-7AD0-49b3-91D4-D3136E9A850A">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Sweep_anti_clockwise" GUID="32B08589-D9BB-486a-A9D7-E78D29099EEE">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_cos_whisk" GUID="C8C1ED9D-959D-453f-8EFD-93D5BF7F5B23">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_cos_slide" GUID="07222DAB-BE45-487e-9A30-02AB42C2D70D">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Row_split_2" GUID="715C64BE-0B6A-4780-95B0-FD580A21F521">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Col_split_2" GUID="DC4F36FC-68B4-40b9-A08C-5B60EFA8546E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Topple" GUID="AEF2EDAC-9644-4874-9481-C7DD64FAF04F">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Blind_1" GUID="14FA525B-900A-402f-88B3-F28EEAFC31D8">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Twrl" GUID="664A7041-693D-47c1-81CB-DFAA211D485B">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Zoom" GUID="40B96872-E6B9-4f73-9B78-4D88339AE56B">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Pinwheel" GUID="668D3D30-43B8-41ef-A222-86E7912A497E">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Linear Wipe Down" GUID="C456899A-C306-4f88-ACD9-5B158A5B1F48">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Linear Wipe Right" GUID="6675F015-A329-4ee9-9A89-E5427799D0BD">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Dissolve 2" GUID="BDC34DEB-D6DA-4aaa-90A9-787BBD841775">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Star" GUID="FB91949A-E1BA-4695-A8E7-540E68178933">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Matrix" GUID="16B67B7B-5AE2-4686-B40E-791F47D9E533">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Evaporate 1" GUID="1F205E4D-E4B0-4b35-AD4C-59EF358577BB">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Evaporate 2" GUID="5149538F-7C3D-4bb9-B883-1ECAC692C352">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Polka Dot" GUID="E3DCA208-E54E-4cc0-B621-DF9B4B645A34">
+    <Params></Params>
+  </Transition>
+  <Transition FriendName="Heart" GUID="7F9D4E76-DE43-4cdf-BDEF-380B2157FD76">
+    <Params></Params>
+  </Transition>
+</Effects>

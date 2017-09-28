@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NLETitleArray Duration="5.0">
+    <NLETitleItem NLEItemType="1">
+        <TextParam>
+            <TextData Align="0" Radius="0" Angle="0">
+                <CharData Title="TEXT HERE" RowSpace="0" LineSpace="0">
+                    <Font Size="68" Bold="0" Italic="0" FontName="Arial"/>
+                    <Face Enable="1" Color1="16777215" Alpha="255" BlurRadius="0" Effect="0"/>
+                    <Border Enable="0" Size="3" Color1="255" Alpha="255" BlurRadius="0"/>
+                    <Shadow Enable="0" Color="65280" Alpha="255" BlurRadius="3" Distance="3" Direction="3"/>
+                </CharData>
+            </TextData>
+            <Texture Enable="0" TextureImagePath=""/>
+            <Gradient Enable="0" Color1="16777215" Color2="16777215" GradType="0"/>
+        </TextParam>
+        <EffectParam ZOrder="1" ImagePosX="45.875" ImagePosY="48.166668" EffectIn="30" EffectOut="30" VZoom="1" HZoom="1" StartTime="0" Duration="5"/>
+        <AnimationParam MotionID="" TransitionID=""/>
+    </NLETitleItem>
+    <NLETitleItem NLEItemType="2">
+        <ImageParam ImagePath="$CaptionPath$Titles/Common/Viral Title 8.png" TempImagePath=""/>
+        <EffectParam ZOrder="2" ImagePosX="52.5" ImagePosY="21" EffectIn="30" EffectOut="30" VZoom="0.25" HZoom="0.25" StartTime="0" Duration="5"/>
+        <AnimationParam MotionID="" TransitionID=""/>
+    </NLETitleItem>
+    <NLETitleItem NLEItemType="4">
+        <ShapeParam ShapeID="1">
+            <ShapeGeometry ShapeGeometryWidth="600" ShapeGeometryHeight="600" ShapeGeometryPointCnt="0"/>
+            <ShapeColor>
+                <ShapeFace ColorEnable="1" ColorType="0">
+                    <SingleColor A="255" R="255" G="255" B="255"/>
+                    <GradientColor GradientDir="-1">
+                        <GradientColorStart A="255" R="255" G="255" B="255"/>
+                        <GradientColorEnd A="255" R="255" G="255" B="255"/>
+                    </GradientColor>
+                </ShapeFace>
+                <ShapeBorder ColorEnable="1" ColorType="0" BorderWidth="1" BorderBlur="0">
+                    <SingleColor A="255" R="255" G="255" B="255"/>
+                    <GradientColor GradientDir="-1">
+                        <GradientColorStart A="255" R="255" G="255" B="255"/>
+                        <GradientColorEnd A="255" R="255" G="255" B="255"/>
+                    </GradientColor>
+                </ShapeBorder>
+            </ShapeColor>
+        </ShapeParam>
+        <EffectParam ZOrder="3" ImagePosX="78" ImagePosY="74.833336" EffectIn="30" EffectOut="30" VZoom="0.33333334" HZoom="0.33333334" StartTime="0" Duration="5"/>
+    </NLETitleItem>
+</NLETitleArray>

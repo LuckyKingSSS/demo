@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <!--CLSID_CNLECustomFile-->
+  <CLSID id="{C229989C-62F5-4CF3-941F-A2EAA1D9FA1A}" name="NLECustomFile.dll"></CLSID>
+  <!--CLSID_NLESpeedShift-->
+  <CLSID id="{3E258317-44F1-D6F7-D312-6B1F7FE08071}" name="NLESpeedShift.dll"></CLSID>
+  <!--CLSID_NLE3DScene-->
+  <CLSID id="{7FA7A2D0-3687-471F-9F7D-DA6204593B54}" name="NLE3DScene.dll"></CLSID>
+  <!--CLSID_NLEResLocator-->
+  <CLSID id="{9F843B2F-0925-4DF0-A97B-FCD864BEA89E}" name="NLEResLocator.dll"></CLSID>
+  <!--CLSID_NLEEnviroment-->
+  <CLSID id="{5A704834-BCC4-437B-B1E4-51427271200C}" name="NLEEnvironment.dll"></CLSID>
+  <!--CLSID_NLEMemoryPool-->
+  <CLSID id="{0E49A56E-29CE-3A08-3B7F-B139DC94D01E}" name="NLEMemoryPool.dll"></CLSID>
+  <!--CLSID_VideoStabilizer-->
+  <CLSID id="{F04D160D-B15A-DEA8-B606-4141BDD67E95}" name="VideoStabilizer.dll"></CLSID>
+  <!--CLSID_LadspaPlugin-->
+  <CLSID id="{3E486ACA-44FB-6AB5-9388-57850FE860ED}" name="LadspaPlugin.dll"></CLSID>
+  <!--CLSID_NLEDocumentSerialize-->
+  <CLSID id="{7AB64C6D-0AC1-440B-9528-103693AED542}" name="NLECore.dll"></CLSID>
+  <!--CLSID_NLEPreProcess-->
+  <CLSID id="{97ECAF4C-00D7-BB71-B08E-8FA76D4BFE2C}" name="NLEPreProcess.dll"></CLSID>
+  <!--CLSID_NLERepository-->
+  <CLSID id="{8D91AD35-1109-8BC5-518E-AC68D4C9990B}" name="NLERepository.dll"></CLSID>
+  <!--CLSID_NLEMedia-->
+  <CLSID id="{9B42D098-1E44-6B5F-C3DA-23CB57969A0B}" name="NLEMedia.dll"></CLSID>
+  <!--CLSID_CMediaPlayer-->
+  <CLSID id="{6487969C-8280-4371-B037-6FDD91321A3E}" name="NLEPlayer.dll"></CLSID>
+  <!--CLSID_NLEFactory-->
+  <CLSID id="{F5FBAF87-F7E5-FF43-1BD4-797906CF224E}" name="NLECore.dll"></CLSID>
+  <!--CLSID_NLEAudioFilter-->
+  <CLSID id="{9F7646F9-1252-5852-B500-0C9BE2B0A1E1}" name="NLEAudioFilter.dll"></CLSID>
+  <!--CLSID_NLEVideoFilter-->
+  <CLSID id="{A5BD36B8-CE3C-6CB3-2F48-6DF82AD348E0}" name="NLEVideoFilter.dll"></CLSID>
+  <!--CLSID_NLESource-->
+  <CLSID id="{8AFC8D9F-9E32-087D-64C9-5271630D6E83}" name="NLESource.dll"></CLSID>
+  <!--CLSID_NLETimelinebase-->
+  <CLSID id="{CD61E0E4-0074-3FD5-4915-951546E34A03}" name="NLETimelineBase.dll"></CLSID>
+  <!--CLSID_NLEProperties-->
+  <CLSID id="{0610B936-8051-4E51-9AC8-FC9F5B2D2FFD}" name="NLECommon.dll"></CLSID>
+  <!--CLSID_NLEMotion-->
+  <CLSID id="{113963BC-E24B-4306-871D-5D0AACA91F68}" name="NLEMotion.dll"></CLSID>
+  <!--CLSID_NLEGraphics-->
+  <CLSID id="{9E9A4A4B-9CA6-4844-B5CA-E5DF4C9B2C15}" name="NLEGraphics.dll"></CLSID>
+  <!--CLSID_NLESeekTask-->
+  <CLSID id="{7A718A08-3D4A-4B1A-9D33-5509F0448124}" name="NLEAsyncTask.dll"></CLSID>
+  <!--CLSID_NLEPrepareTask-->
+  <CLSID id="{8EBA0687-7884-46BF-A63C-6BAAEB53D2B9}" name="NLEAsyncTask.dll"></CLSID>
+  <!--CLSID_NLEXML-->
+  <CLSID id="{81ECF6C7-BB04-C984-F1C1-A6769020C89E}" name="NLEXml.dll"></CLSID>
+  <!--CLSID_NLELogger-->
+  <CLSID id="{E3326A9A-937D-97AF-6171-4765F20A645E}" name="NLELogger.dll"></CLSID>
+  <!--CLSID_NLEFrame-->
+  <CLSID id="{BF73FF76-BC29-4A28-9E43-CFE69C8522FD}" name="NLECodec.dll"></CLSID>
+  <!--CLSID_NLECodec-->
+  <CLSID id="{8C0E7949-611F-8AAA-B0D3-D0D2221202F6}" name="NLECodec.dll"></CLSID>
+  <!--CLSID_NLEMediaEncoder-->
+  <CLSID id="{FB897F04-8D26-4433-BD8A-8666386F48F9}" name="NLEMediaEncoder.dll"></CLSID>
+  <!--CLSID_NLEMediaEncoderEx-->
+  <CLSID id="{C47A3CB7-11F7-465A-A53B-06A975D6A42C}" name="NLEMediaEncoder.dll"></CLSID>
+  <!--CLSID_NLECaptionTimeline-->
+  <CLSID id="{1DC8C767-8F40-4926-4A50-B1DE90323EF5}" name="NLECaption.dll"></CLSID>
+  <!--CLSID_NLETextTimeline-->
+  <CLSID id="{80B8CC7F-B73F-428d-A7C0-152105D75F15}" name="NLECaption.dll"></CLSID>
+  <!--CLSID_NLEFontLibrary-->
+  <CLSID id="{81BEBF39-9189-425f-85B8-C0EC058E4953}" name="NLEFontEngine.dll"></CLSID>
+  <!--CLSID_NLEBitmap-->
+  <CLSID id="{4781BE6F-F5F6-9AE8-E46B-00B7C6A0B756}" name="NLEBitmap.dll"></CLSID>
+  <!--CLSID_NLEImageProc-->
+  <CLSID id="{372E55D4-765A-D971-3763-789091ACFEDC}" name="NLEImageProc.dll"></CLSID>
+  <!--CLSID_NLEBackBench-->
+  <CLSID id="{18792432-1B35-F0C6-A2D3-FF11897BC559}" name="NLEBackBench.dll"></CLSID>
+  <!--CLSID_ThreadPool-->
+  <CLSID id="{878897F7-A654-F219-E514-5036E2387E08}" name="ThreadPool.dll"></CLSID>
+  <!--CLSID_Transition-->
+  <CLSID id="{CCF49509-2EDF-949A-04FE-1C41D03D8F65}" name="NLETransition.dll"></CLSID>
+  <!--CLSID_NLEMontage-->
+  <CLSID id="{3FEB3BF6-573E-4FFC-A36A-1F3E769EFF47}" name="NLEMontage.dll"></CLSID>
+  <!--CLSID_VideoPostProcess-->
+  <CLSID id="{C5AF0AA9-4C71-17DE-C1AC-405495FAE991}" name="NLEPostProcess.dll"></CLSID>
+  <!--CLSID_AudioPostProcess-->
+  <CLSID id="{30F3A658-E633-5C10-F0CC-729FD51C40F4}" name="NLEPostProcess.dll"></CLSID>
+  <!--CLSID_NLEPostRequest-->
+  <CLSID id="{F447FBA6-9F23-B9DA-99FE-4A0CD1CFEF66}" name="NLEPostProcess.dll"></CLSID>
+  <!--CLSID_SkiaGraphic_manager-->
+  <CLSID id="{E4467464-3714-4484-9F65-8C9935845B2E}" name="SkiaGraphics.dll"></CLSID>
+  <!--CLSID_NLECubeLUT-->
+  <CLSID id="{50222004-880D-1BA7-E0BC-DD1F150B8C04}" name="NLELightRoom.dll"></CLSID>
+  <!--CLSID_NLELightRoomProcessor-->
+  <CLSID id="{EBEF3B24-20FE-9DD8-128A-9D0F555861F9}" name="NLELightRoom.dll"></CLSID>
+   <!--CLSID_NLEMarkBook-->
+  <CLSID id="{7EDBD92C-636A-886F-7AB9-12A940BA709D}" name="NLEMarkdown.dll"></CLSID>
+  <!--CLSID_NLECaptureMgr-->
+  <CLSID id="{E7C2FB23-A71C-4AE0-8186-6B469731E52E}" name="NLECaptureMgr.dll"></CLSID>
+  <!--CLSID_INLEMouseEffectManager-->
+  <CLSID id="{96BE27DD-B8E4-F9CD-4D95-5CE8B83BFC0C}" name="NLEMouseProcess.dll"></CLSID>
+  <!--CLSID_INLEMouseProcess-->
+  <CLSID id="{2FB7333E-0304-6D37-EBE4-2151D169188A}" name="NLEMouseProcess.dll"></CLSID>  
+  <!--CLSID_NLEOFXVideoFilter-->
+  <CLSID id="{5BDDC678-21D2-48D4-A563-91604292FD2A}" name="NLEOFXVideoFilter.dll"></CLSID>  
+  <!--CLSID_INLEKeyBoardProcess-->
+  <CLSID id="{ABCA9857-A181-4E43-AB1D-2772ECB4CD13}" name="NLEKeyBoardProcess.dll"></CLSID>  
+  <!--CLSID_INLEKeyBoardStreamManager-->
+  <CLSID id="{C2293A20-0194-4929-A7C0-F0E374D9516C}" name="NLEKeyBoardProcess.dll"></CLSID> 
+  
+  <!--CLSID_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->  
+  <CLSID id="{E71EAD89-1CCD-4c34-97A8-7D45B5F16613}" name="WS_DecMgr.dll"></CLSID>
+  <CLSID id="{6487969C-8280-4371-B037-6FDD91321A3E}" name="WSPlayer.dll"></CLSID>
+  <CLSID id="{7e55d7f9-454a-4d4c-bd2d-8fec187b657f}" name="WS_Converter.dll"></CLSID>
+  <!--CLSID_CLossLessCopy-->
+  <CLSID id="{235fec1a-b7e6-4fab-b89f-0743344e484a}" name="LossLessCopy.dll"></CLSID>
+  <CLSID id="{f1eb87e5-6940-42b6-b4ce-208aa7695819}" name="WS_EncMgr.dll"></CLSID>
+  <CLSID id="{e2737827-e04a-4969-aabb-badbd0cfe40f}" name="WS_DataProcess.dll"></CLSID>
+  <!--CLSID_VideoBackThreadBuffer-->
+  <CLSID id="{A4AE8DDC-5970-42E4-9602-44040BEACAB8}" name="VideoBackVirtualFilesSys.dll"></CLSID>
+  <!--CLSID_VideoBufferForBackPlayConvter-->
+  <CLSID id="{890AEC54-7C23-4043-B425-407049BDBE0C}" name="VideoBackVirtualFilesSys.dll"></CLSID>
+  <!--CLSID_AudioBufferForBackPlayConvter-->
+  <CLSID id="{018DA7D3-48E0-4B0A-9D36-B2DCC48AEF2B}" name="VideoBackVirtualFilesSys.dll"></CLSID>
+  <!--CLSID_VBCELL_R-->
+  <CLSID id="{01DED614-E32F-42F1-80B5-044C40C516E2}" name="VideoBackVirtualFilesSys.dll"></CLSID>
+  <!--CLSID_VideoBackThreadBufferManager-->
+  <CLSID id="{3F374A2A-FBC1-4D38-9025-3CA56FF19256}" name="VideoBackVirtualFilesSys.dll"></CLSID>
+  <!--CLSID_ReadFromBufferForVideoBackAudio-->
+  <CLSID id="{10B5AC63-EBB9-4644-95F8-81A3052B1906}" name="VideoBackVirtualFilesSys.dll"></CLSID>
+  <!--CLSID_ReadFromBufferForVideoBackVideo-->
+  <CLSID id="{A3ACE71C-396A-45DE-94FF-D40E15FCEC3F}" name="VideoBackVirtualFilesSys.dll"></CLSID>
+  <!--CLSID_ReadFromVirtualFileBufferVideo-->
+  <CLSID id="{0E39C0B6-19F7-4C90-BD62-F0B17872A611}" name="VideoBackVirtualFilesSys.dll">
+    <!--CLSID_ReadFromVirtualFileBufferVideo-->
+  </CLSID>
+  <!--CLSID_VideoBackVirtualFilesSysHelp-->
+  <CLSID id="{F7B40AD1-288F-42A7-8CF4-0CEDEACC1E96}" name="VideoBackVirtualFilesSys.dll"></CLSID>
+  <!--IAudioProcess-->
+  <CLSID id="{c1242906-5995-4ed4-b1ab-9faee1cfcce7}" name="WS_DataProcess.dll"></CLSID>
+  <!--IAudioSlider-->
+  <CLSID id="{911b921b-b28a-44d1-a0ed-4bdecf18a3bc}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVolumeSetting-->
+  <CLSID id="{e2737827-e04a-4969-aabb-badbd0cfe40f}" name="WS_DataProcess.dll"></CLSID>
+  <!--IAudioFade-->
+  <CLSID id="{68cce4e2-e906-47a8-9820-f710890d0a2a}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoCrop-->
+  <CLSID id="{465a9d1d-55d6-4bdd-9232-9b035e796667}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoEffect-->
+  <CLSID id="{9f97a1bf-884d-4c14-b9cc-4da7cdf35bc7}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoRotation-->
+  <CLSID id="{807dea6d-2e28-41b4-89a8-2d330cba4dfc}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoResizer-->
+  <CLSID id="{fc2c8098-6c82-492a-926c-cbb964d12d3f}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoSlider-->
+  <CLSID id="{315ab12e-abfb-4327-a38a-2b0b886df849}" name="WS_DataProcess.dll"></CLSID>
+  <!--IAudioPackFrame-->
+  <CLSID id="{b26ee074-d0fc-41d9-9b63-b2daa84b8058}" name="WS_DataProcess.dll"></CLSID>
+  <!--ISlideDecoder-->
+  <CLSID id="{21c7bb8b-657a-46fb-86e5-a439960ad004}" name="MediaSlide.dll"></CLSID>
+  <!--IVideoCompositor-->
+  <CLSID id="{375daf31-a4b7-40b0-9f2b-3b90ac944536}" name="WS_VideoCompositor.dll"></CLSID>
+  <!--ICheckEncParams-->
+  <CLSID id="{f1eb87e5-6940-42b6-b4ce-208aa7690020}" name="WS_EncMgr.dll"></CLSID>
+  <!--IPCText-->
+  <CLSID id="{c3297339-6fc4-4b45-81cc-578b39bfac45}" name="WS_Text.dll"></CLSID>
+  <!--ISOInfo-->
+  <CLSID id="{A13F85D0-420C-4cf0-BD56-B6C1F101A99F}" name="DVDReader.dll"></CLSID>
+  <!--ISubPicSearch-->
+  <CLSID id="{5f44370f-215a-440e-a913-182826da1944}" name="SubPic.dll"></CLSID>
+  <!--IVideoPreview-->
+  <CLSID id="{f590e2b0-c009-4baa-8293-6838d8a6b63e}" name="WS_VideoPreview.dll"></CLSID>
+  <!--IVideoCopy-->
+  <CLSID id="{c2aa0e9e-3e1a-48a9-b288-99a59da0cb9d}" name="WS_DataProcess.dll"></CLSID>
+  <!--IVideoCropDraw-->
+  <CLSID id="{55004296-0256-4df1-bd00-90e184814603}" name="VideoCropDraw.dll"></CLSID>
+  <!--IMediaConvItem-->
+  <CLSID id="{5B53122D-57AD-4f7b-B548-AA6AA9D1E47E}" name="SimpleConverter.dll"></CLSID>
+  <!--IMediaConv-->
+  <CLSID id="{AC4C9158-3E9D-48b6-80C2-86CF1B1BCBA8}" name="SimpleConverter.dll"></CLSID>
+  <!--IXMLRead-->
+  <CLSID id="{540A7D1C-96D7-49b9-84FD-A9E51A56ADEA}" name="XMLRead.dll"></CLSID>
+  <!--IEncMgr-->
+  <CLSID id="{9415EA92-D975-4c82-9787-AE99313BA350}" name="WS_EncMgr.dll"></CLSID>
+  <!--IBuildHelper-->
+  <CLSID id="{93002FAF-1B67-4c4b-BF9B-42DF1B60DA13}" name="WSDVDBuilder.dll"></CLSID>
+  <CLSID id="{30D84A9F-A947-407c-BC50-6719149F4CBC}" name="WSDVDBuilder.dll"></CLSID>
+  <CLSID id="{A32D3037-CC0B-44b9-AE81-6C9F0C8BA553}" name="WSDVDBuilder.dll"></CLSID>
+  <CLSID id="{0A940F5E-88D8-4823-88DA-AD433D3E7721}" name="WSDVDBuilder.dll"></CLSID>
+  <!--IVideoColorSpace-->
+  <CLSID id="{63F26D98-E559-4029-8099-FE0FD62C7B93}" name="WS_VideoAIFilters.dll"></CLSID>
+  <!--IVideoMotionDectect-->
+  <CLSID id="{DB3CC2E5-1F5A-4d1a-B1D3-BF589ADFFB69}" name="WS_VideoAIFilters.dll"></CLSID>
+  <!--IVideoSceneDetectFilter-->
+  <CLSID id="{17A5146D-8AA8-418e-931C-2027D7CA85D4}" name="WS_VideoAIFilters.dll"></CLSID>
+  <!--IVideoLightDetectFilter-->
+  <CLSID id="{636AF9A7-B677-483f-9A06-DB7EA6C2EC4A}" name="WS_VideoAIFilters.dll"></CLSID>
+  <!--IFaceDetectFilter-->
+  <CLSID id="{3C916830-F9E0-4f7c-B3E3-151955FF49D2}" name="WS_VideoAIFilters.dll"></CLSID>
+  <!--IVideoStabilizeAnalyzeFilter-->
+  <CLSID id="{174503B5-D320-4cb4-9363-4AFAA174793E}" name="WS_VideoAIFilters.dll"></CLSID>
+  <!--IVideoStabilizeProcessFilter-->
+  <CLSID id="{D84D6EDF-883D-4edb-8B90-88EE8DBF3AAD}" name="WS_VideoAIFilters.dll"></CLSID>
+  <!--ISnapshotStream-->
+  <CLSID id="{118A8D06-BF42-49e3-A6DF-F325700A23BE}" name="SnapshotStream.dll"></CLSID>
+  <!--ICaptureEngine-->
+  <CLSID id="{F7AFB65B-D0EF-4778-9F0B-E6236DE49591}" name="CaptureEngine.dll"></CLSID>
+  <!--IVideoCaptureSource-->
+  <CLSID id="{58DA667D-94C6-415a-82CA-5B8CAC3C821B}" name="CaptureSource.dll"></CLSID>
+  <!--ICaptureMgrEx-->
+  <CLSID id="{2DCB5621-B5F2-4578-889F-CDBA0028C653}" name="CaptureSource.dll"></CLSID>
+  <!--ICaptureEngineEx-->
+  <CLSID id="{A016905B-2C21-4704-95FD-391C8AB26BB3}" name="CaptureEngineEx.dll"></CLSID>
+  <!--ILocalFileMuxerMgr-->
+  <CLSID id="{F150A0CE-A353-450e-AE8A-D62065D36B95}" name="CaptureMuxer.dll"></CLSID>
+  <!--IMediaLossCopyConverter-->
+  <CLSID id="{B4BFC2EE-D154-4139-9986-07A6BCC5D3F5}" name="WS_MediaLossConverter.dll"></CLSID>
+  <!--ICapturePlayer-->
+  <CLSID id="{07E89C72-9CBD-4e02-852A-ABC44C74FDDA}" name="CapturePlayer.dll"></CLSID>
+
+
+</Root>

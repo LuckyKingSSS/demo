@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/FSExport">
+        <file>Resources/styles_light.qss</file>
+        <file>Resources/light/btnClose_n.png</file>
+        <file>Resources/light/btnClose_p.png</file>
+        <file>Resources/light/btnClose_d.png</file>
+        <file>Resources/light/btnClose_h.png</file>
+        <file>Resources/light/Local_n.png</file>
+        <file>Resources/light/parmaDrag_n.png</file>
+        <file>Resources/light/CheckBox_h.png</file>
+        <file>Resources/light/CheckBox_n.png</file>
+        <file>Resources/light/unCheckBox_d.png</file>
+        <file>Resources/light/unCheckBox_n.png</file>
+        <file>Resources/light/Local_d.png</file>
+        <file>Resources/light/Local_h.png</file>
+        <file>Resources/light/Local_p.png</file>
+        <file>Resources/light/WaterMask.png</file>
+    </qresource>
+</RCC>

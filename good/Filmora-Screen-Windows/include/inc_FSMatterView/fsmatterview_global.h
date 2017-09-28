@@ -1,0 +1,12 @@
+#ifndef FSMATTERVIEW_GLOBAL_H
+#define FSMATTERVIEW_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef FSMATTERVIEW_LIB
+# define FSMATTERVIEW_EXPORT Q_DECL_EXPORT
+#else
+# define FSMATTERVIEW_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // FSMATTERVIEW_GLOBAL_H

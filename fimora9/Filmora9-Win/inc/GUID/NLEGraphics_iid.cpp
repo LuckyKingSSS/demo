@@ -1,0 +1,12 @@
+﻿
+
+#define INITGUID                               
+#include <Guiddef.h>                           
+
+// {9E9A4A4B-9CA6-4844-B5CA-E5DF4C9B2C15}
+DEFINE_GUID(CLSID_NLEGraphics, 0x9e9a4a4b, 0x9ca6, 0x4844, 0xb5, 0xca, 0xe5, 0xdf, 0x4c, 0x9b, 0x2c, 0x15);
+
+// {6ac9800a-e05d-43c0-88a2-34857473129f} 
+DEFINE_GUID(IID_INLEGraphics, 0xa1380832, 0x1b1f, 0x4b0b, 0x88, 0x80, 0xd5, 0x15, 0x2f, 0xec, 0x0b, 0x4b);
+
+#undef INITGUID
